@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mining Tycoon - Hyper Realistic Edition</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #020617;
+            color: #f8fafc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .game-container {
+            background: linear-gradient(145deg, #0f172a, #020617);
+            border-radius: 24px;
+            padding: 24px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
+            width: 100%;
+            max-width: 1200px;
+            border: 1px solid #1e293b;
+        }
+
+        .header-font { font-family: 'Cinzel', serif; }
+
+        .stat-card {
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid #334155;
+            border-radius: 12px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        canvas {
+            background-color: #0c0a09;
+            border-radius: 16px 16px 0 0;
+            border: 2px solid #1e293b;
+            border-bottom: none;
+            cursor: crosshair;
+            box-shadow: inset 0 0 100px rgba(0,0,0,1);
+            touch-action: none;
+        }
+
+        .health-bar-container {
+            width: 100%;
+            height: 12px;
+            background: #1e1b4b;
+            border: 2px solid #1e293b;
+            border-radius: 0 0 16px 16px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #healthFill {
+            height: 100%;
+            width: 100%;
+            background: linear-gradient(90deg, #ef4444, #f87171);
+            transition: width 0.3s ease;
+            box-shadow: 0 0 15px rgba(239, 68, 68, 0.5);
+        }
+
+        .control-panel {
+            background: rgba(2, 6, 23, 0.8);
+            border-radius: 16px;
+            padding: 20px;
+            border: 1px solid #1e293b;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+
+        .btn-fancy {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-fancy::after {
+            content: '';
+            position: absolute;
+            top: 0; left: -100%;
+            width: 100%; height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+            transition: 0.5s;
+        }
+        .btn-fancy:hover::after { left: 100%; }
+        .btn-fancy:active { transform: scale(0.97); }
+        .btn-fancy:disabled { opacity: 0.5; cursor: not-allowed; }
+
+        .message-toast {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%) translateY(-150%);
+            padding: 16px 32px;
+            background: rgba(2, 6, 23, 0.95);
+            border: 1px solid #fbbf24;
+            border-radius: 99px;
+            color: white;
+            z-index: 400;
+            transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+        }
+        .message-toast.show { transform: translateX(-50%) translateY(0); }
+
+        .boss-warning {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fca5a5;
+            font-family: 'Cinzel', serif;
+            font-size: 4rem;
+            letter-spacing: 0.5rem;
+            text-shadow: 0 0 30px #ef4444;
+            z-index: 100;
+            pointer-events: none;
+            display: none;
+            animation: glitch 0.2s infinite;
+        }
+
+        @keyframes glitch {
+            0% { transform: translate(-50%, -50%) skew(0deg); }
+            20% { transform: translate(-52%, -48%) skew(2deg); opacity: 0.8; }
+            40% { transform: translate(-48%, -52%) skew(-2deg); }
+            100% { transform: translate(-50%, -50%) skew(0deg); }
+        }
+
+        .boss-ui {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60%;
+            background: rgba(0,0,0,0.8);
+            border: 1px solid #ef4444;
+            padding: 12px;
+            display: none;
+            z-index: 60;
+            border-radius: 4px;
+        }
+
+        select {
+            background: #1e293b;
+            color: #f8fafc;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            padding: 4px 8px;
+            cursor: pointer;
+            outline: none;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        select:hover { border-color: #475569; }
+
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <div class="flex flex-col md:flex-row justify-between items-center mb-6 gap-4">
+            <div class="flex flex-col gap-1">
+                <h1 class="header-font text-3xl text-slate-300 tracking-[0.3em]">DEEP ROCK TYCOON</h1>
+                <div id="modeSelectorContainer" class="hidden flex items-center gap-2">
+                    <span class="text-[10px] text-slate-500 font-bold uppercase tracking-widest">Protocol:</span>
+                    <select id="protocolSwitcher" onchange="switchProtocol(this.value)">
+                        <option value="easy">Easy (Casual)</option>
+                        <option value="normal">Normal (Checkpoints)</option>
+                        <option value="hardcore">Hardcore (Permadeath)</option>
+                        <option value="peaceful">Peaceful (No Enemies)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="flex gap-4 items-center">
+                <div class="stat-card px-6 py-2">
+                    <span class="text-xs text-slate-500 font-bold uppercase tracking-widest">Depth Level</span>
+                    <p id="difficultyLevel" class="text-xl font-bold text-blue-400">1</p>
+                </div>
+                <div class="flex gap-2">
+                    <button id="achievementsBtn" class="px-4 py-3 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm font-bold flex items-center gap-2 border border-slate-600 transition-colors text-amber-400 shadow-md">
+                        🏆 ACHIEVEMENTS
+                    </button>
+                    <button id="pauseButton" class="px-4 py-3 bg-slate-800 hover:bg-slate-700 rounded-lg text-sm font-bold flex items-center gap-2 border border-slate-600 transition-colors text-slate-300 shadow-md w-32 justify-center">
+                        ⏸ PAUSE (P)
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-6 gap-3 mb-6">
+            <div class="stat-card">
+                <p class="text-[10px] text-slate-500 uppercase font-bold">Credits</p>
+                <p id="money" class="text-lg font-bold text-yellow-500">0</p>
+            </div>
+            <div class="stat-card">
+                <p class="text-[10px] text-slate-500 uppercase font-bold">Raw Ore</p>
+                <p id="ore" class="text-lg font-bold text-blue-300">0</p>
+            </div>
+            <div class="stat-card">
+                <p class="text-[10px] text-slate-500 uppercase font-bold">Torque</p>
+                <p id="miningPower" class="text-lg font-bold text-sky-400">1</p>
+            </div>
+            <div class="stat-card">
+                <p class="text-[10px] text-slate-500 uppercase font-bold">Tactical</p>
+                <p id="combatPower" class="text-lg font-bold text-rose-500">5</p>
+            </div>
+            <div class="stat-card">
+                <p class="text-[10px] text-slate-500 uppercase font-bold">Market</p>
+                <p id="oreValue" class="text-lg font-bold text-emerald-500">1</p>
+            </div>
+            <div class="stat-card">
+                <p class="text-[10px] text-slate-500 uppercase font-bold">Integrity</p>
+                <p id="hp" class="text-lg font-bold text-red-500">100</p>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+            <div class="lg:col-span-3 relative overflow-hidden rounded-2xl group bg-slate-900 border border-slate-800 flex flex-col">
+                <canvas id="gameCanvas" width="900" height="600" class="w-full h-auto"></canvas>
+                <div class="health-bar-container">
+                    <div id="healthFill"></div>
+                    <div class="absolute inset-0 flex items-center justify-center text-[10px] font-bold tracking-widest text-white/50 pointer-events-none uppercase">Hull Integrity</div>
+                </div>
+                
+                <div id="bossWarning" class="boss-warning">CRITICAL THREAT</div>
+
+                <div id="bossUI" class="boss-ui">
+                    <div class="flex justify-between text-[10px] font-bold text-red-500 mb-2 tracking-[0.2em]">
+                        <span id="bossName">UNIDENTIFIED ANOMALY</span>
+                        <span>CORE STATUS: <span id="bossHPText">0</span></span>
+                    </div>
+                    <div class="w-full bg-slate-900 h-1.5 rounded-full overflow-hidden">
+                        <div id="bossHPBar" class="h-full bg-red-600 shadow-[0_0_10px_#ef4444]"></div>
+                    </div>
+                </div>
+
+                <div class="absolute inset-0 pointer-events-none border-[20px] border-black/20 rounded-2xl"></div>
+
+                <!-- MAIN MENU -->
+                <div id="mainMenu" class="absolute inset-0 bg-slate-950/90 z-[100] flex flex-col items-center justify-center backdrop-blur-md rounded-2xl">
+                    <h2 class="header-font text-5xl text-blue-400 mb-4 tracking-[0.2em] text-center drop-shadow-md">DEEP ROCK TYCOON</h2>
+                    <p class="text-slate-400 mb-10 text-sm tracking-widest uppercase">Select your descent protocol</p>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-6">
+                        <button onclick="startGame('easy')" class="p-4 bg-slate-800/80 border-2 border-indigo-500 rounded-xl hover:bg-slate-700 transition group shadow-lg shadow-indigo-900/20">
+                            <h3 class="text-lg font-bold text-indigo-400 mb-2 group-hover:scale-105 transition-transform">EASY</h3>
+                            <p class="text-[10px] text-slate-400 leading-relaxed">Relaxed hostile presence. Higher market rates. Fast repairs. Checkpoints active.</p>
+                        </button>
+                        <button onclick="startGame('peaceful')" class="p-4 bg-slate-800/80 border-2 border-sky-500 rounded-xl hover:bg-slate-700 transition group shadow-lg shadow-sky-900/20">
+                            <h3 class="text-lg font-bold text-sky-400 mb-2 group-hover:scale-105 transition-transform">PEACEFUL</h3>
+                            <p class="text-[10px] text-slate-400 leading-relaxed">No enemies. No danger. Just you and the gems. Focus on the ultimate mining empire.</p>
+                        </button>
+                        <button onclick="startGame('normal')" class="p-4 bg-slate-800/80 border-2 border-emerald-500 rounded-xl hover:bg-slate-700 transition group shadow-lg shadow-emerald-900/20">
+                            <h3 class="text-lg font-bold text-emerald-400 mb-2 group-hover:scale-105 transition-transform">NORMAL</h3>
+                            <p class="text-[10px] text-slate-400 leading-relaxed">Standard protocol. Balanced risk and reward. Checkpoints secure depth level.</p>
+                        </button>
+                        <button onclick="startGame('hardcore')" class="p-4 bg-slate-800/80 border-2 border-red-500 rounded-xl hover:bg-slate-700 transition group shadow-lg shadow-red-900/20">
+                            <h3 class="text-lg font-bold text-red-500 mb-2 group-hover:scale-105 transition-transform">HARDCORE</h3>
+                            <p class="text-[10px] text-slate-400 leading-relaxed">Permadeath protocol. One life. Save deleted upon destruction. High stakes.</p>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- GAME OVER -->
+                <div id="gameOverOverlay" class="absolute inset-0 bg-red-950/90 z-[90] hidden flex-col items-center justify-center backdrop-blur-md rounded-2xl">
+                    <h2 class="header-font text-5xl text-red-500 mb-4 tracking-widest shadow-red-500/50 drop-shadow-lg">MISSION FAILED</h2>
+                    <p id="gameOverSubtext" class="text-slate-300 mb-10 text-center max-w-md leading-relaxed"></p>
+                    <button onclick="restartGame()" class="px-8 py-4 bg-red-600 hover:bg-red-500 text-white font-bold rounded-xl tracking-widest shadow-lg shadow-red-600/20 active:scale-95 transition-all text-lg">
+                        REBOOT SYSTEM
+                    </button>
+                </div>
+            </div>
+            
+            <div class="control-panel flex flex-col gap-4">
+                <button id="sellButton" class="btn-fancy w-full py-4 bg-emerald-700 hover:bg-emerald-600 rounded-xl font-bold shadow-lg border border-emerald-500/30">
+                    EXCHANGE ORE (S)
+                </button>
+
+                <div class="space-y-4 pt-4 border-t border-slate-800">
+                    <h3 class="text-[10px] font-bold text-slate-500 uppercase tracking-widest text-center">Engineering Bay</h3>
+                    
+                    <button id="upgradePickaxe" class="btn-fancy w-full p-4 bg-slate-900/50 border border-slate-800 rounded-xl text-left hover:border-sky-500/50">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <p class="text-sm font-bold text-sky-400">Tungsten Drill</p>
+                                <p class="text-[10px] text-slate-500 mt-1">+1 Mining Force</p>
+                            </div>
+                            <span class="text-yellow-600 text-xs font-bold">$<span id="pickCost">20</span></span>
+                        </div>
+                    </button>
+
+                    <button id="upgradeValue" class="btn-fancy w-full p-4 bg-slate-900/50 border border-slate-800 rounded-xl text-left hover:border-emerald-500/50">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <p class="text-sm font-bold text-emerald-400">Trade License</p>
+                                <p class="text-[10px] text-slate-500 mt-1">+1 Value Multiplier</p>
+                            </div>
+                            <span class="text-yellow-600 text-xs font-bold">$<span id="valCost">50</span></span>
+                        </div>
+                    </button>
+
+                    <button id="upgradeCombat" class="btn-fancy w-full p-4 bg-slate-900/50 border border-slate-800 rounded-xl text-left hover:border-rose-500/50">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <p class="text-sm font-bold text-rose-500">Pulse Weaponry</p>
+                                <p class="text-[10px] text-slate-500 mt-1">+5 Damage Output</p>
+                            </div>
+                            <span class="text-yellow-600 text-xs font-bold">$<span id="combatCost">40</span></span>
+                        </div>
+                    </button>
+
+                    <button id="upgradeSpeed" class="btn-fancy w-full p-4 bg-slate-900/50 border border-slate-800 rounded-xl text-left hover:border-blue-400/50">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <p class="text-sm font-bold text-blue-400">Overdrive Servos</p>
+                                <p class="text-[10px] text-slate-500 mt-1">+10% Movement Speed</p>
+                            </div>
+                            <span class="text-yellow-600 text-xs font-bold">$<span id="speedCost">150</span></span>
+                        </div>
+                    </button>
+
+                    <button id="upgradeShield" class="btn-fancy w-full p-4 bg-slate-900/50 border border-slate-800 rounded-xl text-left hover:border-purple-500/50">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <p class="text-sm font-bold text-purple-400">Kevlar Plating</p>
+                                <p class="text-[10px] text-slate-500 mt-1">Permanent -10% Dmg Taken</p>
+                            </div>
+                            <span class="text-yellow-600 text-xs font-bold">$<span id="shieldCost">2500</span></span>
+                        </div>
+                    </button>
+
+                    <button id="healBtn" class="btn-fancy w-full p-4 bg-slate-900/50 border border-slate-800 rounded-xl text-left hover:border-red-500/50">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <p class="text-sm font-bold text-red-500">Repair Nanites (H)</p>
+                                <p class="text-[10px] text-slate-500 mt-1">Restore 25% Structural</p>
+                            </div>
+                            <span class="text-yellow-600 text-xs font-bold">$<span id="healCost">20</span></span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="achievementModal" class="hidden fixed inset-0 bg-black/80 z-[300] justify-center items-center backdrop-blur-sm">
+        <div class="bg-slate-900 border border-slate-700 rounded-2xl p-6 max-w-lg w-full shadow-2xl mx-4 flex flex-col max-h-[80vh]">
+            <div class="flex justify-between items-center mb-6 shrink-0">
+                <h2 class="header-font text-2xl text-amber-400 tracking-widest drop-shadow-md">Mission Logs</h2>
+                <button id="closeAchievements" class="text-slate-400 hover:text-white text-3xl font-bold transition-colors">&times;</button>
+            </div>
+            <div id="achievementList" class="space-y-3 overflow-y-auto pr-2 pb-2 grow"></div>
+        </div>
+    </div>
+
+    <div id="toast" class="message-toast"></div>
+
+    <script>
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+
+        const initialState = {
+            money: 0, ore: 0,
+            miningPower: 1, combatPower: 5, oreValue: 1,
+            pickCost: 20, valCost: 50, combatCost: 40, healCost: 20, speedCost: 150, shieldCost: 2500,
+            shieldLevel: 0, speedLevel: 0,
+            isPaused: false, isGameOver: false, inMenu: true,
+            difficulty: 1, gameTime: 0,
+            bossActive: false, bossCount: 0,
+            oreMined: 0, enemiesDefeated: 0, totalEarned: 0, upgradesBought: 0, healsUsed: 0,
+            gameMode: 'normal'
+        };
+
+        let state = { ...initialState };
+
+        const char = {
+            x: 450, y: 300, w: 34, h: 50,
+            baseSpeed: 3.5, hp: 100, maxHp: 100,
+            animFrame: 0,
+            lightRadius: 180
+        };
+
+        let deposits = [];
+        let enemies = [];
+        let particles = [];
+        const keys = {};
+
+        const ACHIEVEMENTS = [
+            { id: 'first_ore', title: 'Scratching the Surface', desc: 'Mine your first 5 Ore', target: 5, type: 'ore', earned: false },
+            { id: 'first_blood', title: 'First Blood', desc: 'Defeat 1 enemy', target: 1, type: 'enemies', earned: false },
+            { id: 'pocket_change', title: 'Pocket Change', desc: 'Earn your first $100', target: 100, type: 'money', earned: false },
+            { id: 'first_upgrade', title: 'Tinkerer', desc: 'Buy your first upgrade', target: 1, type: 'upgrades', earned: false },
+            { id: 'medic', title: 'Medic!', desc: 'Use the Repair Nanites', target: 1, type: 'heals', earned: false },
+            { id: 'level_2', title: 'Going Deeper', desc: 'Reach Depth Level 2', target: 2, type: 'depth', earned: false },
+            { id: 'capitalist', title: 'Capitalist', desc: 'Earn $5,000 total', target: 5000, type: 'money', earned: false },
+            { id: 'boss_slayer', title: 'Giant Killer', desc: 'Defeat your first Boss', target: 1, type: 'bosses', earned: false }
+        ];
+
+        // Rendering Helpers
+        function drawCrystal(ctx, x, y, size, colors) {
+            ctx.save(); ctx.translate(x, y);
+            ctx.shadowBlur = 15; ctx.shadowColor = colors[1];
+            const gradient = ctx.createRadialGradient(0, 0, 0, 0, 0, size * 1.5);
+            gradient.addColorStop(0, colors[1] + '44'); gradient.addColorStop(1, 'transparent');
+            ctx.fillStyle = gradient; ctx.beginPath(); ctx.arc(0, 0, size * 1.5, 0, Math.PI * 2); ctx.fill();
+            for(let i=0; i<3; i++) {
+                ctx.rotate(Math.PI/3);
+                ctx.fillStyle = i % 2 === 0 ? colors[0] : colors[2];
+                ctx.beginPath(); ctx.moveTo(0, -size); ctx.lineTo(size/2, 0); ctx.lineTo(0, size); ctx.lineTo(-size/2, 0); ctx.closePath(); ctx.fill();
+            }
+            ctx.restore();
+        }
+
+        const MOB_RENDERERS = {
+            goblin: (ctx, e) => {
+                ctx.fillStyle = '#34d399'; ctx.beginPath(); ctx.ellipse(0, 0, e.size/2, e.size/2.2, 0, 0, Math.PI*2); ctx.fill();
+                ctx.fillStyle = '#ef4444'; ctx.beginPath(); ctx.arc(-6, -4, 2, 0, Math.PI*2); ctx.fill(); ctx.beginPath(); ctx.arc(6, -4, 2, 0, Math.PI*2); ctx.fill();
+            },
+            orc: (ctx, e) => {
+                ctx.fillStyle = '#991b1b'; ctx.beginPath(); ctx.roundRect(-e.size/2, -e.size/2, e.size, e.size, 8); ctx.fill();
+                ctx.fillStyle = '#fbbf24'; ctx.fillRect(-12, -10, 6, 3); ctx.fillRect(6, -10, 6, 3);
+            },
+            skeleton: (ctx, e) => {
+                ctx.fillStyle = '#f1f5f9'; ctx.beginPath(); ctx.arc(0, -10, e.size/3, 0, Math.PI*2); ctx.fill();
+                ctx.fillRect(-6, 2, 12, 6);
+            },
+            demon: (ctx, e) => {
+                ctx.fillStyle = '#dc2626'; ctx.beginPath(); ctx.arc(0, 0, e.size/2, 0, Math.PI*2); ctx.fill();
+                ctx.fillStyle = '#000'; ctx.beginPath(); ctx.arc(-8, -4, 3, 0, Math.PI*2); ctx.fill(); ctx.beginPath(); ctx.arc(8, -4, 3, 0, Math.PI*2); ctx.fill();
+            },
+            boss1: (ctx, e) => {
+                ctx.fillStyle = '#292524'; ctx.fillRect(-e.size/2, -e.size/2, e.size, e.size);
+                ctx.fillStyle = '#0ea5e9'; ctx.beginPath(); ctx.arc(0, 0, 20, 0, Math.PI*2); ctx.fill();
+            }
+        };
+
+        const ENEMY_TEMPLATES = {
+            goblin: { hp: 40, dmg: 5, speed: 1.8, size: 28, reward: 25 },
+            orc: { hp: 100, dmg: 12, speed: 1.1, size: 42, reward: 60 },
+            skeleton: { hp: 180, dmg: 18, speed: 1.3, size: 36, reward: 140 },
+            demon: { hp: 350, dmg: 28, speed: 1.6, size: 48, reward: 400 },
+            boss1: { name: 'THE EARTH-SHAKER', hp: 2500, dmg: 45, speed: 0.6, size: 140, reward: 3000, isBoss: true }
+        };
+
+        function createDeposit() {
+            const types = [
+                { id: 'common', colors: ['#44403c', '#78716c', '#a8a29e'], val: 5, hp: 20 },
+                { id: 'gold', colors: ['#b45309', '#f59e0b', '#fef3c7'], val: 30, hp: 50 },
+                { id: 'ruby', colors: ['#991b1b', '#ef4444', '#fca5a5'], val: 80, hp: 100 }
+            ];
+            const rand = Math.random();
+            const type = rand > 0.95 ? types[2] : (rand > 0.8 ? types[1] : types[0]);
+            
+            let valMultiplier = 1;
+            if(state.gameMode === 'easy') valMultiplier = 1.5;
+
+            return {
+                x: 100 + Math.random() * (canvas.width - 200),
+                y: 100 + Math.random() * (canvas.height - 200),
+                size: 25 + Math.random() * 20,
+                hp: type.hp * (1 + state.difficulty * 0.2), maxHp: type.hp * (1 + state.difficulty * 0.2),
+                type: type.id, colors: type.colors, val: Math.round(type.val * valMultiplier)
+            };
+        }
+
+        function createEnemy(key = null) {
+            if (state.gameMode === 'peaceful') return null;
+            let pool = ['goblin'];
+            if (state.difficulty >= 2) pool.push('orc');
+            if (state.difficulty >= 4) pool.push('skeleton');
+            if (state.difficulty >= 7) pool.push('demon');
+            const typeKey = key || pool[Math.floor(Math.random() * pool.length)];
+            const t = ENEMY_TEMPLATES[typeKey];
+            
+            let diffScalar = 1 + (state.difficulty * 0.15);
+            let speedScalar = 1;
+            
+            if(state.gameMode === 'easy') {
+                diffScalar *= 0.7;
+                speedScalar = 0.8;
+            }
+
+            return {
+                ...t, type: typeKey,
+                speed: t.speed * speedScalar,
+                x: Math.random() > 0.5 ? -100 : canvas.width + 100, y: Math.random() * canvas.height,
+                hp: t.hp * (t.isBoss ? 1 : diffScalar), maxHp: t.hp * (t.isBoss ? 1 : diffScalar), lastAtk: 0
+            };
+        }
+
+        function spawnParticles(x, y, color, count = 12) {
+            for(let i=0; i<count; i++) {
+                particles.push({
+                    x, y, vx: (Math.random() - 0.5) * 8, vy: (Math.random() - 0.5) * 8,
+                    life: 1.0, color, size: 2 + Math.random() * 3
+                });
+            }
+        }
+
+        // Logic
+        function update() {
+            if (state.inMenu || state.isPaused || state.isGameOver) return;
+
+            state.gameTime += 1/60;
+            const timeInterval = state.gameMode === 'easy' ? 60 : 40;
+            const newDiff = Math.floor(state.gameTime / timeInterval) + 1;
+            if (newDiff > state.difficulty) {
+                state.difficulty = newDiff;
+                if (state.difficulty % 5 === 0 && state.gameMode !== 'peaceful') triggerBoss();
+            }
+
+            let mx = 0, my = 0;
+            if (keys['ArrowUp'] || keys['KeyW']) my -= 1;
+            if (keys['ArrowDown'] || keys['KeyS']) my += 1;
+            if (keys['ArrowLeft'] || keys['KeyA']) mx -= 1;
+            if (keys['ArrowRight'] || keys['KeyD']) mx += 1;
+            
+            if (mx !== 0 || my !== 0) {
+                const len = Math.sqrt(mx*mx + my*my);
+                const currentSpeed = char.baseSpeed * (1 + (state.speedLevel * 0.1));
+                char.x += (mx/len) * currentSpeed;
+                char.y += (my/len) * currentSpeed;
+            }
+
+            char.x = Math.max(0, Math.min(canvas.width - char.w, char.x));
+            char.y = Math.max(0, Math.min(canvas.height - char.h, char.y));
+
+            if (state.gameMode !== 'peaceful') {
+                enemies.forEach((e, i) => {
+                    const dx = (char.x + char.w/2) - e.x;
+                    const dy = (char.y + char.h/2) - e.y;
+                    const dist = Math.sqrt(dx*dx + dy*dy);
+                    e.x += (dx/dist) * e.speed; e.y += (dy/dist) * e.speed;
+                    if (dist < e.size/2 + 20 && Date.now() - e.lastAtk > 1000) {
+                        const mitigation = 1 - (state.shieldLevel * 0.1);
+                        char.hp -= (e.dmg * mitigation); e.lastAtk = Date.now();
+                        spawnParticles(char.x + char.w/2, char.y + char.h/2, '#ef4444', 15);
+                        if (char.hp <= 0) triggerGameOver();
+                    }
+                });
+
+                const spawnRate = state.gameMode === 'easy' ? 0.99 : 0.985;
+                if (!state.bossActive && enemies.length < (state.gameMode === 'easy' ? 2 : 3) + state.difficulty && Math.random() > spawnRate) {
+                    const newE = createEnemy();
+                    if(newE) enemies.push(newE);
+                }
+            } else {
+                enemies = [];
+            }
+
+            if (deposits.length < 6 && Math.random() > 0.99) deposits.push(createDeposit());
+            checkAchievements();
+        }
+
+        function triggerBoss() {
+            document.getElementById('bossWarning').style.display = 'block';
+            enemies = [];
+            setTimeout(() => {
+                document.getElementById('bossWarning').style.display = 'none';
+                if(state.gameMode === 'peaceful') return;
+                state.bossActive = true;
+                const boss = createEnemy('boss1');
+                boss.x = canvas.width / 2; boss.y = -100;
+                enemies = [boss];
+                document.getElementById('bossUI').style.display = 'block';
+                document.getElementById('bossName').textContent = boss.name;
+            }, 3000);
+        }
+
+        function handleCombat() {
+            if (state.inMenu || state.isPaused || state.isGameOver || state.gameMode === 'peaceful') return;
+            enemies.forEach((e, i) => {
+                const dist = Math.sqrt((char.x + char.w/2 - e.x)**2 + (char.y + char.h/2 - e.y)**2);
+                if (dist < 100) {
+                    e.hp -= state.combatPower;
+                    spawnParticles(e.x, e.y, '#fff', 8);
+                    if (e.hp <= 0) {
+                        state.money += e.reward; state.totalEarned += e.reward; state.enemiesDefeated++;
+                        if (e.isBoss) { state.bossCount++; state.bossActive = false; document.getElementById('bossUI').style.display = 'none'; }
+                        enemies.splice(i, 1);
+                    }
+                }
+            });
+        }
+
+        function handleMining() {
+            if (state.inMenu || state.isPaused || state.isGameOver) return;
+            deposits.forEach((d, i) => {
+                const dist = Math.sqrt((char.x + char.w/2 - d.x)**2 + (char.y + char.h/2 - d.y)**2);
+                if (dist < 80) {
+                    d.hp -= state.miningPower;
+                    spawnParticles(d.x, d.y, d.colors[1], 5);
+                    if (d.hp <= 0) { state.ore += d.val; state.oreMined += d.val; deposits.splice(i, 1); }
+                }
+            });
+        }
+
+        function render() {
+            ctx.fillStyle = '#0c0a09'; ctx.fillRect(0,0,canvas.width,canvas.height);
+            deposits.forEach(d => drawCrystal(ctx, d.x, d.y, d.size, d.colors));
+            enemies.forEach(e => {
+                ctx.save(); ctx.translate(e.x, e.y); MOB_RENDERERS[e.type](ctx, e); ctx.restore();
+                if (e.isBoss) {
+                    const pct = (e.hp/e.maxHp)*100;
+                    document.getElementById('bossHPBar').style.width = Math.max(0, pct) + '%';
+                    document.getElementById('bossHPText').textContent = Math.max(0, Math.ceil(e.hp));
+                }
+            });
+
+            // Draw Character
+            ctx.save(); ctx.translate(char.x + char.w/2, char.y + char.h/2);
+            const grad = ctx.createRadialGradient(0, 0, 0, 0, 0, char.lightRadius);
+            grad.addColorStop(0, 'rgba(255,255,255,0.15)'); grad.addColorStop(1, 'transparent');
+            ctx.fillStyle = grad; ctx.beginPath(); ctx.arc(0, 0, char.lightRadius, 0, Math.PI*2); ctx.fill();
+            
+            // Character visual
+            ctx.fillStyle = '#334155'; ctx.fillRect(-14, -20, 28, 35);
+            ctx.fillStyle = '#0ea5e9'; ctx.fillRect(-8, -25, 16, 6);
+            
+            // Shield effect
+            if(state.shieldLevel > 0) {
+                ctx.strokeStyle = `rgba(168, 85, 247, ${0.2 + state.shieldLevel * 0.1})`;
+                ctx.lineWidth = 2;
+                ctx.beginPath();
+                ctx.arc(0, 0, 30, 0, Math.PI*2);
+                ctx.stroke();
+            }
+            ctx.restore();
+
+            particles.forEach((p, i) => {
+                ctx.globalAlpha = p.life; ctx.fillStyle = p.color; ctx.fillRect(p.x, p.y, p.size, p.size);
+                p.x += p.vx; p.y += p.vy; p.life -= 0.02;
+                if(p.life <= 0) particles.splice(i, 1);
+            });
+            ctx.globalAlpha = 1;
+
+            if (state.isPaused && !state.isGameOver && !state.inMenu) {
+                ctx.fillStyle = 'rgba(0,0,0,0.6)'; ctx.fillRect(0,0,canvas.width,canvas.height);
+                ctx.fillStyle = '#fff'; ctx.font = 'bold 48px Cinzel'; ctx.textAlign = 'center';
+                ctx.fillText('PAUSED', canvas.width/2, canvas.height/2);
+            }
+            requestAnimationFrame(render);
+        }
+
+        // State Handlers
+        function triggerGameOver() {
+            if (state.isGameOver) return;
+            state.isGameOver = true;
+            document.getElementById('gameOverOverlay').classList.remove('hidden');
+            document.getElementById('gameOverOverlay').classList.add('flex');
+            const subtext = document.getElementById('gameOverSubtext');
+            if (state.gameMode === 'hardcore') {
+                subtext.innerHTML = "Your journey ends here.<br><span class='text-red-400 font-bold'>HARDCORE WIPE: All progress lost.</span>";
+            } else {
+                subtext.innerHTML = `Recovered to base.<br><span class='text-emerald-400 font-bold'>Checkpoint: Depth ${state.difficulty}</span>`;
+            }
+        }
+
+        function restartGame() {
+            document.getElementById('gameOverOverlay').classList.add('hidden');
+            if (state.gameMode === 'hardcore') {
+                localStorage.removeItem('miningTycoon_hardcore');
+                state = { ...initialState, gameMode: 'hardcore', inMenu: false };
+            } else {
+                const currentDiff = state.difficulty;
+                const mode = state.gameMode;
+                state = { ...initialState, gameMode: mode, inMenu: false, difficulty: currentDiff };
+            }
+            char.hp = 100; enemies = []; updateUI();
+        }
+
+        function startGame(mode) {
+            state.gameMode = mode;
+            if (!loadGameData(mode)) {
+                state = { ...initialState, gameMode: mode, inMenu: false };
+                // Adjust base costs for easy mode
+                if(mode === 'easy') {
+                    state.pickCost = 15; state.valCost = 35; state.combatCost = 30; state.healCost = 15;
+                }
+            }
+            state.inMenu = false; state.isPaused = false; state.isGameOver = false;
+            document.getElementById('mainMenu').classList.add('hidden');
+            document.getElementById('modeSelectorContainer').classList.remove('hidden');
+            document.getElementById('protocolSwitcher').value = mode;
+            char.hp = 100;
+            updateUI();
+        }
+
+        function switchProtocol(newMode) {
+            if (state.inMenu) return;
+            saveGameData();
+            startGame(newMode);
+            showToast(`Switched to ${newMode.toUpperCase()} Protocol`);
+        }
+
+        function saveGameData() {
+            if(state.isGameOver || state.inMenu) return;
+            const saveData = { state, char, achievements: ACHIEVEMENTS.map(a => a.earned) };
+            localStorage.setItem('miningTycoon_' + state.gameMode, JSON.stringify(saveData));
+        }
+
+        function loadGameData(mode) {
+            const raw = localStorage.getItem('miningTycoon_' + mode);
+            if (raw) {
+                try {
+                    const data = JSON.parse(raw);
+                    state = data.state;
+                    Object.assign(char, data.char);
+                    data.achievements.forEach((earned, i) => { if(ACHIEVEMENTS[i]) ACHIEVEMENTS[i].earned = earned; });
+                    return true;
+                } catch(e) { return false; }
+            }
+            return false;
+        }
+
+        function updateUI() {
+            document.getElementById('money').textContent = Math.floor(state.money);
+            document.getElementById('ore').textContent = state.ore;
+            document.getElementById('miningPower').textContent = state.miningPower;
+            document.getElementById('combatPower').textContent = state.combatPower;
+            document.getElementById('oreValue').textContent = state.oreValue;
+            document.getElementById('hp').textContent = Math.max(0, Math.floor(char.hp));
+            document.getElementById('difficultyLevel').textContent = state.difficulty;
+            document.getElementById('pickCost').textContent = state.pickCost;
+            document.getElementById('valCost').textContent = state.valCost;
+            document.getElementById('combatCost').textContent = state.combatCost;
+            document.getElementById('healCost').textContent = state.healCost;
+            document.getElementById('speedCost').textContent = state.speedCost;
+            document.getElementById('shieldCost').textContent = state.shieldCost;
+            
+            const hpPct = (char.hp/char.maxHp)*100;
+            document.getElementById('healthFill').style.width = Math.max(0, hpPct) + '%';
+        }
+
+        function togglePause() {
+            if (state.isGameOver || state.inMenu) return;
+            state.isPaused = !state.isPaused;
+            document.getElementById('pauseButton').innerHTML = state.isPaused ? '▶ RESUME' : '⏸ PAUSE (P)';
+        }
+
+        function showToast(msg, isAchievement = false) {
+            const t = document.getElementById('toast');
+            t.innerHTML = isAchievement ? `🏆 <b>ACHIEVEMENT:</b><br>${msg}` : msg;
+            t.classList.add('show');
+            setTimeout(() => t.classList.remove('show'), 3000);
+        }
+
+        function getProgress(type) {
+            const map = { ore: 'oreMined', money: 'totalEarned', enemies: 'enemiesDefeated', bosses: 'bossCount', upgrades: 'upgradesBought', heals: 'healsUsed', depth: 'difficulty' };
+            return Math.floor(state[map[type]] || 0);
+        }
+
+        function checkAchievements() {
+            ACHIEVEMENTS.forEach(ach => {
+                if (!ach.earned && getProgress(ach.type) >= ach.target) { ach.earned = true; showToast(ach.title, true); saveGameData(); }
+            });
+        }
+
+        // Shop Logic
+        function buyHeal() {
+            if(state.money >= state.healCost && char.hp < char.maxHp) { 
+                state.money -= state.healCost; 
+                char.hp = Math.min(100, char.hp + 25); 
+                state.healsUsed++; 
+                return true;
+            }
+            return false;
+        }
+
+        // Event Listeners
+        document.getElementById('achievementsBtn').onclick = () => {
+            if (!state.isPaused) togglePause();
+            document.getElementById('achievementList').innerHTML = ACHIEVEMENTS.map(ach => `
+                <div class="p-3 rounded-lg border flex items-center justify-between ${ach.earned ? 'bg-amber-900/20 border-amber-500' : 'bg-slate-800/50 border-slate-700 opacity-60'}">
+                    <div><p class="text-sm font-bold ${ach.earned ? 'text-amber-400' : 'text-slate-400'}">${ach.title}</p>
+                    <p class="text-[10px] text-slate-500">${ach.desc}</p></div>
+                    <span>${ach.earned ? '★' : '🔒'}</span>
+                </div>
+            `).join('');
+            document.getElementById('achievementModal').classList.replace('hidden', 'flex');
+        };
+
+        document.getElementById('closeAchievements').onclick = () => document.getElementById('achievementModal').classList.replace('flex', 'hidden');
+        document.getElementById('pauseButton').onclick = togglePause;
+        document.getElementById('sellButton').onclick = () => { if(state.ore > 0) { const g = state.ore * state.oreValue; state.money += g; state.totalEarned += g; state.ore = 0; }};
+        
+        document.getElementById('upgradePickaxe').onclick = () => { if(state.money >= state.pickCost) { state.money -= state.pickCost; state.miningPower++; state.upgradesBought++; state.pickCost = Math.floor(state.pickCost * 1.8); }};
+        document.getElementById('upgradeCombat').onclick = () => { if(state.money >= state.combatCost) { state.money -= state.combatCost; state.combatPower += 5; state.upgradesBought++; state.combatCost = Math.floor(state.combatCost * 1.8); }};
+        document.getElementById('upgradeValue').onclick = () => { if(state.money >= state.valCost) { state.money -= state.valCost; state.oreValue++; state.upgradesBought++; state.valCost = Math.floor(state.valCost * 2); }};
+        document.getElementById('upgradeSpeed').onclick = () => { if(state.money >= state.speedCost) { state.money -= state.speedCost; state.speedLevel++; state.upgradesBought++; state.speedCost = Math.floor(state.speedCost * 2.5); }};
+        document.getElementById('upgradeShield').onclick = () => { if(state.money >= state.shieldCost) { state.money -= state.shieldCost; state.shieldLevel++; state.upgradesBought++; state.shieldCost = Math.floor(state.shieldCost * 3); }};
+        document.getElementById('healBtn').onclick = buyHeal;
+
+        window.addEventListener('keydown', e => {
+            if (state.inMenu) return;
+            
+            // P for Pause
+            if (e.code === 'KeyP') togglePause();
+            
+            if (state.isGameOver || state.isPaused) return;
+            
+            keys[e.code] = true;
+            if (e.code === 'Space') handleMining();
+            if (e.code === 'KeyQ') handleCombat();
+            if (e.code === 'KeyS') document.getElementById('sellButton').click();
+            if (e.code === 'KeyH') buyHeal();
+        });
+        window.addEventListener('keyup', e => keys[e.code] = false);
+
+        setInterval(update, 1000/60);
+        setInterval(updateUI, 100);
+        setInterval(saveGameData, 5000);
+        render();
+    </script>
+</body>
+</html>
