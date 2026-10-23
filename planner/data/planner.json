@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T16:44:41.633Z",
+  "updatedAt": "2026-10-23T16:45:43.380Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -433,7 +433,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xwkcva",
       "title": "10/01 Closure",
@@ -447,8 +447,8 @@
       "canvasDue": "2026-10-05",
       "canvasTitle": "10/01 Closure",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:45:41.382Z",
+      "statusAt": "2026-10-23T16:45:41.382Z"
     },
     {
       "subtasks": [],
@@ -489,8 +489,24 @@
       "statusAt": "2026-10-23T16:44:09.159Z"
     },
     {
-      "subtasks": [],
-      "status": "todo",
+      "subtasks": [
+        {
+          "id": "mvl7averuyxsa",
+          "text": "study",
+          "done": true
+        },
+        {
+          "id": "mvl7axz5izs7s",
+          "text": "check12",
+          "done": true
+        },
+        {
+          "id": "mvl7b0ye7g8bl",
+          "text": "finalize",
+          "done": true
+        }
+      ],
+      "status": "turned_in",
       "type": "test",
       "id": "mvl45j1xsq8ps",
       "title": "Unit 2 Test Review (Deductive Reasoning) - (Wayground)",
@@ -504,8 +520,8 @@
       "canvasDue": "2026-10-07",
       "canvasTitle": "Unit 2 Test Review (Deductive Reasoning) - (Wayground)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:45:39.161Z",
+      "statusAt": "2026-10-23T16:45:39.161Z"
     },
     {
       "subtasks": [],
@@ -528,7 +544,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1x0nux0",
       "title": "CW #13-Parallel Lines Cut by a Transversal - (Wayground)",
@@ -542,8 +558,8 @@
       "canvasDue": "2026-10-09",
       "canvasTitle": "CW #13-Parallel Lines Cut by a Transversal - (Wayground)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:45:43.380Z",
+      "statusAt": "2026-10-23T16:45:43.380Z"
     },
     {
       "subtasks": [],
