@@ -7,4 +7,741 @@ X-WR-CALNAME:Roman's Planner
 X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:mvl45j1xkkufn@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+TRANSP:TRANSPARENT
+SUMMARY:HW: Lion Reflection Questions (P2-Honors Biology-Avery) (0403_1310
+ 2Y_Honors Biology-0012_2627)
+DESCRIPTION:Status: todo\nClass: 0403_13102Y_Honors Biology-0012_2627\nCho
+ ose TWO of the four questions to answer based on the documentary series L
+ ion.  Your responses should include specific examples from the series and
+  make direct connections to what we have learned in class.  Each response
+  should be 4-6 sentences in length.  You should use proper grammar\, capi
+ talization and punctuation.  This is an individual assignment and the use
+  of AI on this assignment in prohibited.  \n\n* Adaptation & Survival\n\n
+ The documentary follows lions navigating threats like drought\, prey scar
+ city\, and rival prides. What physical and behavioral adaptive traits do 
+ lions have that help them survive in their environment\, and how do these
+  traits reflect natural selection at work in real time?\n\n* Social Struc
+ ture & Evolutionary Advantage\n\nLions are unique among big cats for livi
+ ng in social groups. Based on what you observed\, why might group living 
+ have evolved as an advantageous strategy for lions specifically\, and wha
+ t biological trade-offs (downsides) come with living in close \nhttps://b
+ cpss.instructure.com/calendar?include_contexts=course_46327&month=09&year
+ =2026#assignment_2423018
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_46327&m
+ onth=09&year=2026#assignment_2423018
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xrajlr@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+TRANSP:TRANSPARENT
+SUMMARY:HW: 09/23 Warm Up (AP Computer Science Principles_SY26-27)
+DESCRIPTION:Status: todo\nClass: AP Computer Science Principles_SY26-27\n*
+ ************************************************\n"Follow the Values" Don
+ 't guess. Be the computer!\n*********************************************
+ ****\n\nAs discussed last class\, work from the top down and keep track o
+ f each variable.\n\nscore ← 10\nbonus ← 5\nscore ← bonus\nbonus ← 20\n\n 
+ \nhttps://bcpss.instructure.com/calendar?include_contexts=course_46019&mo
+ nth=09&year=2026#assignment_2423217
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
+ onth=09&year=2026#assignment_2423217
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1x8c12q@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+TRANSP:TRANSPARENT
+SUMMARY:HW: 09/23 Closure (AP Computer Science Principles_SY26-27)
+DESCRIPTION:Status: todo\nClass: AP Computer Science Principles_SY26-27\np
+ oints ← 12\nbonus ← 3\npoints ← points + bonus\nbonus ← points\nhttps://b
+ cpss.instructure.com/calendar?include_contexts=course_46019&month=09&year
+ =2026#assignment_2423353
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
+ onth=09&year=2026#assignment_2423353
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xxx4q8@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+TRANSP:TRANSPARENT
+SUMMARY:HW: CW#9-Special Pairs of Angles - (Wayground) (0403_11207Y_Hon In
+ genuity Proj Geometry-0001_2627)
+DESCRIPTION:Status: todo\nClass: 0403_11207Y_Hon Ingenuity Proj Geometry-0
+ 001_2627\nhttps://bcpss.instructure.com/calendar?include_contexts=course_
+ 45716&month=09&year=2026#assignment_2425983
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
+ onth=09&year=2026#assignment_2425983
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xpe72e@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+TRANSP:TRANSPARENT
+SUMMARY:HW: 09/25 Warm Up (AP Computer Science Principles_SY26-27)
+DESCRIPTION:Status: todo\nClass: AP Computer Science Principles_SY26-27\nP
+ lease answer the following\nhttps://bcpss.instructure.com/calendar?includ
+ e_contexts=course_46019&month=09&year=2026#assignment_2426331
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
+ onth=09&year=2026#assignment_2426331
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xbr9g0@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+TRANSP:TRANSPARENT
+SUMMARY:HW: Prueba Intermedia U1 (0403_06200Y_Honors Spanish I-0005_2627)
+DESCRIPTION:Status: todo\nClass: 0403_06200Y_Honors Spanish I-0005_2627\n[
+ Prueba Intermedia U1] (https://forms.gle/L3PcV3XhgbwTqkHR6)\nhttps://bcps
+ s.instructure.com/calendar?include_contexts=course_45092&month=09&year=20
+ 26#assignment_2428296
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
+ onth=09&year=2026#assignment_2428296
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xum2om@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+TRANSP:TRANSPARENT
+SUMMARY:Reading: Macromolecules Lab Pre-Reading  (P2-Honors Biology-Avery)
+  (0403_13102Y_Honors Biology-0012_2627)
+DESCRIPTION:Status: todo\nClass: 0403_13102Y_Honors Biology-0012_2627\nhtt
+ ps://bcpss.instructure.com/calendar?include_contexts=course_46327&month=0
+ 9&year=2026#assignment_2426163
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_46327&m
+ onth=09&year=2026#assignment_2426163
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xnotm1@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+TRANSP:TRANSPARENT
+SUMMARY:HW: 09/25 Closure (AP Computer Science Principles_SY26-27)
+DESCRIPTION:Status: todo\nClass: AP Computer Science Principles_SY26-27\nP
+ lease copy your code to this assignment and answer the following quetions
+ .\n\n* What two variables did you create?\n\n* What relational operators 
+ did you use?\n\n* Did your final expression evaluate to True or False?\n\
+ n* What value could you change to make the result flip?\n\n* Did you use 
+ and or or? Why?\nhttps://bcpss.instructure.com/calendar?include_contexts=
+ course_46019&month=09&year=2026#assignment_2426505
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
+ onth=09&year=2026#assignment_2426505
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xy6rf0@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+TRANSP:TRANSPARENT
+SUMMARY:HW: CW #10-Perpendicular Lines (0403_11207Y_Hon Ingenuity Proj Geo
+ metry-0001_2627)
+DESCRIPTION:Status: todo\nClass: 0403_11207Y_Hon Ingenuity Proj Geometry-0
+ 001_2627\n[2-5 CW-Perpendicular Lines.pdf] (https://bcpss.instructure.com
+ /courses/45716/files/14607494?wrap=1)\nhttps://bcpss.instructure.com/cale
+ ndar?include_contexts=course_45716&month=09&year=2026#assignment_2429509
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
+ onth=09&year=2026#assignment_2429509
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1x0kk7o@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+TRANSP:TRANSPARENT
+SUMMARY:HW: CW #10-Perpendicular Lines (0403_11207Y_Hon Ingenuity Proj Geo
+ metry-0001_2627)
+DESCRIPTION:Status: todo\nClass: 0403_11207Y_Hon Ingenuity Proj Geometry-0
+ 001_2627\n[2-5 CW-Perpendicular Lines-1.pdf] (https://bcpss.instructure.c
+ om/courses/45716/files/14616565?wrap=1)\nhttps://bcpss.instructure.com/ca
+ lendar?include_contexts=course_45716&month=09&year=2026#assignment_243154
+ 2
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
+ onth=09&year=2026#assignment_2431542
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1x6vfy1@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+TRANSP:TRANSPARENT
+SUMMARY:HW: FORMATIVE- Allusion Research Slides (0403_08105Y_Honors Englis
+ h I-0003_2627)
+DESCRIPTION:Status: todo\nDue at 08:00\nClass: 0403_08105Y_Honors English 
+ I-0003_2627\n[Allusion Research Slides] (https://docs.google.com/presenta
+ tion/d/1la-2UYWqVd2LL_NJV4U5qkp1QX2ngTBLcTuxVoNewJE/edit?usp=sharing)  <-
+ ---The shared slide deck for you all to place your work. DO NOT CHANGE TE
+ MPLATE OR MOVE SLIDES AROUND!\nhttps://bcpss.instructure.com/calendar?inc
+ lude_contexts=course_45304&month=09&year=2026#assignment_2426916
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45304&m
+ onth=09&year=2026#assignment_2426916
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xawkrv@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+TRANSP:TRANSPARENT
+SUMMARY:HW: Unit 1 Reassessment: Points\, Lines\, Planes and Angles - (Way
+ ground) (0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627)
+DESCRIPTION:Status: todo\nDue at 15:00\nClass: 0403_11207Y_Hon Ingenuity P
+ roj Geometry-0001_2627\n-------------------------------------------------
+ --------------------\nTest #1 Reassessment Schedule: Unit 1 (Points\, Lin
+ es\, Planes\, Angles)\n--------------------------------------------------
+ -------------------\n\n--------------------------------------------------
+ --------------------------------------------------------------\nThe reass
+ essment schedule for Test #1  is on Wednesday\, September 30\, 2026 durin
+ g Parrot Time 2 or after school.\n---------------------------------------
+ -------------------------------------------------------------------------
+ \n\nTo be eligible\, you have to satisfy the following conditions:\n\n1. 
+ You took the original assessment on time.\n\n2. You attended at least one
+  Parrot Time before the reassessment date.\n\n3. You did the Reassessment
+  Review and got at least 80%.\n\n4. You signed up for reassessment by fil
+ ling out the Google Form (see link below).\n\n[Click here to access the R
+ eassessment Sign-up Form] (https://docs.google.com/forms/d/e/1FAIpQLScEqy
+ sBcpzT2OMgT4Z90pcnU_NsUzze\nhttps://bcpss.instructure.com/calendar?includ
+ e_contexts=course_45716&month=09&year=2026#assignment_2427961
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
+ onth=09&year=2026#assignment_2427961
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1x8qptf@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+TRANSP:TRANSPARENT
+SUMMARY:Quiz: Quiz #2 Reassessment- Lessons 2-1 to 2-3 - (Wayground) (0403
+ _11207Y_Hon Ingenuity Proj Geometry-0001_2627)
+DESCRIPTION:Status: todo\nDue at 15:00\nClass: 0403_11207Y_Hon Ingenuity P
+ roj Geometry-0001_2627\n-----------------------------------------------\n
+ Quiz #2 Reassessment Schedule (Lessons 2.1-2.3)\n------------------------
+ -----------------------\n\n----------------------------------------------
+ ------------------------------------------------------------\nThe reasses
+ sment schedule for Quiz #2  is on Friday\, October 2\, 2026 during Parrot
+  Time 2 or after school.\n-----------------------------------------------
+ -----------------------------------------------------------\n\nTo be elig
+ ible\, you have to satisfy the following conditions:\n\n1. You took the o
+ riginal assessment on time.\n\n2. You attended at least one Parrot Time b
+ efore the reassessment date.\n\n3. You did the Reassessment Review and go
+ t at least 80%.\n\n4. You signed up for reassessment by filling out the G
+ oogle Form (see link below).\n\n[Click here to access the Reassessment Si
+ gn-up Form] (https://docs.google.com/forms/d/e/1FAIpQLScEqysBcpzT2OMgT4Z9
+ 0pcnU_NsUzzeKuqRn1Olr1Xn9EB6OA/viewform?usp=header)\n\nIf any condition i
+ s not satisfied\, your rea\nhttps://bcpss.instructure.com/calendar?includ
+ e_contexts=course_45716&month=10&year=2026#assignment_2432495
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
+ onth=10&year=2026#assignment_2432495
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xdrny5@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+TRANSP:TRANSPARENT
+SUMMARY:HW: Paises Hispanohablantes (0403_06200Y_Honors Spanish I-0005_262
+ 7)
+DESCRIPTION:Status: todo\nClass: 0403_06200Y_Honors Spanish I-0005_2627\nC
+ ompleta los ejercicios 6 y 7\n\nUsa los acentos: é\, á\, í\, ó\, ú\, ñ\n\
+ n[Paises Hispanohablantes] (https://www.profedeele.es/actividad/paises-le
+ nguas-nacionalidades/)\nhttps://bcpss.instructure.com/calendar?include_co
+ ntexts=course_45092&month=10&year=2026#assignment_2453860
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
+ onth=10&year=2026#assignment_2453860
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1x5lmo1@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+TRANSP:TRANSPARENT
+SUMMARY:HW: Edpuzzle | Nombres\, Edades y Nacionalidades (0403_06200Y_Hono
+ rs Spanish I-0005_2627)
+DESCRIPTION:Status: todo\nClass: 0403_06200Y_Honors Spanish I-0005_2627\nh
+ ttps://bcpss.instructure.com/calendar?include_contexts=course_45092&month
+ =10&year=2026#assignment_2454016
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
+ onth=10&year=2026#assignment_2454016
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xv2udw@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+TRANSP:TRANSPARENT
+SUMMARY:HW: Textbook Notes (The Ottoman Empire) (1B HMWH) (Hon. MWH)
+DESCRIPTION:Status: todo\nDue at 08:00\nClass: Hon. MWH\n[Read these textb
+ ook pages.] (https://drive.google.com/file/d/1pj7xk2_GsMXqgBbxvz2frIrmTzH
+ qxDsz/view?usp=drive_link) Take notes in your Unit 2 Overview Packet and 
+ bring your notes with you next class.\nhttps://bcpss.instructure.com/cale
+ ndar?include_contexts=course_45481&month=10&year=2026#assignment_2431169
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45481&m
+ onth=10&year=2026#assignment_2431169
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xljs2x@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+TRANSP:TRANSPARENT
+SUMMARY:HW: Crash Course: The Renaissance (1B HMWH) (Hon. MWH)
+DESCRIPTION:Status: todo\nDue at 08:00\nClass: Hon. MWH\n[Watch the Crash 
+ Course video and complete the Google Form.] (https://docs.google.com/form
+ s/d/e/1FAIpQLSd9b9lxbZmCRuYMVVOe-i8B6-2BMc_45eo9K6L6MYCTflApRw/viewform?u
+ sp=sharing&ouid=107120163663983802304)\n\nAfter completing the Google For
+ m\, start on your textbook homework (Read pages 248-251) and take notes u
+ sing the outline in the [Unit 2 Overview Packet] (https://docs.google.com
+ /document/d/1EGVgte2EcX6OoIUfN5_paOgaIA_AyGbz/edit?usp=drive_link&ouid=10
+ 7120163663983802304&rtpof=true&sd=true).\nhttps://bcpss.instructure.com/c
+ alendar?include_contexts=course_45481&month=10&year=2026#assignment_24314
+ 02
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45481&m
+ onth=10&year=2026#assignment_2431402
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xgxit3@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+TRANSP:TRANSPARENT
+SUMMARY:TEST: Lion Endpoint Exam Review and Slides (P2-Honors Biology-Aver
+ y) (0403_13102Y_Honors Biology-0012_2627)
+DESCRIPTION:Status: todo\nClass: 0403_13102Y_Honors Biology-0012_2627\n[Sl
+ ides 10/1] (https://docs.google.com/presentation/d/1M5MbouVzU-V4k-B0wiJqe
+ aTZ8vkxWWsobjXMLPRhO6Q/edit?usp=sharing)\n\nYou may complete the study gu
+ ide digitally or on paper.  If you do the assignment on paper\, you must 
+ take pictures of all sheets and attach the pictures to Canvas.  The morni
+ ng after the study guide is due\, a key will be posted.  You should check
+  over your work and focus on any areas of study needed before the exam.  
+ The study guide must be submitted ON TIME and COMPLETE in order to receiv
+ e credit for it.  This assignment is REQUIRED to be eligible for a retake
+  on the exam.  \n\nTo access the study guide digitally\, use this [link] 
+ (https://docs.google.com/document/d/1u5Wz4D8XpebE3AJBZBMPlClycy59qtsPqLrJ
+ 1YrdebI/copy)to make a copy.  Once completed\, save as a PDF and then upl
+ oad to this assignment.  \nhttps://bcpss.instructure.com/calendar?include
+ _contexts=course_46327&month=10&year=2026#assignment_2432724
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_46327&m
+ onth=10&year=2026#assignment_2432724
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1x38p36@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+TRANSP:TRANSPARENT
+SUMMARY:HW: 10/01 Activity 2 (AP Computer Science Principles_SY26-27)
+DESCRIPTION:Status: todo\nClass: AP Computer Science Principles_SY26-27\nP
+ lease answer the following\nhttps://bcpss.instructure.com/calendar?includ
+ e_contexts=course_46019&month=10&year=2026#assignment_2432946
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
+ onth=10&year=2026#assignment_2432946
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xxsopw@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+TRANSP:TRANSPARENT
+SUMMARY:HW: 10/01 Activity Theme Park Access (AP Computer Science Principl
+ es_SY26-27)
+DESCRIPTION:Status: todo\nClass: AP Computer Science Principles_SY26-27\nA
+ ctivity -  Theme Part Access\n\nYou will create an app that determines a 
+ persons access based on:\n\nHeight → Age → Adult supervision\n\nThen rewr
+ ite one nested solution as a compound Boolean expression.\n\nThe planning
+  document specifically emphasizes that nested versus compound structures 
+ can both be valid designs and students should compare them for readabilit
+ y.\n\nYour goal: Create a Python app that decides whether a person can ri
+ de an attraction by checking height → age → adult supervision. Then rewri
+ te your nested solution using a compound Boolean expression.\n\nRide Rule
+ s\n----------\n\nUse these fictional rules for this activity:\n\n*\n\nRid
+ ers must be at least 48 inches tall.\n\n*\n\nRiders who meet the height r
+ equirement and are 12 or older may ride without an adult.\n\n*\n\nRiders 
+ who meet the height requirement but are under 12 need adult supervision.\
+ n\nDirections\n----------\n\n*\n\nOpen your Python editor and create a fi
+ le named theme_park_access.py.\n\n*\n\nAsk the user to enter their height
+  in inches and \nhttps://bcpss.instructure.com/calendar?include_contexts=
+ course_46019&month=10&year=2026#assignment_2433016
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
+ onth=10&year=2026#assignment_2433016
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xwkcva@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+TRANSP:TRANSPARENT
+SUMMARY:HW: 10/01 Closure (AP Computer Science Principles_SY26-27)
+DESCRIPTION:Status: todo\nClass: AP Computer Science Principles_SY26-27\nC
+ losure\n-------\n\nTrace the Path\n--------------\n\nage = 16\nhasAdult =
+  True\n\nif age >= 16:\nif age < 18:\nif hasAdult: \,\nprint("Welcome!")\
+ n\nStudents answer:\n\n* Which conditions are checked?\n\n* In what order
+ ?\n\n* What is displayed?\n\n \nhttps://bcpss.instructure.com/calendar?in
+ clude_contexts=course_46019&month=10&year=2026#assignment_2433032
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
+ onth=10&year=2026#assignment_2433032
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1x8653l@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+TRANSP:TRANSPARENT
+SUMMARY:HW: CW #11-Planning a Proof (0403_11207Y_Hon Ingenuity Proj Geomet
+ ry-0001_2627)
+DESCRIPTION:Status: todo\nClass: 0403_11207Y_Hon Ingenuity Proj Geometry-0
+ 001_2627\n[2-6 CW-Planning a Proof.pdf] (https://bcpss.instructure.com/co
+ urses/45716/files/14652688?wrap=1)\nhttps://bcpss.instructure.com/calenda
+ r?include_contexts=course_45716&month=10&year=2026#assignment_2450969
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
+ onth=10&year=2026#assignment_2450969
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xs6u77@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+TRANSP:TRANSPARENT
+SUMMARY:HW: CW #12-Transversals - (Wayground) (0403_11207Y_Hon Ingenuity P
+ roj Geometry-0001_2627)
+DESCRIPTION:Status: todo\nClass: 0403_11207Y_Hon Ingenuity Proj Geometry-0
+ 001_2627\nhttps://bcpss.instructure.com/calendar?include_contexts=course_
+ 45716&month=10&year=2026#assignment_2454128
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
+ onth=10&year=2026#assignment_2454128
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xsq8ps@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+TRANSP:TRANSPARENT
+SUMMARY:TEST: Unit 2 Test Review (Deductive Reasoning) - (Wayground) (0403
+ _11207Y_Hon Ingenuity Proj Geometry-0001_2627)
+DESCRIPTION:Status: todo\nDue at 09:00\nClass: 0403_11207Y_Hon Ingenuity P
+ roj Geometry-0001_2627\nhttps://bcpss.instructure.com/calendar?include_co
+ ntexts=course_45716&month=10&year=2026#assignment_2457802
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
+ onth=10&year=2026#assignment_2457802
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xmkq6r@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+TRANSP:TRANSPARENT
+SUMMARY:HW: Edpuzzle | Tick-Tock-Tale-emotions & intention (0403_06200Y_Ho
+ nors Spanish I-0005_2627)
+DESCRIPTION:Status: todo\nClass: 0403_06200Y_Honors Spanish I-0005_2627\nh
+ ttps://bcpss.instructure.com/calendar?include_contexts=course_45092&month
+ =10&year=2026#assignment_2460214
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
+ onth=10&year=2026#assignment_2460214
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1x0nux0@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+TRANSP:TRANSPARENT
+SUMMARY:HW: CW #13-Parallel Lines Cut by a Transversal - (Wayground) (0403
+ _11207Y_Hon Ingenuity Proj Geometry-0001_2627)
+DESCRIPTION:Status: todo\nClass: 0403_11207Y_Hon Ingenuity Proj Geometry-0
+ 001_2627\nhttps://bcpss.instructure.com/calendar?include_contexts=course_
+ 45716&month=10&year=2026#assignment_2460147
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
+ onth=10&year=2026#assignment_2460147
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xj4pdp@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+TRANSP:TRANSPARENT
+SUMMARY:HW: Nitrogen Cycle Review (P2-Honors Biology-Avery) (0403_13102Y_H
+ onors Biology-0012_2627)
+DESCRIPTION:Status: todo\nClass: 0403_13102Y_Honors Biology-0012_2627\nhtt
+ ps://bcpss.instructure.com/calendar?include_contexts=course_46327&month=1
+ 0&year=2026#assignment_2460585
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_46327&m
+ onth=10&year=2026#assignment_2460585
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xruj20@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+TRANSP:TRANSPARENT
+SUMMARY:HW: 10/09 Closure (AP Computer Science Principles_SY26-27)
+DESCRIPTION:Status: todo\nClass: AP Computer Science Principles_SY26-27\nP
+ lease answer the following\nhttps://bcpss.instructure.com/calendar?includ
+ e_contexts=course_46019&month=10&year=2026#assignment_2460987
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
+ onth=10&year=2026#assignment_2460987
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xmqlo1@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+TRANSP:TRANSPARENT
+SUMMARY:HW: 10/09 Knowledge Check (AP Computer Science Principles_SY26-27)
+DESCRIPTION:Status: todo\nClass: AP Computer Science Principles_SY26-27\nh
+ ttps://bcpss.instructure.com/calendar?include_contexts=course_46019&month
+ =10&year=2026#assignment_2461012
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
+ onth=10&year=2026#assignment_2461012
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xq066x@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+TRANSP:TRANSPARENT
+SUMMARY:HW: Mi mapa de Google (0403_06200Y_Honors Spanish I-0005_2627)
+DESCRIPTION:Status: todo\nClass: 0403_06200Y_Honors Spanish I-0005_2627\nh
+ ttps://bcpss.instructure.com/calendar?include_contexts=course_45092&month
+ =10&year=2026#assignment_2463406
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
+ onth=10&year=2026#assignment_2463406
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xf4e4o@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+TRANSP:TRANSPARENT
+SUMMARY:HW: CW#14-Proving Lines Parallel - (Wayground) (P1-Hon Ingenuity P
+ roj Geometry-Cubebe) (0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627)
+DESCRIPTION:Status: todo\nClass: 0403_11207Y_Hon Ingenuity Proj Geometry-0
+ 001_2627\nhttps://bcpss.instructure.com/calendar?include_contexts=course_
+ 45716&month=10&year=2026#assignment_2463776
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
+ onth=10&year=2026#assignment_2463776
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1x7z0ta@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+TRANSP:TRANSPARENT
+SUMMARY:TEST: Unit 2 Test Reassessment (0403_11207Y_Hon Ingenuity Proj Geo
+ metry-0001_2627)
+DESCRIPTION:Status: todo\nDue at 15:00\nClass: 0403_11207Y_Hon Ingenuity P
+ roj Geometry-0001_2627\n-------------------------------------------------
+ ---------\nTest #2 Reassessment Schedule: Unit 2 (Deductive Reasoning\n--
+ --------------------------------------------------------\n\n-------------
+ -------------------------------------------------------------------------
+ -------------------------\nThe reassessment schedule for Test #2  is on W
+ ednesday\, October 14\, 2026 during Parrot Time 1 or Parrot Time 2.\n----
+ -------------------------------------------------------------------------
+ ----------------------------------\n\nTo be eligible\, you have to satisf
+ y the following conditions:\n\n1. You took the original assessment on tim
+ e.\n\n2. You attended at least one Parrot Time before the reassessment da
+ te.\n\n3. You did the Reassessment Review and got at least 80%.\n\n4. You
+  signed up for reassessment by filling out the Google Form (see link belo
+ w).\n\n[Click here to access the Reassessment Sign-up Form] (https://docs
+ .google.com/forms/d/e/1FAIpQLScEqysBcpzT2OMgT4Z90pcnU_NsUzzeKuqRn1Olr1Xn9
+ EB6OA/viewform?usp=head\nhttps://bcpss.instructure.com/calendar?include_c
+ ontexts=course_45716&month=10&year=2026#assignment_2460056
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
+ onth=10&year=2026#assignment_2460056
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xe131i@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+TRANSP:TRANSPARENT
+SUMMARY:HW: 10/13 Program Submission (AP Computer Science Principles_SY26-
+ 27)
+DESCRIPTION:Status: todo\nClass: AP Computer Science Principles_SY26-27\nP
+ lease submit your one compiler link to this assignment.\nhttps://bcpss.in
+ structure.com/calendar?include_contexts=course_46019&month=10&year=2026#a
+ ssignment_2464318
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
+ onth=10&year=2026#assignment_2464318
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xbt3r8@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+TRANSP:TRANSPARENT
+SUMMARY:HW: Que hora es.. Spanish 1 - (Wayground) (0403_06200Y_Honors Span
+ ish I-0005_2627)
+DESCRIPTION:Status: todo\nClass: 0403_06200Y_Honors Spanish I-0005_2627\nh
+ ttps://bcpss.instructure.com/calendar?include_contexts=course_45092&month
+ =10&year=2026#assignment_2466038
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
+ onth=10&year=2026#assignment_2466038
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1x0exzv@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+TRANSP:TRANSPARENT
+SUMMARY:HW: 10/15 Warm Up (AP Computer Science Principles_SY26-27)
+DESCRIPTION:Status: todo\nClass: AP Computer Science Principles_SY26-27\n*
+ **********************\nWarm-Up — Work Smarter!\n***********************\
+ n\nprice1 = 20\ntax1 = price1 * .06\n\nprice2 = 40\ntax2 = price2 * .06\n
+ \nprice3 = 100\ntax3 = price3 * .06\n\n \n\n* What code keeps repeating?\
+ n\n* What happens if the tax rate changes?\n\n* Is there a way to write t
+ he calculation once and reuse it?\nhttps://bcpss.instructure.com/calendar
+ ?include_contexts=course_46019&month=10&year=2026#assignment_2476475
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
+ onth=10&year=2026#assignment_2476475
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xepczu@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+TRANSP:TRANSPARENT
+SUMMARY:HW: 10/15 Closure — Why Use a Procedure? (AP Computer Science Prin
+ ciples_SY26-27)
+DESCRIPTION:Status: todo\nClass: AP Computer Science Principles_SY26-27\nC
+ ompare\n\nProgram A: the same calculation appears 10 times.\n\nProgram B:
+  the calculation appears once inside a procedure/function\, and the proce
+ dure is called 10 times.\n\n* Which is easier to understand?\n\n* Which i
+ s easier to modify?\n\n* How does the procedure manage complexity?\nhttps
+ ://bcpss.instructure.com/calendar?include_contexts=course_46019&month=10&
+ year=2026#assignment_2476547
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
+ onth=10&year=2026#assignment_2476547
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xlfj45@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+TRANSP:TRANSPARENT
+SUMMARY:HW: 10/15 Activity 1 — Code Cleanup Crew (AP Computer Science Prin
+ ciples_SY26-27)
+DESCRIPTION:Status: todo\nClass: AP Computer Science Principles_SY26-27\n-
+ --------------------------------------------\nCode Cleanup Crew — Multipl
+ e-Choice Questions\n---------------------------------------------\n\nDire
+ ctions: Compare the BEFORE and AFTER code. Choose the best answer.\n\n# B
+ EFORE\nprice1 = 20\ntax1 = price1 * .06\nprice2 = 40\ntax2 = price2 * .06
+ \nprice3 = 100\ntax3 = price3 * .06\n\n# AFTER\ndef calculate_tax(price):
+ \n    return price * .06\n\nprint(calculate_tax(20))\nprint(calculate_tax
+ (40))\nprint(calculate_tax(100))\n\n \nhttps://bcpss.instructure.com/cale
+ ndar?include_contexts=course_46019&month=10&year=2026#assignment_2476636
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
+ onth=10&year=2026#assignment_2476636
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1x1i3n5@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+TRANSP:TRANSPARENT
+SUMMARY:HW: MWH - SY 26-27 Semester 1 Pre-Assessment (1B HMWH) (Hon. MWH)
+DESCRIPTION:Status: todo\nDue at 08:00\nClass: Hon. MWH\n[92001_TestBookle
+ t.pdf] (https://bcpss.instructure.com/courses/45481/files/14765623?wrap=1
+ )\n\nUse the Test Booklet linked above to complete the MWH SY 26-27 Semes
+ ter 1 Pre-Assessment that was distributed in class. Hand in work in class
+  on Monday\, Oct. 19.\nhttps://bcpss.instructure.com/calendar?include_con
+ texts=course_45481&month=10&year=2026#assignment_2464731
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45481&m
+ onth=10&year=2026#assignment_2464731
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xuhk7t@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+TRANSP:TRANSPARENT
+SUMMARY:HW: CW #15- Exterior Angle Theorem/Triangle Angle Sum Theorem - (W
+ ayground) (0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627)
+DESCRIPTION:Status: todo\nClass: 0403_11207Y_Hon Ingenuity Proj Geometry-0
+ 001_2627\nhttps://bcpss.instructure.com/calendar?include_contexts=course_
+ 45716&month=10&year=2026#assignment_2495095
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
+ onth=10&year=2026#assignment_2495095
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1x7akme@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+TRANSP:TRANSPARENT
+SUMMARY:HW: 10/19 Warm Up (AP Computer Science Principles_SY26-27)
+DESCRIPTION:Status: todo\nClass: AP Computer Science Principles_SY26-27\nh
+ ttps://bcpss.instructure.com/calendar?include_contexts=course_46019&month
+ =10&year=2026#assignment_2494877
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
+ onth=10&year=2026#assignment_2494877
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1x7k5bd@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+TRANSP:TRANSPARENT
+SUMMARY:HW: Examen Unidad 1 (0403_06200Y_Honors Spanish I-0005_2627)
+DESCRIPTION:Status: todo\nClass: 0403_06200Y_Honors Spanish I-0005_2627\nh
+ ttps://bcpss.instructure.com/calendar?include_contexts=course_45092&month
+ =10&year=2026#assignment_2535224
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
+ onth=10&year=2026#assignment_2535224
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xfc9k4@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+TRANSP:TRANSPARENT
+SUMMARY:HW: Tusklessness Part 1 (P2-Honors Biology-Avery) (0403_13102Y_Hon
+ ors Biology-0012_2627)
+DESCRIPTION:Status: todo\nClass: 0403_13102Y_Honors Biology-0012_2627\nUse
+  this [link] (https://docs.google.com/document/d/1EC_K5iYXYEmhWsWb5_YK5wL
+ YgWyK6rjlHw2vSHZtV3E/copy) to create a copy of the assignment.  When you 
+ have completed the assignment\, go to File\, select Download and select P
+ DF.  Upload the PDF on Canvas for grading.  \nhttps://bcpss.instructure.c
+ om/calendar?include_contexts=course_46327&month=10&year=2026#assignment_2
+ 492664
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_46327&m
+ onth=10&year=2026#assignment_2492664
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1x3wijd@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+TRANSP:TRANSPARENT
+SUMMARY:HW: Tusklessness Part 2 (P2-Honors Biology-Avery) (0403_13102Y_Hon
+ ors Biology-0012_2627)
+DESCRIPTION:Status: todo\nClass: 0403_13102Y_Honors Biology-0012_2627\nUse
+  this [link] (https://docs.google.com/document/d/1s5Ty_Fh3AhDSel8-Uw7mBiY
+ o5PxbY-U4QY1n9_wwsDY/copy) to make a copy of the assignment.  When the as
+ signment is completed\, go to File and select Download\, select PDF.  Upl
+ oad the PDF to Canvas.\nhttps://bcpss.instructure.com/calendar?include_co
+ ntexts=course_46327&month=10&year=2026#assignment_2492677
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_46327&m
+ onth=10&year=2026#assignment_2492677
+END:VEVENT
+BEGIN:VEVENT
+UID:mvl45j1xlqjju@roman.talaiver.com
+DTSTAMP:20261023T152637Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+TRANSP:TRANSPARENT
+SUMMARY:Quiz: Quiz #3 Review (Lessons 3-1 to 3-3) - (Wayground) (0403_1120
+ 7Y_Hon Ingenuity Proj Geometry-0001_2627)
+DESCRIPTION:Status: todo\nDue at 09:00\nClass: 0403_11207Y_Hon Ingenuity P
+ roj Geometry-0001_2627\nhttps://bcpss.instructure.com/calendar?include_co
+ ntexts=course_45716&month=10&year=2026#assignment_2543470
+URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
+ onth=10&year=2026#assignment_2543470
+END:VEVENT
 END:VCALENDAR
