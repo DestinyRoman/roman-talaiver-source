@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T16:46:35.692Z",
+  "updatedAt": "2026-10-23T16:47:18.224Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -696,7 +696,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xbt3r8",
       "title": "Que hora es.. Spanish 1 - (Wayground)",
@@ -710,8 +710,8 @@
       "canvasDue": "2026-10-14",
       "canvasTitle": "Que hora es.. Spanish 1 - (Wayground)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:47:18.224Z",
+      "statusAt": "2026-10-23T16:47:18.224Z"
     },
     {
       "subtasks": [],
@@ -772,7 +772,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1x1i3n5",
       "title": "MWH - SY 26-27 Semester 1 Pre-Assessment (1B HMWH)",
@@ -786,12 +786,12 @@
       "canvasDue": "2026-10-19",
       "canvasTitle": "MWH - SY 26-27 Semester 1 Pre-Assessment (1B HMWH)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:47:11.836Z",
+      "statusAt": "2026-10-23T16:47:11.836Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xuhk7t",
       "title": "CW #15- Exterior Angle Theorem/Triangle Angle Sum Theorem - (Wayground)",
@@ -805,12 +805,12 @@
       "canvasDue": "2026-10-20",
       "canvasTitle": "CW #15- Exterior Angle Theorem/Triangle Angle Sum Theorem - (Wayground)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:47:13.537Z",
+      "statusAt": "2026-10-23T16:47:13.537Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1x7akme",
       "title": "10/19 Warm Up",
@@ -824,8 +824,8 @@
       "canvasDue": "2026-10-21",
       "canvasTitle": "10/19 Warm Up",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:47:15.694Z",
+      "statusAt": "2026-10-23T16:47:15.694Z"
     },
     {
       "subtasks": [],
