@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T16:42:09.586Z",
+  "updatedAt": "2026-10-23T16:43:19.229Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -52,7 +52,7 @@
   "tasks": [
     {
       "subtasks": [],
-      "status": "doing",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xkkufn",
       "title": "Lion Reflection Questions (P2-Honors Biology-Avery)",
@@ -66,13 +66,13 @@
       "canvasDue": "2026-09-24",
       "canvasTitle": "Lion Reflection Questions (P2-Honors Biology-Avery)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:42:04.016Z",
-      "statusAt": "2026-10-23T16:41:52.256Z",
+      "updatedAt": "2026-10-23T16:43:10.244Z",
+      "statusAt": "2026-10-23T16:43:10.244Z",
       "dueOverridden": true
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xrajlr",
       "title": "09/23 Warm Up",
@@ -86,12 +86,12 @@
       "canvasDue": "2026-09-25",
       "canvasTitle": "09/23 Warm Up",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:43:11.975Z",
+      "statusAt": "2026-10-23T16:43:11.975Z"
     },
     {
       "subtasks": [],
-      "status": "review",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1x8c12q",
       "title": "09/23 Closure",
@@ -105,12 +105,12 @@
       "canvasDue": "2026-09-25",
       "canvasTitle": "09/23 Closure",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:42:09.586Z",
-      "statusAt": "2026-10-23T16:42:09.586Z"
+      "updatedAt": "2026-10-23T16:42:58.561Z",
+      "statusAt": "2026-10-23T16:42:58.561Z"
     },
     {
       "subtasks": [],
-      "status": "doing",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xxx4q8",
       "title": "CW#9-Special Pairs of Angles - (Wayground)",
@@ -124,12 +124,12 @@
       "canvasDue": "2026-09-25",
       "canvasTitle": "CW#9-Special Pairs of Angles - (Wayground)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:42:08.112Z",
-      "statusAt": "2026-10-23T16:42:08.112Z"
+      "updatedAt": "2026-10-23T16:43:08.395Z",
+      "statusAt": "2026-10-23T16:43:08.395Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xpe72e",
       "title": "09/25 Warm Up",
@@ -143,12 +143,12 @@
       "canvasDue": "2026-09-28",
       "canvasTitle": "09/25 Warm Up",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:43:13.986Z",
+      "statusAt": "2026-10-23T16:43:13.986Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xbr9g0",
       "title": "Prueba Intermedia U1",
@@ -162,12 +162,12 @@
       "canvasDue": "2026-09-28",
       "canvasTitle": "Prueba Intermedia U1",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:43:18.130Z",
+      "statusAt": "2026-10-23T16:43:18.130Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "reading",
       "id": "mvl45j1xum2om",
       "title": "Macromolecules Lab Pre-Reading  (P2-Honors Biology-Avery)",
@@ -181,12 +181,12 @@
       "canvasDue": "2026-09-28",
       "canvasTitle": "Macromolecules Lab Pre-Reading  (P2-Honors Biology-Avery)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:43:15.947Z",
+      "statusAt": "2026-10-23T16:43:15.947Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "review",
       "type": "homework",
       "id": "mvl45j1xnotm1",
       "title": "09/25 Closure",
@@ -200,8 +200,8 @@
       "canvasDue": "2026-09-29",
       "canvasTitle": "09/25 Closure",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:43:19.229Z",
+      "statusAt": "2026-10-23T16:43:19.229Z"
     },
     {
       "subtasks": [],
