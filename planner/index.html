@@ -39,8 +39,10 @@
             <option value="">All types</option>
         </select>
         <div id="classFilters" class="flex flex-wrap gap-1.5"></div>
-        <label class="ml-auto flex items-center gap-2 text-xs text-slate-400 cursor-pointer select-none">
-            <input id="showOld" type="checkbox" class="accent-current"> Show old turned-in
+        <label class="ml-auto switch" title="Hide everything in Turned In, on the board and the calendar">
+            <input id="hideTurnedIn" type="checkbox">
+            <span class="track"><span class="knob"></span></span>
+            <span class="text-xs text-slate-400">Hide turned in</span>
         </label>
     </div>
 </header>

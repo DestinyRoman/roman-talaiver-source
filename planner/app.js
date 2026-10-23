@@ -27,7 +27,7 @@ const ACCENTS = ['#3b82f6', '#8b5cf6', '#10b981', '#f59e0b', '#f43f5e', '#06b6d4
 const CLASS_COLORS = ['#3b82f6', '#f43f5e', '#10b981', '#f59e0b', '#8b5cf6', '#06b6d4', '#f97316', '#ec4899', '#84cc16', '#eab308', '#14b8a6', '#a855f7'];
 const DEFAULT_GH = { owner: 'DestinyRoman', repo: 'roman-talaiver-source', branch: 'main', path: 'planner/data/planner.json', token: '' };
 const AUTOSAVE_MS = 15000;
-const OLD_TURNED_IN_DAYS = 14;
+const OLD_TURNED_IN_DAYS = 7; // Turned In cards leave the board this many days after being turned in
 const LS = { gh: 'planner.gh', cache: 'planner.cache', ui: 'planner.ui' };
 
 // ---------- Small helpers ----------
@@ -77,7 +77,7 @@ let saving = false;
 let saveAgain = false;
 let editGen = 0;
 let lastSaved = null;
-let ui = { view: 'board', search: '', type: '', hiddenClasses: [], showOld: false, weekStart: null, month: null, ...lsGet(LS.ui, {}) };
+let ui = { view: 'board', search: '', type: '', hiddenClasses: [], showOld: false, hideTurnedIn: false, weekStart: null, month: null, ...lsGet(LS.ui, {}) };
 
 const connected = () => !!gh.token;
 const liveTasks = () => data.tasks.filter(t => !t.deleted);
@@ -367,13 +367,15 @@ function setDue(id, due) {
 }
 
 // ---------- Filtering ----------
-function visibleTasks({ forCalendar = false } = {}) {
+function visibleTasks({ forCalendar = false, ignoreTurnedInRules = false } = {}) {
     const q = ui.search.trim().toLowerCase();
     const cutoff = new Date(Date.now() - OLD_TURNED_IN_DAYS * 86400000).toISOString();
     return liveTasks().filter(t => {
         if (ui.type && t.type !== ui.type) return false;
         if (ui.hiddenClasses.includes(t.classId || '_none')) return false;
         if (q && !(`${t.title} ${t.notes} ${classById(t.classId)?.name || ''}`.toLowerCase().includes(q))) return false;
+        if (ignoreTurnedInRules) return true;
+        if (ui.hideTurnedIn && t.status === 'turned_in') return false;
         if (!forCalendar && !ui.showOld && t.status === 'turned_in' && (t.statusAt || t.updatedAt) < cutoff) return false;
         return true;
     });
@@ -440,7 +442,7 @@ function renderFilters() {
     $('#classFilters').innerHTML = html;
     $('#typeFilter').value = ui.type;
     $('#search').value = ui.search;
-    $('#showOld').checked = ui.showOld;
+    $('#hideTurnedIn').checked = ui.hideTurnedIn;
     $$('#viewTabs button').forEach(b => b.classList.toggle('on', b.dataset.view === ui.view));
 }
 
@@ -451,9 +453,19 @@ function renderBoard() {
         return `<div class="col" data-status="${s.id}">
             <div class="col-head"><span>${s.icon}</span>${s.label}<span class="count">${list.length}</span></div>
             ${list.map(taskCard).join('')}
+            ${s.id === 'turned_in' ? turnedInNote(list.length) : ''}
             <button class="col-quick" data-new-status="${s.id}">+ Add</button>
         </div>`;
     }).join('')}</div>`;
+}
+
+function turnedInNote(shownCount) {
+    const all = visibleTasks({ ignoreTurnedInRules: true }).filter(t => t.status === 'turned_in').length;
+    if (ui.hideTurnedIn) return all ? `<div class="col-note">${all} hidden · <button data-ti="show">Show</button></div>` : '';
+    const older = all - shownCount;
+    if (!ui.showOld && older > 0) return `<div class="col-note">${older} older than ${OLD_TURNED_IN_DAYS} days · <button data-ti="old">Show</button></div>`;
+    if (ui.showOld && all > 0) return `<div class="col-note"><button data-ti="recent">Only show last ${OLD_TURNED_IN_DAYS} days</button></div>`;
+    return '';
 }
 
 function startOfWeek(d) { return addDays(d, -d.getDay()); }
@@ -699,7 +711,7 @@ function wire() {
     $('#search').oninput = e => { ui.search = e.target.value; render(); };
     $('#typeFilter').innerHTML = `<option value="">All types</option>` + TYPES.map(t => `<option value="${t.id}">${t.label}</option>`).join('');
     $('#typeFilter').onchange = e => { ui.type = e.target.value; saveUi(); render(); };
-    $('#showOld').onchange = e => { ui.showOld = e.target.checked; saveUi(); render(); };
+    $('#hideTurnedIn').onchange = e => { ui.hideTurnedIn = e.target.checked; saveUi(); render(); };
     $('#classFilters').onclick = e => {
         const chip = e.target.closest('[data-class]'); if (!chip) return;
         const id = chip.dataset.class;
@@ -724,6 +736,13 @@ function wire() {
         }
         const more = e.target.closest('[data-goto-week]');
         if (more) { ui.view = 'week'; ui.weekStart = ymd(startOfWeek(parseYmd(more.dataset.gotoWeek))); return render(); }
+        const ti = e.target.closest('[data-ti]');
+        if (ti) {
+            if (ti.dataset.ti === 'show') ui.hideTurnedIn = false;
+            if (ti.dataset.ti === 'old') ui.showOld = true;
+            if (ti.dataset.ti === 'recent') ui.showOld = false;
+            saveUi(); return render();
+        }
         const card = e.target.closest('[data-id]');
         if (card) return openTask(card.dataset.id);
         const ns = e.target.closest('[data-new-status]');
