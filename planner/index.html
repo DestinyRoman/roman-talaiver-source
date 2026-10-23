@@ -2,44 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#020617">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Planner">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="apple-touch-icon" href="./icons/icon-180.png">
     <title>Roman's Planner</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
+    <link rel="icon" type="image/png" href="./icons/icon-192.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./planner.css?v=2026-10-23b">
+    <link rel="stylesheet" href="./planner.css?v=2026-10-23c">
 </head>
 <body class="bg-slate-950 text-slate-100 min-h-screen">
 
 <!-- Top bar -->
-<header class="sticky top-0 z-30 bg-slate-950/90 backdrop-blur border-b border-slate-800">
-    <div class="max-w-[1500px] mx-auto px-4 py-3 flex flex-wrap items-center gap-3">
-        <a href="/" class="text-slate-500 hover:text-slate-300 text-sm" title="Back to Game Lab">&larr;</a>
-        <h1 class="text-2xl font-extrabold tracking-tighter">Roman's <span class="accent-text">Planner</span></h1>
-
-        <div id="stats" class="flex flex-wrap gap-2 text-xs"></div>
-
-        <div class="ml-auto flex items-center gap-2">
-            <span id="saveStatus" class="text-xs text-slate-500 mr-1"></span>
-            <button id="btnNew" class="btn-accent">+ New</button>
-            <button id="btnSettings" class="btn-ghost" title="Settings">⚙</button>
+<header class="topbar">
+    <div class="wrap row1">
+        <a href="/" class="back" title="Back to Game Lab">&larr;</a>
+        <h1 class="title">Roman's <span class="accent-text">Planner</span></h1>
+        <div id="stats" class="stats"></div>
+        <div class="actions">
+            <span id="saveStatus" class="save-status"></span>
+            <button id="btnNew" class="btn-accent desktop-only">+ New</button>
+            <button id="btnFilter" class="btn-ghost mobile-only" aria-expanded="false">Filter<span id="filterBadge" class="badge-count hidden"></span></button>
+            <button id="btnSettings" class="btn-ghost icon-btn" title="Settings" aria-label="Settings">⚙</button>
         </div>
     </div>
 
-    <!-- View tabs + filters -->
-    <div class="max-w-[1500px] mx-auto px-4 pb-3 flex flex-wrap items-center gap-2">
-        <div class="seg" id="viewTabs">
+    <!-- View tabs + filters (always shown on desktop, a drop-down panel on phones) -->
+    <div class="wrap row2" id="filterBar">
+        <div class="seg desktop-only" id="viewTabs">
             <button data-view="board">Board</button>
             <button data-view="week">Week</button>
             <button data-view="month">Month</button>
         </div>
-        <input id="search" type="search" placeholder="Search..." class="input w-40 sm:w-56">
+        <input id="search" type="search" placeholder="Search..." class="input search">
         <select id="typeFilter" class="input">
             <option value="">All types</option>
         </select>
-        <div id="classFilters" class="flex flex-wrap gap-1.5"></div>
-        <label class="ml-auto switch" title="Hide everything in Turned In, on the board and the calendar">
+        <div id="classFilters" class="class-filters"></div>
+        <label class="switch push-right" title="Hide everything in Turned In, on the board and the calendar">
             <input id="hideTurnedIn" type="checkbox">
             <span class="track"><span class="knob"></span></span>
             <span class="text-xs text-slate-400">Hide turned in</span>
@@ -47,9 +53,9 @@
     </div>
 </header>
 
-<div id="banner" class="hidden max-w-[1500px] mx-auto px-4 pt-3"></div>
+<div id="banner" class="hidden wrap pt-3"></div>
 
-<main class="max-w-[1500px] mx-auto px-4 py-4">
+<main class="wrap main">
     <section id="view-board" class="view"></section>
     <section id="view-week" class="view hidden"></section>
     <section id="view-month" class="view hidden"></section>
@@ -80,7 +86,7 @@
 
         <div>
             <div class="field mb-1">Status <span class="text-slate-600">(jump to any, none are required)</span></div>
-            <div class="seg w-full" id="statusSeg"></div>
+            <div class="seg seg-status w-full" id="statusSeg"></div>
         </div>
 
         <div>
@@ -104,7 +110,7 @@
 
         <div id="taskMeta" class="text-xs text-slate-600"></div>
 
-        <div class="flex items-center gap-2 pt-1">
+        <div class="modal-foot flex items-center gap-2 pt-1">
             <button type="button" id="taskDelete" class="btn-danger">Delete</button>
             <div class="ml-auto flex gap-2">
                 <button type="button" class="btn-ghost" data-close>Cancel</button>
@@ -196,8 +202,37 @@
     </div>
 </dialog>
 
+<!-- Phone bottom bar -->
+<nav id="bottomNav" class="bottom-nav mobile-only">
+    <button data-view="board"><span class="ico">▦</span>Board</button>
+    <button data-view="week"><span class="ico">☰</span>Week</button>
+    <button id="navNew" class="nav-new" aria-label="New task">+</button>
+    <button data-view="month"><span class="ico">▤</span>Month</button>
+    <button id="navSettings"><span class="ico">⚙</span>More</button>
+</nav>
+
+<!-- Quick move sheet (tap ⋯ on a card) -->
+<dialog id="moveSheet" class="sheet">
+    <div class="p-4 space-y-3">
+        <div class="sheet-grip"></div>
+        <div id="moveTitle" class="font-semibold text-center px-2"></div>
+        <div class="field">Move to</div>
+        <div id="moveStatuses" class="sheet-grid"></div>
+        <div class="field">Due</div>
+        <div class="sheet-grid three">
+            <button type="button" class="sheet-btn" data-due="today">Today</button>
+            <button type="button" class="sheet-btn" data-due="tomorrow">Tomorrow</button>
+            <label class="sheet-btn">Pick…<input id="moveDate" type="date" class="sr-date"></label>
+        </div>
+        <div class="flex gap-2 pt-1">
+            <button type="button" id="moveOpen" class="btn-ghost flex-1">Open details</button>
+            <button type="button" id="moveClose" class="btn-ghost flex-1">Close</button>
+        </div>
+    </div>
+</dialog>
+
 <div id="toast" class="toast hidden"></div>
 
-<script src="./app.js?v=2026-10-23b"></script>
+<script src="./app.js?v=2026-10-23c"></script>
 </body>
 </html>

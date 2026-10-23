@@ -77,13 +77,22 @@ let saving = false;
 let saveAgain = false;
 let editGen = 0;
 let lastSaved = null;
-let ui = { view: 'board', search: '', type: '', hiddenClasses: [], showOld: false, hideTurnedIn: false, weekStart: null, month: null, ...lsGet(LS.ui, {}) };
+let ui = { view: 'board', search: '', type: '', hiddenClasses: [], showOld: false, hideTurnedIn: false, weekStart: null, month: null, mobileCol: 'todo', selectedDay: null, filtersOpen: false, ...lsGet(LS.ui, {}) };
 
 const connected = () => !!gh.token;
 const liveTasks = () => data.tasks.filter(t => !t.deleted);
 const classById = (id) => data.classes.find(c => c.id === id && !c.deleted);
 const classColor = (id) => classById(id)?.color || '#64748b';
-const saveUi = () => lsSet(LS.ui, { ...ui, weekStart: null, month: null });
+const saveUi = () => lsSet(LS.ui, { ...ui, weekStart: null, month: null, selectedDay: null, filtersOpen: false });
+const phoneQuery = matchMedia('(max-width: 768px)');
+const isPhone = () => phoneQuery.matches;
+// Canvas course names are long ("0403_13102Y_Honors Biology-0012_2627"); show the readable part.
+const tidyName = (n) => String(n || '')
+    .replace(/^\d{3,5}_[A-Za-z0-9]+_/, '')
+    .replace(/[-_]\d{3,5}_\d{4}$/, '')
+    .replace(/_SY\d{2}-\d{2}$/, '')
+    .trim() || String(n || '');
+const className = (c) => c ? tidyName(c.name) : '';
 
 // ---------- Merge (last writer wins per item) ----------
 function mergeList(a = [], b = []) {
@@ -262,7 +271,9 @@ async function save(opts = {}) {
 function setSaveStatus(text, bad = false) {
     const el = $('#saveStatus');
     el.textContent = text;
+    el.title = text;
     el.style.color = bad ? '#f87171' : '';
+    el.dataset.state = bad ? 'bad' : /unsaved|saving|loading/i.test(text) ? 'pending' : connected() ? 'ok' : 'local';
 }
 
 function pruneTombstones() {
@@ -406,11 +417,12 @@ function taskCard(t) {
     const cls = classById(t.classId);
     const subs = t.subtasks || [];
     const doneSubs = subs.filter(s => s.done).length;
-    return `<div class="task ${DONE.has(t.status) ? 'done' : ''}" draggable="true" data-id="${t.id}" style="--c:${classColor(t.classId)}">
+    return `<div class="task ${DONE.has(t.status) ? 'done' : ''}" ${isPhone() ? '' : 'draggable="true"'} data-id="${t.id}" style="--c:${classColor(t.classId)}">
+        <button class="card-move" data-move="${t.id}" title="Move or reschedule" aria-label="Move or reschedule">⋯</button>
         <div class="task-title">${esc(t.title)}</div>
         <div class="task-meta">
             <span class="badge ${t.type}">${esc(TYPES.find(x => x.id === t.type)?.label || t.type)}</span>
-            ${cls ? `<span>${esc(cls.name)}</span>` : ''}
+            ${cls ? `<span class="trunc">${esc(className(cls))}</span>` : ''}
             ${t.due ? `<span>·</span>${dueLabel(t)}` : ''}
             ${t.source === 'canvas' ? '<span title="From Canvas">🎓</span>' : ''}
             ${t.notes ? '<span title="Has notes">📝</span>' : ''}
@@ -431,23 +443,42 @@ function renderStats() {
         <span class="stat ${overdue ? 'bad' : ''}"><b>${overdue}</b> overdue</span>
         <span class="stat ${dueToday ? 'warn' : ''}"><b>${dueToday}</b> due today</span>
         <span class="stat"><b>${week}</b> next 7 days</span>
-        <span class="stat"><b>${tests}</b> tests/quizzes soon</span>`;
+        <span class="stat"><b>${tests}</b> ${isPhone() ? 'tests soon' : 'tests/quizzes soon'}</span>`;
 }
 
 function renderFilters() {
     const used = new Set(liveTasks().map(t => t.classId || '_none'));
     const classes = data.classes.filter(c => !c.deleted);
-    let html = classes.map(c => `<span class="chip ${ui.hiddenClasses.includes(c.id) ? 'off' : ''}" data-class="${c.id}"><span class="dot" style="background:${c.color}"></span>${esc(c.name)}</span>`).join('');
+    let html = classes.map(c => `<span class="chip ${ui.hiddenClasses.includes(c.id) ? 'off' : ''}" data-class="${c.id}"><span class="dot" style="background:${c.color}"></span>${esc(className(c))}</span>`).join('');
     if (used.has('_none')) html += `<span class="chip ${ui.hiddenClasses.includes('_none') ? 'off' : ''}" data-class="_none"><span class="dot" style="background:#64748b"></span>No class</span>`;
     $('#classFilters').innerHTML = html;
     $('#typeFilter').value = ui.type;
     $('#search').value = ui.search;
     $('#hideTurnedIn').checked = ui.hideTurnedIn;
-    $$('#viewTabs button').forEach(b => b.classList.toggle('on', b.dataset.view === ui.view));
+    $$('#viewTabs button, #bottomNav [data-view]').forEach(b => b.classList.toggle('on', b.dataset.view === ui.view));
+    const active = (ui.search ? 1 : 0) + (ui.type ? 1 : 0) + ui.hiddenClasses.length + (ui.hideTurnedIn ? 1 : 0);
+    const badge = $('#filterBadge');
+    badge.textContent = active;
+    badge.classList.toggle('hidden', !active);
+    $('.topbar').classList.toggle('filters-open', !!ui.filtersOpen);
+    $('#btnFilter').setAttribute('aria-expanded', String(!!ui.filtersOpen));
 }
 
 function renderBoard() {
     const tasks = visibleTasks();
+    if (isPhone()) {
+        const s = STATUSES.find(x => x.id === ui.mobileCol) || STATUSES[0];
+        const list = sortTasks(tasks.filter(t => t.status === s.id));
+        const tabs = STATUSES.map(x => `<button class="col-tab ${x.id === s.id ? 'on' : ''}" data-col="${x.id}">${x.label}<span class="n">${tasks.filter(t => t.status === x.id).length}</span></button>`).join('');
+        $('#view-board').innerHTML = `<div class="col-tabs" id="colTabs">${tabs}</div>
+            <div class="board"><div class="col" data-status="${s.id}">
+                ${list.length ? list.map(taskCard).join('') : `<div class="col-empty">Nothing in ${s.label}.</div>`}
+                ${s.id === 'turned_in' ? turnedInNote(list.length) : ''}
+                <button class="col-quick" data-new-status="${s.id}">+ Add to ${s.label}</button>
+            </div></div>`;
+        $('#colTabs .on')?.scrollIntoView({ block: 'nearest', inline: 'center' });
+        return;
+    }
     $('#view-board').innerHTML = `<div class="board">${STATUSES.map(s => {
         const list = sortTasks(tasks.filter(t => t.status === s.id));
         return `<div class="col" data-status="${s.id}">
@@ -488,6 +519,32 @@ function renderWeek() {
         </div>`;
     }
     const undated = visibleTasks().filter(t => !t.due && !DONE.has(t.status));
+    if (isPhone()) {
+        const head = `<div class="cal-head">
+            <button class="btn-ghost" data-nav="-7" aria-label="Previous week">‹</button>
+            <button class="btn-ghost" data-nav="today">Today</button>
+            <button class="btn-ghost" data-nav="7" aria-label="Next week">›</button>
+            <h2>${title}</h2></div>`;
+        let html = '';
+        if (ymd(start) === today) {
+            const overdue = sortTasks(visibleTasks().filter(t => t.due && t.due < today && !DONE.has(t.status)));
+            if (overdue.length) html += `<div class="agenda-day overdue"><div class="agenda-head"><span class="big">Overdue</span><span>${overdue.length}</span></div>${overdue.map(taskCard).join('')}</div>`;
+        }
+        for (let i = 0; i < 7; i++) {
+            const d = addDays(start, i), ds = ymd(d);
+            const list = sortTasks(tasks.filter(t => t.due === ds));
+            const diff = daysBetween(today, ds);
+            const name = diff === 0 ? 'Today' : diff === 1 ? 'Tomorrow' : d.toLocaleDateString([], { weekday: 'long' });
+            html += `<div class="agenda-day ${ds === today ? 'today' : ''}" data-date="${ds}">
+                <div class="agenda-head"><span class="big">${name}</span><span>${d.toLocaleDateString([], { month: 'short', day: 'numeric' })}</span>
+                    <button class="add" data-new-date="${ds}">+ Add</button></div>
+                ${list.length ? list.map(taskCard).join('') : '<div class="agenda-none">Nothing due</div>'}
+            </div>`;
+        }
+        if (undated.length) html += `<div class="agenda-day"><div class="agenda-head"><span class="big">No due date</span></div>${undated.map(taskCard).join('')}</div>`;
+        $('#view-week').innerHTML = head + `<div class="agenda">${html}</div>`;
+        return;
+    }
     $('#view-week').innerHTML = `
         <div class="cal-head">
             <button class="btn-ghost" data-nav="-7">‹</button>
@@ -511,6 +568,13 @@ function renderMonth() {
         const d = addDays(gridStart, i), ds = ymd(d);
         if (i === 35 && d.getMonth() !== m.getMonth()) break;
         const list = sortTasks(tasks.filter(t => t.due === ds));
+        if (isPhone()) {
+            const dots = list.slice(0, 6).map(t => `<span class="dot" style="background:${DONE.has(t.status) ? '#334155' : classColor(t.classId)}"></span>`).join('');
+            cells += `<div class="mcell ${d.getMonth() !== m.getMonth() ? 'other' : ''} ${ds === today ? 'today' : ''} ${ds === ui.selectedDay ? 'sel' : ''}" data-date="${ds}" data-pick-day="${ds}">
+                <span class="n">${d.getDate()}</span>
+                <div class="mdots">${dots}${list.length > 6 ? '<span class="plus">+</span>' : ''}</div></div>`;
+            continue;
+        }
         const shown = list.slice(0, 4);
         cells += `<div class="mcell ${d.getMonth() !== m.getMonth() ? 'other' : ''} ${ds === today ? 'today' : ''}" data-date="${ds}">
             <span class="n">${d.getDate()}</span>
@@ -525,7 +589,17 @@ function renderMonth() {
             <button class="btn-ghost" data-mnav="1">›</button>
             <h2>${m.toLocaleDateString([], { month: 'long', year: 'numeric' })}</h2>
         </div>
-        <div class="month">${cells}</div>`;
+        <div class="month">${cells}</div>
+        ${isPhone() ? monthDayList(tasks) : ''}`;
+}
+
+function monthDayList(tasks) {
+    const ds = ui.selectedDay && ui.selectedDay.startsWith(ui.month) ? ui.selectedDay : (todayStr().startsWith(ui.month) ? todayStr() : ui.month + '-01');
+    ui.selectedDay = ds;
+    const list = sortTasks(tasks.filter(t => t.due === ds));
+    const label = parseYmd(ds).toLocaleDateString([], { weekday: 'long', month: 'short', day: 'numeric' });
+    return `<div class="day-list"><div class="day-list-head">${label}<button class="btn-ghost text-sm" data-new-date="${ds}">+ Add</button></div>
+        ${list.length ? list.map(taskCard).join('') : '<div class="agenda-none">Nothing due this day</div>'}</div>`;
 }
 
 function renderBanner() {
@@ -582,8 +656,8 @@ function openTask(id, preset = {}) {
 }
 
 function fillClassSelect(sel, value) {
-    const classes = data.classes.filter(c => !c.deleted).sort((a, b) => a.name.localeCompare(b.name));
-    sel.innerHTML = `<option value="">No class</option>` + classes.map(c => `<option value="${c.id}">${esc(c.name)}</option>`).join('') + `<option value="__new">+ New class…</option>`;
+    const classes = data.classes.filter(c => !c.deleted).sort((a, b) => className(a).localeCompare(className(b)));
+    sel.innerHTML = `<option value="">No class</option>` + classes.map(c => `<option value="${c.id}">${esc(className(c))}</option>`).join('') + `<option value="__new">+ New class…</option>`;
     sel.value = value || '';
 }
 
@@ -656,7 +730,7 @@ function renderClassList() {
         const n = liveTasks().filter(t => t.classId === c.id).length;
         return `<div class="flex items-center gap-2" data-cid="${c.id}">
             <input type="color" value="${c.color}" class="swatch" data-ccolor>
-            <input value="${esc(c.name)}" class="input flex-1" data-cname>
+            <input value="${esc(className(c))}" class="input flex-1" data-cname>
             <span class="text-xs text-slate-500 w-16 text-right">${n} task${n === 1 ? '' : 's'}</span>
             <button class="btn-ghost text-xs" data-cdel>Remove</button>
         </div>`;
@@ -669,6 +743,17 @@ function addClass(name) {
     data.classes.push(c);
     markDirty(`add class ${name}`);
     return c;
+}
+
+// ---------- Quick move sheet (works without drag, so it's how phones move cards) ----------
+let moveId = null;
+function openMoveSheet(id) {
+    const t = data.tasks.find(x => x.id === id); if (!t) return;
+    moveId = id;
+    $('#moveTitle').textContent = t.title;
+    $('#moveStatuses').innerHTML = STATUSES.map(s => `<button type="button" class="sheet-btn ${t.status === s.id ? 'on' : ''}" data-status="${s.id}">${s.icon} ${s.label}</button>`).join('');
+    $('#moveDate').value = t.due || '';
+    $('#moveSheet').showModal();
 }
 
 // ---------- Drag & drop ----------
@@ -706,6 +791,50 @@ function wireDnD() {
 function wire() {
     // header
     $('#btnNew').onclick = () => openTask(null);
+    $('#btnFilter').onclick = () => { ui.filtersOpen = !ui.filtersOpen; render(); };
+
+    // phone bottom bar
+    $('#bottomNav').addEventListener('click', e => {
+        const b = e.target.closest('button'); if (!b) return;
+        if (b.id === 'navNew') return openTask(null, ui.view === 'board' && isPhone() ? { status: ui.mobileCol } : {});
+        if (b.id === 'navSettings') return openSettings();
+        if (b.dataset.view) {
+            if (b.dataset.view === ui.view) { ui.weekStart = null; ui.month = null; ui.selectedDay = null; } // tap again = jump to today
+            ui.view = b.dataset.view; saveUi(); render(); window.scrollTo({ top: 0 });
+        }
+    });
+
+    // swipe left/right on the phone board to change column
+    let touchStart = null;
+    $('#view-board').addEventListener('touchstart', e => { const t = e.touches[0]; touchStart = { x: t.clientX, y: t.clientY, at: Date.now() }; }, { passive: true });
+    $('#view-board').addEventListener('touchend', e => {
+        if (!touchStart || !isPhone() || e.target.closest('.col-tabs')) return;
+        const t = e.changedTouches[0], dx = t.clientX - touchStart.x, dy = t.clientY - touchStart.y;
+        const quick = Date.now() - touchStart.at < 600;
+        touchStart = null;
+        if (!quick || Math.abs(dx) < 70 || Math.abs(dx) < Math.abs(dy) * 1.5) return;
+        const i = STATUSES.findIndex(x => x.id === ui.mobileCol);
+        const next = STATUSES[Math.min(STATUSES.length - 1, Math.max(0, i + (dx < 0 ? 1 : -1)))];
+        if (next.id !== ui.mobileCol) { ui.mobileCol = next.id; saveUi(); render(); }
+    }, { passive: true });
+
+    // re-layout when crossing the phone/desktop width (rotating a tablet, resizing)
+    phoneQuery.addEventListener('change', () => render());
+
+    // quick move sheet
+    $('#moveStatuses').onclick = async e => {
+        const b = e.target.closest('[data-status]'); if (!b) return;
+        const id = moveId; $('#moveSheet').close();
+        await setStatus(id, b.dataset.status);
+    };
+    $('#moveSheet').addEventListener('click', e => {
+        const due = e.target.closest('[data-due]')?.dataset.due;
+        if (due) { setDue(moveId, due === 'today' ? todayStr() : ymd(addDays(new Date(), 1))); $('#moveSheet').close(); toast('Due date changed'); }
+        if (e.target === $('#moveSheet')) $('#moveSheet').close(); // tap outside
+    });
+    $('#moveDate').onchange = e => { if (e.target.value) { setDue(moveId, e.target.value); $('#moveSheet').close(); toast('Due date changed'); } };
+    $('#moveOpen').onclick = () => { const id = moveId; $('#moveSheet').close(); openTask(id); };
+    $('#moveClose').onclick = () => $('#moveSheet').close();
     $('#btnSettings').onclick = openSettings;
     $('#viewTabs').onclick = e => { const v = e.target.dataset.view; if (v) { ui.view = v; saveUi(); render(); } };
     $('#search').oninput = e => { ui.search = e.target.value; render(); };
@@ -743,12 +872,18 @@ function wire() {
             if (ti.dataset.ti === 'recent') ui.showOld = false;
             saveUi(); return render();
         }
+        const mv = e.target.closest('[data-move]');
+        if (mv) return openMoveSheet(mv.dataset.move);
+        const col = e.target.closest('[data-col]');
+        if (col) { ui.mobileCol = col.dataset.col; saveUi(); return render(); }
         const card = e.target.closest('[data-id]');
         if (card) return openTask(card.dataset.id);
         const ns = e.target.closest('[data-new-status]');
         if (ns) return openTask(null, { status: ns.dataset.newStatus });
         const nd = e.target.closest('[data-new-date]');
         if (nd) return openTask(null, { due: nd.dataset.newDate });
+        const pick = e.target.closest('[data-pick-day]');
+        if (pick) { ui.selectedDay = pick.dataset.pickDay; return render(); }
         const cell = e.target.closest('.mcell');
         if (cell) return openTask(null, { due: cell.dataset.date });
     });
