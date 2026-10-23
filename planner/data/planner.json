@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T16:47:18.224Z",
+  "updatedAt": "2026-10-23T16:48:05.723Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -829,7 +829,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1x7k5bd",
       "title": "Examen Unidad 1",
@@ -843,12 +843,12 @@
       "canvasDue": "2026-10-21",
       "canvasTitle": "Examen Unidad 1",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:48:00.509Z",
+      "statusAt": "2026-10-23T16:48:00.509Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xfc9k4",
       "title": "Tusklessness Part 1 (P2-Honors Biology-Avery)",
@@ -862,12 +862,12 @@
       "canvasDue": "2026-10-21",
       "canvasTitle": "Tusklessness Part 1 (P2-Honors Biology-Avery)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:48:05.723Z",
+      "statusAt": "2026-10-23T16:48:05.723Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1x3wijd",
       "title": "Tusklessness Part 2 (P2-Honors Biology-Avery)",
@@ -881,12 +881,12 @@
       "canvasDue": "2026-10-21",
       "canvasTitle": "Tusklessness Part 2 (P2-Honors Biology-Avery)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:48:02.194Z",
+      "statusAt": "2026-10-23T16:48:02.194Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "quiz",
       "id": "mvl45j1xlqjju",
       "title": "Quiz #3 Review (Lessons 3-1 to 3-3) - (Wayground)",
@@ -900,8 +900,8 @@
       "canvasDue": "2026-10-22",
       "canvasTitle": "Quiz #3 Review (Lessons 3-1 to 3-3) - (Wayground)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:48:04.026Z",
+      "statusAt": "2026-10-23T16:48:04.026Z"
     }
   ]
 }
