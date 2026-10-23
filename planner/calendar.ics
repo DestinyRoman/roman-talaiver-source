@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:mvl45j1xkkufn@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 TRANSP:TRANSPARENT
@@ -37,7 +37,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46327&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xrajlr@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 TRANSP:TRANSPARENT
@@ -54,7 +54,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x8c12q@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 TRANSP:TRANSPARENT
@@ -68,7 +68,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xxx4q8@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 TRANSP:TRANSPARENT
@@ -82,7 +82,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xpe72e@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 TRANSP:TRANSPARENT
@@ -95,7 +95,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xbr9g0@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 TRANSP:TRANSPARENT
@@ -110,7 +110,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xum2om@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 TRANSP:TRANSPARENT
@@ -124,7 +124,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46327&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xnotm1@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 TRANSP:TRANSPARENT
@@ -141,7 +141,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xy6rf0@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 TRANSP:TRANSPARENT
@@ -157,7 +157,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x0kk7o@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 TRANSP:TRANSPARENT
@@ -173,7 +173,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x6vfy1@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 TRANSP:TRANSPARENT
@@ -190,7 +190,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45304&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xawkrv@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 TRANSP:TRANSPARENT
@@ -218,7 +218,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x8qptf@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 TRANSP:TRANSPARENT
@@ -246,7 +246,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xdrny5@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 TRANSP:TRANSPARENT
@@ -262,7 +262,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x5lmo1@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 TRANSP:TRANSPARENT
@@ -276,7 +276,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xv2udw@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 TRANSP:TRANSPARENT
@@ -292,7 +292,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45481&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xljs2x@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 TRANSP:TRANSPARENT
@@ -312,7 +312,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45481&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xgxit3@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 TRANSP:TRANSPARENT
@@ -337,7 +337,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46327&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x38p36@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 TRANSP:TRANSPARENT
@@ -350,7 +350,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xxsopw@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 TRANSP:TRANSPARENT
@@ -378,23 +378,23 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xwkcva@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 TRANSP:TRANSPARENT
-SUMMARY:HW: 10/01 Closure (AP Computer Science Principles_SY26-27)
-DESCRIPTION:Status: todo\nClass: AP Computer Science Principles_SY26-27\nC
- losure\n-------\n\nTrace the Path\n--------------\n\nage = 16\nhasAdult =
-  True\n\nif age >= 16:\nif age < 18:\nif hasAdult: \,\nprint("Welcome!")\
- n\nStudents answer:\n\n* Which conditions are checked?\n\n* In what order
- ?\n\n* What is displayed?\n\n \nhttps://bcpss.instructure.com/calendar?in
- clude_contexts=course_46019&month=10&year=2026#assignment_2433032
+SUMMARY:✓ HW: 10/01 Closure (AP Computer Science Principles_SY26-27)
+DESCRIPTION:Status: turned_in\nClass: AP Computer Science Principles_SY26-
+ 27\nClosure\n-------\n\nTrace the Path\n--------------\n\nage = 16\nhasAd
+ ult = True\n\nif age >= 16:\nif age < 18:\nif hasAdult: \,\nprint("Welcom
+ e!")\n\nStudents answer:\n\n* Which conditions are checked?\n\n* In what 
+ order?\n\n* What is displayed?\n\n \nhttps://bcpss.instructure.com/calend
+ ar?include_contexts=course_46019&month=10&year=2026#assignment_2433032
 URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
  onth=10&year=2026#assignment_2433032
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x8653l@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 TRANSP:TRANSPARENT
@@ -410,7 +410,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xs6u77@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 TRANSP:TRANSPARENT
@@ -424,21 +424,22 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xsq8ps@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 TRANSP:TRANSPARENT
-SUMMARY:TEST: Unit 2 Test Review (Deductive Reasoning) - (Wayground) (0403
- _11207Y_Hon Ingenuity Proj Geometry-0001_2627)
-DESCRIPTION:Status: todo\nDue at 09:00\nClass: 0403_11207Y_Hon Ingenuity P
- roj Geometry-0001_2627\nhttps://bcpss.instructure.com/calendar?include_co
- ntexts=course_45716&month=10&year=2026#assignment_2457802
+SUMMARY:✓ TEST: Unit 2 Test Review (Deductive Reasoning) - (Wayground) (04
+ 03_11207Y_Hon Ingenuity Proj Geometry-0001_2627)
+DESCRIPTION:Status: turned_in\nDue at 09:00\nClass: 0403_11207Y_Hon Ingenu
+ ity Proj Geometry-0001_2627\nSteps: 3/3 done\nhttps://bcpss.instructure.c
+ om/calendar?include_contexts=course_45716&month=10&year=2026#assignment_2
+ 457802
 URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
  onth=10&year=2026#assignment_2457802
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xmkq6r@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 TRANSP:TRANSPARENT
@@ -452,21 +453,21 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x0nux0@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 TRANSP:TRANSPARENT
-SUMMARY:HW: CW #13-Parallel Lines Cut by a Transversal - (Wayground) (0403
- _11207Y_Hon Ingenuity Proj Geometry-0001_2627)
-DESCRIPTION:Status: todo\nClass: 0403_11207Y_Hon Ingenuity Proj Geometry-0
- 001_2627\nhttps://bcpss.instructure.com/calendar?include_contexts=course_
- 45716&month=10&year=2026#assignment_2460147
+SUMMARY:✓ HW: CW #13-Parallel Lines Cut by a Transversal - (Wayground) (04
+ 03_11207Y_Hon Ingenuity Proj Geometry-0001_2627)
+DESCRIPTION:Status: turned_in\nClass: 0403_11207Y_Hon Ingenuity Proj Geome
+ try-0001_2627\nhttps://bcpss.instructure.com/calendar?include_contexts=co
+ urse_45716&month=10&year=2026#assignment_2460147
 URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
  onth=10&year=2026#assignment_2460147
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xj4pdp@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 TRANSP:TRANSPARENT
@@ -480,7 +481,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46327&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xruj20@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 TRANSP:TRANSPARENT
@@ -493,7 +494,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xmqlo1@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 TRANSP:TRANSPARENT
@@ -506,7 +507,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xq066x@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 TRANSP:TRANSPARENT
@@ -519,7 +520,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xf4e4o@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 TRANSP:TRANSPARENT
@@ -533,7 +534,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x7z0ta@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 TRANSP:TRANSPARENT
@@ -561,7 +562,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xe131i@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 TRANSP:TRANSPARENT
@@ -576,7 +577,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xbt3r8@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 TRANSP:TRANSPARENT
@@ -590,7 +591,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x0exzv@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 TRANSP:TRANSPARENT
@@ -607,7 +608,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xepczu@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 TRANSP:TRANSPARENT
@@ -625,7 +626,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xlfj45@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 TRANSP:TRANSPARENT
@@ -645,7 +646,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x1i3n5@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 TRANSP:TRANSPARENT
@@ -661,7 +662,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45481&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xuhk7t@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 TRANSP:TRANSPARENT
@@ -675,7 +676,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x7akme@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 TRANSP:TRANSPARENT
@@ -688,7 +689,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x7k5bd@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 TRANSP:TRANSPARENT
@@ -701,7 +702,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xfc9k4@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 TRANSP:TRANSPARENT
@@ -719,7 +720,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46327&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x3wijd@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 TRANSP:TRANSPARENT
@@ -736,7 +737,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46327&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xlqjju@roman.talaiver.com
-DTSTAMP:20261023T164441Z
+DTSTAMP:20261023T164543Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 TRANSP:TRANSPARENT
