@@ -1,0 +1,43 @@
+name: planner-sync
+
+# Pulls Canvas assignments into planner/data/canvas.json and rebuilds planner/calendar.ics.
+on:
+  schedule:
+    - cron: '17 1,10,13,16,19,22 * * *'   # ~6am, 9am, noon, 3pm, 6pm, 9pm Eastern
+  push:
+    branches: [main]
+    paths: ['planner/data/planner.json']
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: planner-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Sync Canvas and build calendar
+        env:
+          CANVAS_ICS_URL: ${{ secrets.CANVAS_ICS_URL }}
+          PLANNER_TZ: America/New_York
+        run: node planner/scripts/sync.mjs
+      - name: Commit changes
+        run: |
+          git config user.name "planner-bot"
+          git config user.email "planner-bot@users.noreply.github.com"
+          git add planner/data/canvas.json planner/calendar.ics 2>/dev/null || true
+          if git diff --cached --quiet; then echo "Nothing to commit"; exit 0; fi
+          git commit -m "planner-bot: canvas sync + calendar feed"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            sleep 5
+          done
+          exit 1

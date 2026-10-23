@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman's Planner</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./planner.css">
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen">
+
+<!-- Top bar -->
+<header class="sticky top-0 z-30 bg-slate-950/90 backdrop-blur border-b border-slate-800">
+    <div class="max-w-[1500px] mx-auto px-4 py-3 flex flex-wrap items-center gap-3">
+        <a href="/" class="text-slate-500 hover:text-slate-300 text-sm" title="Back to Game Lab">&larr;</a>
+        <h1 class="text-2xl font-extrabold tracking-tighter">Roman's <span class="accent-text">Planner</span></h1>
+
+        <div id="stats" class="flex flex-wrap gap-2 text-xs"></div>
+
+        <div class="ml-auto flex items-center gap-2">
+            <span id="saveStatus" class="text-xs text-slate-500 mr-1"></span>
+            <button id="btnNew" class="btn-accent">+ New</button>
+            <button id="btnSettings" class="btn-ghost" title="Settings">⚙</button>
+        </div>
+    </div>
+
+    <!-- View tabs + filters -->
+    <div class="max-w-[1500px] mx-auto px-4 pb-3 flex flex-wrap items-center gap-2">
+        <div class="seg" id="viewTabs">
+            <button data-view="board">Board</button>
+            <button data-view="week">Week</button>
+            <button data-view="month">Month</button>
+        </div>
+        <input id="search" type="search" placeholder="Search..." class="input w-40 sm:w-56">
+        <select id="typeFilter" class="input">
+            <option value="">All types</option>
+        </select>
+        <div id="classFilters" class="flex flex-wrap gap-1.5"></div>
+        <label class="ml-auto flex items-center gap-2 text-xs text-slate-400 cursor-pointer select-none">
+            <input id="showOld" type="checkbox" class="accent-current"> Show old turned-in
+        </label>
+    </div>
+</header>
+
+<div id="banner" class="hidden max-w-[1500px] mx-auto px-4 pt-3"></div>
+
+<main class="max-w-[1500px] mx-auto px-4 py-4">
+    <section id="view-board" class="view"></section>
+    <section id="view-week" class="view hidden"></section>
+    <section id="view-month" class="view hidden"></section>
+</main>
+
+<!-- Task modal -->
+<dialog id="taskModal" class="modal">
+    <form method="dialog" id="taskForm" class="p-5 space-y-4">
+        <div class="flex items-center gap-2">
+            <input name="title" required placeholder="What's the assignment?" class="input text-lg font-semibold flex-1" autocomplete="off">
+            <button type="button" class="btn-ghost" data-close>✕</button>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <label class="field">Class
+                <select name="classId" class="input"></select>
+            </label>
+            <label class="field">Type
+                <select name="type" class="input"></select>
+            </label>
+            <label class="field">Due date
+                <input name="due" type="date" class="input">
+            </label>
+            <label class="field">Time (optional)
+                <input name="dueTime" type="time" class="input">
+            </label>
+        </div>
+
+        <div>
+            <div class="field mb-1">Status <span class="text-slate-600">(jump to any, none are required)</span></div>
+            <div class="seg w-full" id="statusSeg"></div>
+        </div>
+
+        <div>
+            <div class="flex items-center justify-between mb-1">
+                <span class="field">Steps</span>
+                <span id="subProgress" class="text-xs text-slate-500"></span>
+            </div>
+            <ul id="subtaskList" class="space-y-1"></ul>
+            <div class="flex gap-2 mt-2">
+                <input id="subtaskInput" placeholder="Add a step (Enter)" class="input flex-1" autocomplete="off">
+                <button type="button" id="subtaskAdd" class="btn-ghost">Add</button>
+            </div>
+        </div>
+
+        <label class="field block">Link
+            <input name="link" type="url" placeholder="https://..." class="input w-full">
+        </label>
+        <label class="field block">Notes
+            <textarea name="notes" rows="3" class="input w-full"></textarea>
+        </label>
+
+        <div id="taskMeta" class="text-xs text-slate-600"></div>
+
+        <div class="flex items-center gap-2 pt-1">
+            <button type="button" id="taskDelete" class="btn-danger">Delete</button>
+            <div class="ml-auto flex gap-2">
+                <button type="button" class="btn-ghost" data-close>Cancel</button>
+                <button type="submit" class="btn-accent">Save</button>
+            </div>
+        </div>
+    </form>
+</dialog>
+
+<!-- Settings modal -->
+<dialog id="settingsModal" class="modal modal-wide">
+    <div class="p-5 space-y-6">
+        <div class="flex items-center">
+            <h2 class="text-xl font-bold">Settings</h2>
+            <button type="button" class="btn-ghost ml-auto" data-close>✕</button>
+        </div>
+
+        <section class="card space-y-3">
+            <h3 class="font-semibold">Look</h3>
+            <div class="field">Accent color</div>
+            <div id="accentPicker" class="flex flex-wrap gap-2"></div>
+        </section>
+
+        <section class="card space-y-3">
+            <div class="flex items-center gap-2">
+                <h3 class="font-semibold">Classes</h3>
+                <button id="classAdd" class="btn-ghost text-xs ml-auto">+ Add class</button>
+            </div>
+            <div id="classList" class="space-y-2"></div>
+        </section>
+
+        <section class="card space-y-3">
+            <h3 class="font-semibold">Save to GitHub</h3>
+            <p class="text-xs text-slate-400">Every batch of changes is committed to the repo, so history and rollback live in GitHub.
+                Needs a fine-grained token scoped to <b>only this repo</b> with <b>Contents: Read and write</b>
+                (add <b>Actions: Read and write</b> to use "Sync Canvas now"). The token stays in this browser only.</p>
+            <div class="grid sm:grid-cols-2 gap-3">
+                <label class="field">Owner <input id="ghOwner" class="input w-full"></label>
+                <label class="field">Repo <input id="ghRepo" class="input w-full"></label>
+                <label class="field">Branch <input id="ghBranch" class="input w-full"></label>
+                <label class="field">Data file <input id="ghPath" class="input w-full"></label>
+                <label class="field sm:col-span-2">Token <input id="ghToken" type="password" placeholder="github_pat_..." class="input w-full" autocomplete="off"></label>
+            </div>
+            <div class="flex flex-wrap gap-2 items-center">
+                <button id="ghConnect" class="btn-accent">Connect &amp; load</button>
+                <button id="ghForget" class="btn-ghost">Forget token</button>
+                <span id="ghResult" class="text-xs text-slate-400"></span>
+            </div>
+        </section>
+
+        <section class="card space-y-3">
+            <h3 class="font-semibold">Canvas &amp; calendar</h3>
+            <p class="text-xs text-slate-400">A GitHub Action pulls Canvas assignments every few hours and builds a calendar feed.
+                New Canvas items land in <b>To Do</b> automatically.</p>
+            <div id="canvasInfo" class="text-xs text-slate-400"></div>
+            <div class="flex flex-wrap gap-2">
+                <button id="canvasSync" class="btn-ghost">Sync Canvas now</button>
+            </div>
+            <div class="field">Calendar feed (subscribe in Google or Apple Calendar)</div>
+            <div class="flex gap-2">
+                <input id="icsUrl" readonly class="input flex-1 text-xs">
+                <button id="icsCopy" class="btn-ghost">Copy</button>
+            </div>
+        </section>
+
+        <section class="card space-y-3">
+            <h3 class="font-semibold">Backup</h3>
+            <div class="flex flex-wrap gap-2">
+                <button id="exportBtn" class="btn-ghost">Export JSON</button>
+                <label class="btn-ghost cursor-pointer">Import JSON<input id="importFile" type="file" accept=".json,application/json" class="hidden"></label>
+            </div>
+        </section>
+    </div>
+</dialog>
+
+<div id="toast" class="toast hidden"></div>
+
+<script src="./app.js"></script>
+</body>
+</html>
