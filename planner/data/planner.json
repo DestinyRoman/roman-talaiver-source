@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T16:45:43.380Z",
+  "updatedAt": "2026-10-23T16:46:07.952Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -395,7 +395,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1x38p36",
       "title": "10/01 Activity 2",
@@ -409,8 +409,8 @@
       "canvasDue": "2026-10-05",
       "canvasTitle": "10/01 Activity 2",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:46:02.445Z",
+      "statusAt": "2026-10-23T16:46:02.445Z"
     },
     {
       "subtasks": [],
@@ -563,7 +563,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xj4pdp",
       "title": "Nitrogen Cycle Review (P2-Honors Biology-Avery)",
@@ -577,12 +577,12 @@
       "canvasDue": "2026-10-09",
       "canvasTitle": "Nitrogen Cycle Review (P2-Honors Biology-Avery)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:46:04.317Z",
+      "statusAt": "2026-10-23T16:46:04.317Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xruj20",
       "title": "10/09 Closure",
@@ -596,12 +596,12 @@
       "canvasDue": "2026-10-12",
       "canvasTitle": "10/09 Closure",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:46:06.189Z",
+      "statusAt": "2026-10-23T16:46:06.189Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xmqlo1",
       "title": "10/09 Knowledge Check",
@@ -615,8 +615,8 @@
       "canvasDue": "2026-10-12",
       "canvasTitle": "10/09 Knowledge Check",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:46:07.952Z",
+      "statusAt": "2026-10-23T16:46:07.952Z"
     },
     {
       "subtasks": [],
