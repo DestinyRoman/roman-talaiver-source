@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T17:44:19.016Z",
+  "updatedAt": "2026-10-23T17:46:20.235Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -66,9 +66,10 @@
       "canvasDue": "2026-09-24",
       "canvasTitle": "Lion Reflection Questions (P2-Honors Biology-Avery)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:43:10.244Z",
+      "updatedAt": "2026-10-23T17:45:38.941Z",
       "statusAt": "2026-10-23T16:43:10.244Z",
-      "dueOverridden": true
+      "dueOverridden": true,
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -86,8 +87,9 @@
       "canvasDue": "2026-09-25",
       "canvasTitle": "09/23 Warm Up",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:52:11.133Z",
-      "statusAt": "2026-10-23T16:52:11.133Z"
+      "updatedAt": "2026-10-23T17:44:48.266Z",
+      "statusAt": "2026-10-23T16:52:11.133Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -105,8 +107,9 @@
       "canvasDue": "2026-09-25",
       "canvasTitle": "09/23 Closure",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:42:58.561Z",
-      "statusAt": "2026-10-23T16:42:58.561Z"
+      "updatedAt": "2026-10-23T17:44:44.028Z",
+      "statusAt": "2026-10-23T16:42:58.561Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -124,8 +127,9 @@
       "canvasDue": "2026-09-25",
       "canvasTitle": "CW#9-Special Pairs of Angles - (Wayground)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:43:08.395Z",
-      "statusAt": "2026-10-23T16:43:08.395Z"
+      "updatedAt": "2026-10-23T17:44:52.220Z",
+      "statusAt": "2026-10-23T16:43:08.395Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -143,8 +147,9 @@
       "canvasDue": "2026-09-28",
       "canvasTitle": "09/25 Warm Up",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:43:13.986Z",
-      "statusAt": "2026-10-23T16:43:13.986Z"
+      "updatedAt": "2026-10-23T17:44:56.536Z",
+      "statusAt": "2026-10-23T16:43:13.986Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -162,8 +167,9 @@
       "canvasDue": "2026-09-28",
       "canvasTitle": "Prueba Intermedia U1",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:43:18.130Z",
-      "statusAt": "2026-10-23T16:43:18.130Z"
+      "updatedAt": "2026-10-23T17:45:04.336Z",
+      "statusAt": "2026-10-23T16:43:18.130Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -181,8 +187,9 @@
       "canvasDue": "2026-09-28",
       "canvasTitle": "Macromolecules Lab Pre-Reading  (P2-Honors Biology-Avery)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:43:15.947Z",
-      "statusAt": "2026-10-23T16:43:15.947Z"
+      "updatedAt": "2026-10-23T17:44:59.327Z",
+      "statusAt": "2026-10-23T16:43:15.947Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -200,8 +207,9 @@
       "canvasDue": "2026-09-29",
       "canvasTitle": "09/25 Closure",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:43:44.029Z",
-      "statusAt": "2026-10-23T16:43:44.029Z"
+      "updatedAt": "2026-10-23T17:45:07.653Z",
+      "statusAt": "2026-10-23T16:43:44.029Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -219,8 +227,9 @@
       "canvasDue": "2026-09-29",
       "canvasTitle": "CW #10-Perpendicular Lines",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:43:42.583Z",
-      "statusAt": "2026-10-23T16:43:42.583Z"
+      "updatedAt": "2026-10-23T17:45:09.487Z",
+      "statusAt": "2026-10-23T16:43:42.583Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -238,8 +247,9 @@
       "canvasDue": "2026-09-29",
       "canvasTitle": "CW #10-Perpendicular Lines",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:43:46.023Z",
-      "statusAt": "2026-10-23T16:43:46.023Z"
+      "updatedAt": "2026-10-23T17:45:11.344Z",
+      "statusAt": "2026-10-23T16:43:46.023Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -257,8 +267,9 @@
       "canvasDue": "2026-09-30",
       "canvasTitle": "FORMATIVE- Allusion Research Slides",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:43:54.790Z",
-      "statusAt": "2026-10-23T16:43:54.790Z"
+      "updatedAt": "2026-10-23T17:45:13.036Z",
+      "statusAt": "2026-10-23T16:43:54.790Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -276,8 +287,9 @@
       "canvasDue": "2026-09-30",
       "canvasTitle": "Unit 1 Reassessment: Points, Lines, Planes and Angles - (Wayground)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:43:56.680Z",
-      "statusAt": "2026-10-23T16:43:56.680Z"
+      "updatedAt": "2026-10-23T17:45:14.926Z",
+      "statusAt": "2026-10-23T16:43:56.680Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -295,8 +307,9 @@
       "canvasDue": "2026-10-02",
       "canvasTitle": "Quiz #2 Reassessment- Lessons 2-1 to 2-3 - (Wayground)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:44:03.449Z",
-      "statusAt": "2026-10-23T16:44:03.449Z"
+      "updatedAt": "2026-10-23T17:45:20.343Z",
+      "statusAt": "2026-10-23T16:44:03.449Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -314,8 +327,9 @@
       "canvasDue": "2026-10-02",
       "canvasTitle": "Paises Hispanohablantes",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:44:05.219Z",
-      "statusAt": "2026-10-23T16:44:05.219Z"
+      "updatedAt": "2026-10-23T17:45:24.067Z",
+      "statusAt": "2026-10-23T16:44:05.219Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -333,8 +347,9 @@
       "canvasDue": "2026-10-02",
       "canvasTitle": "Edpuzzle | Nombres, Edades y Nacionalidades",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:44:01.701Z",
-      "statusAt": "2026-10-23T16:44:01.701Z"
+      "updatedAt": "2026-10-23T17:45:22.313Z",
+      "statusAt": "2026-10-23T16:44:01.701Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -352,8 +367,9 @@
       "canvasDue": "2026-10-02",
       "canvasTitle": "Textbook Notes (The Ottoman Empire) (1B HMWH)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:43:58.460Z",
-      "statusAt": "2026-10-23T16:43:58.460Z"
+      "updatedAt": "2026-10-23T17:45:18.705Z",
+      "statusAt": "2026-10-23T16:43:58.460Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -371,8 +387,9 @@
       "canvasDue": "2026-10-02",
       "canvasTitle": "Crash Course: The Renaissance (1B HMWH)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:43:59.959Z",
-      "statusAt": "2026-10-23T16:43:59.959Z"
+      "updatedAt": "2026-10-23T17:45:16.962Z",
+      "statusAt": "2026-10-23T16:43:59.959Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -390,8 +407,9 @@
       "canvasDue": "2026-10-03",
       "canvasTitle": "Lion Endpoint Exam Review and Slides (P2-Honors Biology-Avery)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:44:28.803Z",
-      "statusAt": "2026-10-23T16:44:28.803Z"
+      "updatedAt": "2026-10-23T17:45:25.821Z",
+      "statusAt": "2026-10-23T16:44:28.803Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -409,8 +427,9 @@
       "canvasDue": "2026-10-05",
       "canvasTitle": "10/01 Activity 2",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:46:02.445Z",
-      "statusAt": "2026-10-23T16:46:02.445Z"
+      "updatedAt": "2026-10-23T17:45:27.398Z",
+      "statusAt": "2026-10-23T16:46:02.445Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -428,8 +447,9 @@
       "canvasDue": "2026-10-05",
       "canvasTitle": "10/01 Activity Theme Park Access",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:44:07.167Z",
-      "statusAt": "2026-10-23T16:44:07.167Z"
+      "updatedAt": "2026-10-23T17:45:28.862Z",
+      "statusAt": "2026-10-23T16:44:07.167Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -447,8 +467,9 @@
       "canvasDue": "2026-10-05",
       "canvasTitle": "10/01 Closure",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:45:41.382Z",
-      "statusAt": "2026-10-23T16:45:41.382Z"
+      "updatedAt": "2026-10-23T17:45:30.315Z",
+      "statusAt": "2026-10-23T16:45:41.382Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -466,8 +487,9 @@
       "canvasDue": "2026-10-05",
       "canvasTitle": "CW #11-Planning a Proof",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:44:41.633Z",
-      "statusAt": "2026-10-23T16:44:41.633Z"
+      "updatedAt": "2026-10-23T17:45:31.725Z",
+      "statusAt": "2026-10-23T16:44:41.633Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -485,8 +507,9 @@
       "canvasDue": "2026-10-05",
       "canvasTitle": "CW #12-Transversals - (Wayground)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:44:09.159Z",
-      "statusAt": "2026-10-23T16:44:09.159Z"
+      "updatedAt": "2026-10-23T17:45:33.532Z",
+      "statusAt": "2026-10-23T16:44:09.159Z",
+      "deleted": true
     },
     {
       "subtasks": [
@@ -520,8 +543,9 @@
       "canvasDue": "2026-10-07",
       "canvasTitle": "Unit 2 Test Review (Deductive Reasoning) - (Wayground)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:45:39.161Z",
-      "statusAt": "2026-10-23T16:45:39.161Z"
+      "updatedAt": "2026-10-23T17:45:36.043Z",
+      "statusAt": "2026-10-23T16:45:39.161Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -539,8 +563,9 @@
       "canvasDue": "2026-10-08",
       "canvasTitle": "Edpuzzle | Tick-Tock-Tale-emotions & intention",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:44:11.387Z",
-      "statusAt": "2026-10-23T16:44:11.387Z"
+      "updatedAt": "2026-10-23T17:45:41.159Z",
+      "statusAt": "2026-10-23T16:44:11.387Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -558,8 +583,9 @@
       "canvasDue": "2026-10-09",
       "canvasTitle": "CW #13-Parallel Lines Cut by a Transversal - (Wayground)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:45:43.380Z",
-      "statusAt": "2026-10-23T16:45:43.380Z"
+      "updatedAt": "2026-10-23T17:45:43.381Z",
+      "statusAt": "2026-10-23T16:45:43.380Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -577,8 +603,9 @@
       "canvasDue": "2026-10-09",
       "canvasTitle": "Nitrogen Cycle Review (P2-Honors Biology-Avery)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:46:04.317Z",
-      "statusAt": "2026-10-23T16:46:04.317Z"
+      "updatedAt": "2026-10-23T17:45:45.833Z",
+      "statusAt": "2026-10-23T16:46:04.317Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -596,8 +623,9 @@
       "canvasDue": "2026-10-12",
       "canvasTitle": "10/09 Closure",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:46:06.189Z",
-      "statusAt": "2026-10-23T16:46:06.189Z"
+      "updatedAt": "2026-10-23T17:45:50.417Z",
+      "statusAt": "2026-10-23T16:46:06.189Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -615,8 +643,9 @@
       "canvasDue": "2026-10-12",
       "canvasTitle": "10/09 Knowledge Check",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:46:07.952Z",
-      "statusAt": "2026-10-23T16:46:07.952Z"
+      "updatedAt": "2026-10-23T17:45:48.094Z",
+      "statusAt": "2026-10-23T16:46:07.952Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -634,8 +663,9 @@
       "canvasDue": "2026-10-12",
       "canvasTitle": "Mi mapa de Google",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:46:30.282Z",
-      "statusAt": "2026-10-23T16:46:30.282Z"
+      "updatedAt": "2026-10-23T17:45:52.312Z",
+      "statusAt": "2026-10-23T16:46:30.282Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -653,8 +683,9 @@
       "canvasDue": "2026-10-13",
       "canvasTitle": "CW#14-Proving Lines Parallel - (Wayground) (P1-Hon Ingenuity Proj Geometry-Cubebe)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:46:23.408Z",
-      "statusAt": "2026-10-23T16:46:23.408Z"
+      "updatedAt": "2026-10-23T17:45:54.260Z",
+      "statusAt": "2026-10-23T16:46:23.408Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -672,8 +703,9 @@
       "canvasDue": "2026-10-14",
       "canvasTitle": "Unit 2 Test Reassessment",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:46:28.283Z",
-      "statusAt": "2026-10-23T16:46:28.283Z"
+      "updatedAt": "2026-10-23T17:45:56.667Z",
+      "statusAt": "2026-10-23T16:46:28.283Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -691,8 +723,9 @@
       "canvasDue": "2026-10-14",
       "canvasTitle": "10/13 Program Submission",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:46:26.484Z",
-      "statusAt": "2026-10-23T16:46:26.484Z"
+      "updatedAt": "2026-10-23T17:45:58.663Z",
+      "statusAt": "2026-10-23T16:46:26.484Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -710,8 +743,9 @@
       "canvasDue": "2026-10-14",
       "canvasTitle": "Que hora es.. Spanish 1 - (Wayground)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:47:18.224Z",
-      "statusAt": "2026-10-23T16:47:18.224Z"
+      "updatedAt": "2026-10-23T17:46:00.412Z",
+      "statusAt": "2026-10-23T16:47:18.224Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -729,8 +763,9 @@
       "canvasDue": "2026-10-19",
       "canvasTitle": "10/15 Warm Up",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:46:35.692Z",
-      "statusAt": "2026-10-23T16:46:35.692Z"
+      "updatedAt": "2026-10-23T17:46:07.991Z",
+      "statusAt": "2026-10-23T16:46:35.692Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -748,8 +783,9 @@
       "canvasDue": "2026-10-19",
       "canvasTitle": "10/15 Closure — Why Use a Procedure?",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:46:33.683Z",
-      "statusAt": "2026-10-23T16:46:33.683Z"
+      "updatedAt": "2026-10-23T17:46:05.978Z",
+      "statusAt": "2026-10-23T16:46:33.683Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -767,8 +803,9 @@
       "canvasDue": "2026-10-19",
       "canvasTitle": "10/15 Activity 1 — Code Cleanup Crew",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:46:32.160Z",
-      "statusAt": "2026-10-23T16:46:32.160Z"
+      "updatedAt": "2026-10-23T17:46:04.421Z",
+      "statusAt": "2026-10-23T16:46:32.160Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -786,8 +823,9 @@
       "canvasDue": "2026-10-19",
       "canvasTitle": "MWH - SY 26-27 Semester 1 Pre-Assessment (1B HMWH)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:47:11.836Z",
-      "statusAt": "2026-10-23T16:47:11.836Z"
+      "updatedAt": "2026-10-23T17:46:02.203Z",
+      "statusAt": "2026-10-23T16:47:11.836Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -805,8 +843,9 @@
       "canvasDue": "2026-10-20",
       "canvasTitle": "CW #15- Exterior Angle Theorem/Triangle Angle Sum Theorem - (Wayground)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:47:13.537Z",
-      "statusAt": "2026-10-23T16:47:13.537Z"
+      "updatedAt": "2026-10-23T17:46:09.468Z",
+      "statusAt": "2026-10-23T16:47:13.537Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -824,8 +863,9 @@
       "canvasDue": "2026-10-21",
       "canvasTitle": "10/19 Warm Up",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:47:15.694Z",
-      "statusAt": "2026-10-23T16:47:15.694Z"
+      "updatedAt": "2026-10-23T17:46:10.932Z",
+      "statusAt": "2026-10-23T16:47:15.694Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -843,8 +883,9 @@
       "canvasDue": "2026-10-21",
       "canvasTitle": "Examen Unidad 1",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:48:00.509Z",
-      "statusAt": "2026-10-23T16:48:00.509Z"
+      "updatedAt": "2026-10-23T17:46:13.015Z",
+      "statusAt": "2026-10-23T16:48:00.509Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -862,8 +903,9 @@
       "canvasDue": "2026-10-21",
       "canvasTitle": "Tusklessness Part 1 (P2-Honors Biology-Avery)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:48:05.723Z",
-      "statusAt": "2026-10-23T16:48:05.723Z"
+      "updatedAt": "2026-10-23T17:46:14.883Z",
+      "statusAt": "2026-10-23T16:48:05.723Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -881,8 +923,9 @@
       "canvasDue": "2026-10-21",
       "canvasTitle": "Tusklessness Part 2 (P2-Honors Biology-Avery)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:48:02.194Z",
-      "statusAt": "2026-10-23T16:48:02.194Z"
+      "updatedAt": "2026-10-23T17:46:16.400Z",
+      "statusAt": "2026-10-23T16:48:02.194Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -900,8 +943,9 @@
       "canvasDue": "2026-10-22",
       "canvasTitle": "Quiz #3 Review (Lessons 3-1 to 3-3) - (Wayground)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:48:04.026Z",
-      "statusAt": "2026-10-23T16:48:04.026Z"
+      "updatedAt": "2026-10-23T17:46:18.215Z",
+      "statusAt": "2026-10-23T16:48:04.026Z",
+      "deleted": true
     },
     {
       "id": "mvl9elrsb36m1",
@@ -917,7 +961,8 @@
       "source": "manual",
       "createdAt": "2026-10-23T17:44:10.168Z",
       "statusAt": "2026-10-23T17:44:19.016Z",
-      "updatedAt": "2026-10-23T17:44:19.016Z"
+      "updatedAt": "2026-10-23T17:46:20.235Z",
+      "deleted": true
     }
   ]
 }
