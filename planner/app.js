@@ -333,9 +333,27 @@ function upsertTask(t, reason) {
     render();
 }
 
-function setStatus(id, status) {
+// "Turned In" in the planner never submits anything to Canvas, so double-check.
+function confirmTurnIn(t) {
+    return new Promise(resolve => {
+        const dlg = $('#turnInModal');
+        $('#turnInTitle').textContent = t.title || '';
+        const link = $('#turnInLink');
+        link.classList.toggle('hidden', !t.link);
+        if (t.link) link.href = t.link;
+        let answer = false;
+        $('#turnInYes').onclick = () => { answer = true; dlg.close(); };
+        $('#turnInNo').onclick = () => dlg.close();
+        dlg.addEventListener('close', () => resolve(answer), { once: true });
+        dlg.showModal();
+        $('#turnInNo').focus();
+    });
+}
+
+async function setStatus(id, status) {
     const t = data.tasks.find(x => x.id === id);
     if (!t || t.status === status) return;
+    if (status === 'turned_in' && !(await confirmTurnIn(t))) { toast('Kept it where it was. Go turn it in! 💪'); return; }
     t.status = status; t.statusAt = nowIso();
     upsertTask(t, `"${t.title}" → ${STATUSES.find(s => s.id === status).label}`);
 }
@@ -719,7 +737,16 @@ function wire() {
     // task modal
     $('#taskForm').addEventListener('submit', e => { e.preventDefault(); saveDraft(); });
     $$('#taskModal [data-close]').forEach(b => b.onclick = () => $('#taskModal').close());
-    $('#statusSeg').onclick = e => { const s = e.target.dataset.status; if (s) { draft.status = s; renderStatusSeg(); } };
+    $('#statusSeg').onclick = async e => {
+        const s = e.target.dataset.status;
+        if (!s || s === draft.status) return;
+        if (s === 'turned_in') {
+            const prev = data.tasks.find(t => t.id === draft.id);
+            const alreadyIn = prev && prev.status === 'turned_in';
+            if (!alreadyIn && !(await confirmTurnIn({ ...draft, title: $('#taskForm').title.value || draft.title, link: $('#taskForm').link.value || draft.link }))) return;
+        }
+        draft.status = s; renderStatusSeg();
+    };
     $('#subtaskAdd').onclick = addSubtask;
     $('#subtaskInput').addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); addSubtask(); } });
     $('#subtaskList').onclick = e => {

@@ -131,3 +131,5 @@ input[type=color].swatch { padding: 0; -webkit-appearance: none; appearance: non
 input[type=color].swatch::-webkit-color-swatch-wrapper { padding: 0; }
 input[type=color].swatch::-webkit-color-swatch { border: none; border-radius: 999px; }
 input[type=color].swatch::-moz-color-swatch { border: none; border-radius: 999px; }
+
+.modal-narrow { width: min(440px, 92vw); }

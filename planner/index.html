@@ -178,6 +178,22 @@
     </div>
 </dialog>
 
+<!-- Turn-in check -->
+<dialog id="turnInModal" class="modal modal-narrow">
+    <div class="p-6 text-center space-y-4">
+        <div class="text-4xl">🤔</div>
+        <h2 class="text-xl font-bold">Are you sure you turned it in?</h2>
+        <p id="turnInTitle" class="text-slate-300 font-semibold"></p>
+        <p class="text-sm text-slate-400">Marking it here does <b class="text-amber-300">not</b> submit anything to Canvas.
+            Only say yes if you actually submitted it there (or handed it to your teacher).</p>
+        <a id="turnInLink" href="#" target="_blank" rel="noopener" class="hidden inline-block text-sm accent-text underline">Open it in Canvas to check ↗</a>
+        <div class="flex gap-2 justify-center pt-2">
+            <button type="button" id="turnInNo" class="btn-ghost">Not yet</button>
+            <button type="button" id="turnInYes" class="btn-accent">Yes, it's turned in</button>
+        </div>
+    </div>
+</dialog>
+
 <div id="toast" class="toast hidden"></div>
 
 <script src="./app.js"></script>
