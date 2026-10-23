@@ -806,7 +806,13 @@ function wire() {
         if (res.status === 204) {
             toast('Canvas sync started. New items show up in about 1 to 2 minutes.', 4000);
             setTimeout(async () => { await loadCanvas(); render(); }, 90000);
-        } else toast(`Could not start sync (${res.status}). Token needs Actions: Read and write.`, 5000);
+        } else {
+            const why = res.status === 403 ? 'Token needs Actions: Read and write.'
+                : res.status === 404 ? 'Workflow not found. Is .github/workflows/planner-sync.yml pushed?'
+                : res.status === 422 ? 'Workflow file is missing its manual trigger or is invalid.'
+                : 'Check the Actions tab on GitHub.';
+            toast(`Could not start sync (${res.status}). ${why}`, 6000);
+        }
     };
     $('#icsCopy').onclick = async () => { try { await navigator.clipboard.writeText($('#icsUrl').value); toast('Calendar link copied'); } catch { $('#icsUrl').select(); } };
 
