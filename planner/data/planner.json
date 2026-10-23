@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T16:44:11.387Z",
+  "updatedAt": "2026-10-23T16:44:41.633Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -376,7 +376,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "test",
       "id": "mvl45j1xgxit3",
       "title": "Lion Endpoint Exam Review and Slides (P2-Honors Biology-Avery)",
@@ -390,8 +390,8 @@
       "canvasDue": "2026-10-03",
       "canvasTitle": "Lion Endpoint Exam Review and Slides (P2-Honors Biology-Avery)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:44:28.803Z",
+      "statusAt": "2026-10-23T16:44:28.803Z"
     },
     {
       "subtasks": [],
@@ -452,7 +452,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1x8653l",
       "title": "CW #11-Planning a Proof",
@@ -466,8 +466,8 @@
       "canvasDue": "2026-10-05",
       "canvasTitle": "CW #11-Planning a Proof",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:44:41.633Z",
+      "statusAt": "2026-10-23T16:44:41.633Z"
     },
     {
       "subtasks": [],
