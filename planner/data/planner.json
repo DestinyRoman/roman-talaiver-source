@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T15:20:01.981Z",
+  "updatedAt": "2026-10-23T15:22:03.140Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -52,7 +52,7 @@
   "tasks": [
     {
       "subtasks": [],
-      "status": "doing",
+      "status": "todo",
       "type": "homework",
       "id": "mvl45j1xkkufn",
       "title": "Lion Reflection Questions (P2-Honors Biology-Avery)",
@@ -66,8 +66,8 @@
       "canvasDue": "2026-09-24",
       "canvasTitle": "Lion Reflection Questions (P2-Honors Biology-Avery)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:20:01.981Z",
-      "statusAt": "2026-10-23T15:20:01.981Z"
+      "updatedAt": "2026-10-23T15:22:03.140Z",
+      "statusAt": "2026-10-23T15:22:03.140Z"
     },
     {
       "subtasks": [],
