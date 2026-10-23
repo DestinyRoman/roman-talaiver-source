@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T16:43:19.229Z",
+  "updatedAt": "2026-10-23T16:44:11.387Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -186,7 +186,7 @@
     },
     {
       "subtasks": [],
-      "status": "review",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xnotm1",
       "title": "09/25 Closure",
@@ -200,12 +200,12 @@
       "canvasDue": "2026-09-29",
       "canvasTitle": "09/25 Closure",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T16:43:19.229Z",
-      "statusAt": "2026-10-23T16:43:19.229Z"
+      "updatedAt": "2026-10-23T16:43:44.029Z",
+      "statusAt": "2026-10-23T16:43:44.029Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xy6rf0",
       "title": "CW #10-Perpendicular Lines",
@@ -219,12 +219,12 @@
       "canvasDue": "2026-09-29",
       "canvasTitle": "CW #10-Perpendicular Lines",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:43:42.583Z",
+      "statusAt": "2026-10-23T16:43:42.583Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1x0kk7o",
       "title": "CW #10-Perpendicular Lines",
@@ -238,12 +238,12 @@
       "canvasDue": "2026-09-29",
       "canvasTitle": "CW #10-Perpendicular Lines",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:43:46.023Z",
+      "statusAt": "2026-10-23T16:43:46.023Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1x6vfy1",
       "title": "FORMATIVE- Allusion Research Slides",
@@ -257,12 +257,12 @@
       "canvasDue": "2026-09-30",
       "canvasTitle": "FORMATIVE- Allusion Research Slides",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:43:54.790Z",
+      "statusAt": "2026-10-23T16:43:54.790Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xawkrv",
       "title": "Unit 1 Reassessment: Points, Lines, Planes and Angles - (Wayground)",
@@ -276,12 +276,12 @@
       "canvasDue": "2026-09-30",
       "canvasTitle": "Unit 1 Reassessment: Points, Lines, Planes and Angles - (Wayground)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:43:56.680Z",
+      "statusAt": "2026-10-23T16:43:56.680Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "quiz",
       "id": "mvl45j1x8qptf",
       "title": "Quiz #2 Reassessment- Lessons 2-1 to 2-3 - (Wayground)",
@@ -295,12 +295,12 @@
       "canvasDue": "2026-10-02",
       "canvasTitle": "Quiz #2 Reassessment- Lessons 2-1 to 2-3 - (Wayground)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:44:03.449Z",
+      "statusAt": "2026-10-23T16:44:03.449Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xdrny5",
       "title": "Paises Hispanohablantes",
@@ -314,12 +314,12 @@
       "canvasDue": "2026-10-02",
       "canvasTitle": "Paises Hispanohablantes",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:44:05.219Z",
+      "statusAt": "2026-10-23T16:44:05.219Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1x5lmo1",
       "title": "Edpuzzle | Nombres, Edades y Nacionalidades",
@@ -333,12 +333,12 @@
       "canvasDue": "2026-10-02",
       "canvasTitle": "Edpuzzle | Nombres, Edades y Nacionalidades",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:44:01.701Z",
+      "statusAt": "2026-10-23T16:44:01.701Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xv2udw",
       "title": "Textbook Notes (The Ottoman Empire) (1B HMWH)",
@@ -352,12 +352,12 @@
       "canvasDue": "2026-10-02",
       "canvasTitle": "Textbook Notes (The Ottoman Empire) (1B HMWH)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:43:58.460Z",
+      "statusAt": "2026-10-23T16:43:58.460Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xljs2x",
       "title": "Crash Course: The Renaissance (1B HMWH)",
@@ -371,8 +371,8 @@
       "canvasDue": "2026-10-02",
       "canvasTitle": "Crash Course: The Renaissance (1B HMWH)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:43:59.959Z",
+      "statusAt": "2026-10-23T16:43:59.959Z"
     },
     {
       "subtasks": [],
@@ -414,7 +414,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xxsopw",
       "title": "10/01 Activity Theme Park Access",
@@ -428,8 +428,8 @@
       "canvasDue": "2026-10-05",
       "canvasTitle": "10/01 Activity Theme Park Access",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:44:07.167Z",
+      "statusAt": "2026-10-23T16:44:07.167Z"
     },
     {
       "subtasks": [],
@@ -471,7 +471,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xs6u77",
       "title": "CW #12-Transversals - (Wayground)",
@@ -485,8 +485,8 @@
       "canvasDue": "2026-10-05",
       "canvasTitle": "CW #12-Transversals - (Wayground)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:44:09.159Z",
+      "statusAt": "2026-10-23T16:44:09.159Z"
     },
     {
       "subtasks": [],
@@ -509,7 +509,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvl45j1xmkq6r",
       "title": "Edpuzzle | Tick-Tock-Tale-emotions & intention",
@@ -523,8 +523,8 @@
       "canvasDue": "2026-10-08",
       "canvasTitle": "Edpuzzle | Tick-Tock-Tale-emotions & intention",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:44:11.387Z",
+      "statusAt": "2026-10-23T16:44:11.387Z"
     },
     {
       "subtasks": [],
