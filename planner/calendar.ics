@@ -9,35 +9,35 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:mvl45j1xkkufn@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 TRANSP:TRANSPARENT
-SUMMARY:◐ HW: Lion Reflection Questions (P2-Honors Biology-Avery) (0403_13
- 102Y_Honors Biology-0012_2627)
-DESCRIPTION:Status: doing\nClass: 0403_13102Y_Honors Biology-0012_2627\nCh
- oose TWO of the four questions to answer based on the documentary series 
- Lion.  Your responses should include specific examples from the series an
- d make direct connections to what we have learned in class.  Each respons
- e should be 4-6 sentences in length.  You should use proper grammar\, cap
- italization and punctuation.  This is an individual assignment and the us
- e of AI on this assignment in prohibited.  \n\n* Adaptation & Survival\n\
- nThe documentary follows lions navigating threats like drought\, prey sca
- rcity\, and rival prides. What physical and behavioral adaptive traits do
-  lions have that help them survive in their environment\, and how do thes
- e traits reflect natural selection at work in real time?\n\n* Social Stru
- cture & Evolutionary Advantage\n\nLions are unique among big cats for liv
- ing in social groups. Based on what you observed\, why might group living
-  have evolved as an advantageous strategy for lions specifically\, and wh
- at biological trade-offs (downsides) come with living in close \nhttps://
- bcpss.instructure.com/calendar?include_contexts=course_46327&month=09&yea
- r=2026#assignment_2423018
+SUMMARY:HW: Lion Reflection Questions (P2-Honors Biology-Avery) (0403_1310
+ 2Y_Honors Biology-0012_2627)
+DESCRIPTION:Status: todo\nClass: 0403_13102Y_Honors Biology-0012_2627\nCho
+ ose TWO of the four questions to answer based on the documentary series L
+ ion.  Your responses should include specific examples from the series and
+  make direct connections to what we have learned in class.  Each response
+  should be 4-6 sentences in length.  You should use proper grammar\, capi
+ talization and punctuation.  This is an individual assignment and the use
+  of AI on this assignment in prohibited.  \n\n* Adaptation & Survival\n\n
+ The documentary follows lions navigating threats like drought\, prey scar
+ city\, and rival prides. What physical and behavioral adaptive traits do 
+ lions have that help them survive in their environment\, and how do these
+  traits reflect natural selection at work in real time?\n\n* Social Struc
+ ture & Evolutionary Advantage\n\nLions are unique among big cats for livi
+ ng in social groups. Based on what you observed\, why might group living 
+ have evolved as an advantageous strategy for lions specifically\, and wha
+ t biological trade-offs (downsides) come with living in close \nhttps://b
+ cpss.instructure.com/calendar?include_contexts=course_46327&month=09&year
+ =2026#assignment_2423018
 URL:https://bcpss.instructure.com/calendar?include_contexts=course_46327&m
  onth=09&year=2026#assignment_2423018
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xrajlr@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 TRANSP:TRANSPARENT
@@ -54,7 +54,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x8c12q@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 TRANSP:TRANSPARENT
@@ -68,7 +68,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xxx4q8@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 TRANSP:TRANSPARENT
@@ -82,7 +82,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xpe72e@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 TRANSP:TRANSPARENT
@@ -95,7 +95,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xbr9g0@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 TRANSP:TRANSPARENT
@@ -109,7 +109,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xum2om@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 TRANSP:TRANSPARENT
@@ -123,7 +123,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46327&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xnotm1@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 TRANSP:TRANSPARENT
@@ -140,7 +140,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xy6rf0@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 TRANSP:TRANSPARENT
@@ -155,7 +155,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x0kk7o@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 TRANSP:TRANSPARENT
@@ -171,7 +171,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x6vfy1@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 TRANSP:TRANSPARENT
@@ -188,7 +188,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45304&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xawkrv@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 TRANSP:TRANSPARENT
@@ -216,7 +216,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x8qptf@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 TRANSP:TRANSPARENT
@@ -244,7 +244,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xdrny5@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 TRANSP:TRANSPARENT
@@ -260,7 +260,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x5lmo1@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 TRANSP:TRANSPARENT
@@ -274,7 +274,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xv2udw@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 TRANSP:TRANSPARENT
@@ -289,7 +289,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45481&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xljs2x@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 TRANSP:TRANSPARENT
@@ -309,7 +309,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45481&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xgxit3@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 TRANSP:TRANSPARENT
@@ -334,7 +334,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46327&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x38p36@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 TRANSP:TRANSPARENT
@@ -347,7 +347,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xxsopw@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 TRANSP:TRANSPARENT
@@ -375,7 +375,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xwkcva@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 TRANSP:TRANSPARENT
@@ -391,7 +391,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x8653l@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 TRANSP:TRANSPARENT
@@ -406,7 +406,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xs6u77@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 TRANSP:TRANSPARENT
@@ -420,7 +420,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xsq8ps@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 TRANSP:TRANSPARENT
@@ -434,7 +434,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xmkq6r@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 TRANSP:TRANSPARENT
@@ -448,7 +448,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x0nux0@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 TRANSP:TRANSPARENT
@@ -462,7 +462,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xj4pdp@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 TRANSP:TRANSPARENT
@@ -476,7 +476,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46327&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xruj20@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 TRANSP:TRANSPARENT
@@ -489,7 +489,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xmqlo1@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 TRANSP:TRANSPARENT
@@ -502,7 +502,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xq066x@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 TRANSP:TRANSPARENT
@@ -515,7 +515,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xf4e4o@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 TRANSP:TRANSPARENT
@@ -529,7 +529,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x7z0ta@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 TRANSP:TRANSPARENT
@@ -557,7 +557,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xe131i@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 TRANSP:TRANSPARENT
@@ -572,7 +572,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xbt3r8@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 TRANSP:TRANSPARENT
@@ -586,7 +586,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x0exzv@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 TRANSP:TRANSPARENT
@@ -603,7 +603,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xepczu@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 TRANSP:TRANSPARENT
@@ -621,7 +621,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xlfj45@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 TRANSP:TRANSPARENT
@@ -641,7 +641,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x1i3n5@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 TRANSP:TRANSPARENT
@@ -657,7 +657,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45481&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xuhk7t@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 TRANSP:TRANSPARENT
@@ -671,7 +671,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x7akme@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 TRANSP:TRANSPARENT
@@ -684,7 +684,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x7k5bd@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 TRANSP:TRANSPARENT
@@ -697,7 +697,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xfc9k4@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 TRANSP:TRANSPARENT
@@ -715,7 +715,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46327&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1x3wijd@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 TRANSP:TRANSPARENT
@@ -732,7 +732,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46327&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvl45j1xlqjju@roman.talaiver.com
-DTSTAMP:20261023T152001Z
+DTSTAMP:20261023T152203Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 TRANSP:TRANSPARENT
