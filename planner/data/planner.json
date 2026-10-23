@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T16:52:11.133Z",
+  "updatedAt": "2026-10-23T17:44:19.016Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -902,6 +902,22 @@
       "createdAt": "2026-10-23T15:17:08.661Z",
       "updatedAt": "2026-10-23T16:48:04.026Z",
       "statusAt": "2026-10-23T16:48:04.026Z"
+    },
+    {
+      "id": "mvl9elrsb36m1",
+      "title": "Test",
+      "classId": "",
+      "type": "homework",
+      "due": "",
+      "dueTime": "",
+      "status": "turned_in",
+      "notes": "",
+      "link": "",
+      "subtasks": [],
+      "source": "manual",
+      "createdAt": "2026-10-23T17:44:10.168Z",
+      "statusAt": "2026-10-23T17:44:19.016Z",
+      "updatedAt": "2026-10-23T17:44:19.016Z"
     }
   ]
 }
