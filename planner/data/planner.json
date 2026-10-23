@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T15:28:04.994Z",
+  "updatedAt": "2026-10-23T16:42:09.586Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -52,12 +52,12 @@
   "tasks": [
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "doing",
       "type": "homework",
       "id": "mvl45j1xkkufn",
       "title": "Lion Reflection Questions (P2-Honors Biology-Avery)",
       "classId": "mvl45j1xzms1h",
-      "due": "2026-09-24",
+      "due": "2026-10-07",
       "dueTime": "",
       "notes": "Choose TWO of the four questions to answer based on the documentary series Lion.  Your responses should include specific examples from the series and make direct connections to what we have learned in class.  Each response should be 4-6 sentences in length.  You should use proper grammar, capitalization and punctuation.  This is an individual assignment and the use of AI on this assignment in prohibited.  \n\n* Adaptation & Survival\n\nThe documentary follows lions navigating threats like drought, prey scarcity, and rival prides. What physical and behavioral adaptive traits do lions have that help them survive in their environment, and how do these traits reflect natural selection at work in real time?\n\n* Social Structure & Evolutionary Advantage\n\nLions are unique among big cats for living in social groups. Based on what you observed, why might group living have evolved as an advantageous strategy for lions specifically, and what biological trade-offs (downsides) come with living in close ",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=09&year=2026#assignment_2423018",
@@ -66,8 +66,9 @@
       "canvasDue": "2026-09-24",
       "canvasTitle": "Lion Reflection Questions (P2-Honors Biology-Avery)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:28:04.994Z",
-      "statusAt": "2026-10-23T15:28:04.994Z"
+      "updatedAt": "2026-10-23T16:42:04.016Z",
+      "statusAt": "2026-10-23T16:41:52.256Z",
+      "dueOverridden": true
     },
     {
       "subtasks": [],
@@ -90,7 +91,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "review",
       "type": "homework",
       "id": "mvl45j1x8c12q",
       "title": "09/23 Closure",
@@ -104,12 +105,12 @@
       "canvasDue": "2026-09-25",
       "canvasTitle": "09/23 Closure",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:42:09.586Z",
+      "statusAt": "2026-10-23T16:42:09.586Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "doing",
       "type": "homework",
       "id": "mvl45j1xxx4q8",
       "title": "CW#9-Special Pairs of Angles - (Wayground)",
@@ -123,8 +124,8 @@
       "canvasDue": "2026-09-25",
       "canvasTitle": "CW#9-Special Pairs of Angles - (Wayground)",
       "createdAt": "2026-10-23T15:17:08.661Z",
-      "updatedAt": "2026-10-23T15:17:08.661Z",
-      "statusAt": "2026-10-23T15:17:08.661Z"
+      "updatedAt": "2026-10-23T16:42:08.112Z",
+      "statusAt": "2026-10-23T16:42:08.112Z"
     },
     {
       "subtasks": [],
