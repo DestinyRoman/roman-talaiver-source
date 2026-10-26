@@ -1,36 +1,6 @@
 {
-  "fetchedAt": "2026-10-25T06:08:23.522Z",
+  "fetchedAt": "2026-10-26T06:13:57.769Z",
   "items": [
-    {
-      "uid": "event-assignment-2423217",
-      "title": "09/23 Warm Up",
-      "course": "AP Computer Science Principles_SY26-27",
-      "due": "2026-09-25",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=09&year=2026#assignment_2423217",
-      "description": "*************************************************\n\"Follow the Values\" Don't guess. Be the computer!\n*************************************************\n\nAs discussed last class, work from the top down and keep track of each variable.\n\nscore ← 10\nbonus ← 5\nscore ← bonus\nbonus ← 20\n\n "
-    },
-    {
-      "uid": "event-assignment-2423353",
-      "title": "09/23 Closure",
-      "course": "AP Computer Science Principles_SY26-27",
-      "due": "2026-09-25",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=09&year=2026#assignment_2423353",
-      "description": "points ← 12\nbonus ← 3\npoints ← points + bonus\nbonus ← points"
-    },
-    {
-      "uid": "event-assignment-2425983",
-      "title": "CW#9-Special Pairs of Angles - (Wayground)",
-      "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
-      "due": "2026-09-25",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=09&year=2026#assignment_2425983",
-      "description": ""
-    },
     {
       "uid": "event-assignment-2426331",
       "title": "09/25 Warm Up",
