@@ -1,8 +1,8 @@
 {
-  "version": "0.6.1",
+  "version": "0.6.2",
   "bump": "patch",
   "date": "2026-10-26",
-  "committedAt": "2026-10-26T09:51:27-04:00",
-  "sha": "fa90db0",
-  "message": "fix: label card progress bar as \"Progress:\" so it isn't read as a grade"
+  "committedAt": "2026-10-26T13:09:03-04:00",
+  "sha": "08cfb8c",
+  "message": "fix: add hover explanations to card emoji indicators"
 }
