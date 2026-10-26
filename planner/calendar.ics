@@ -9,43 +9,44 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:mvpaw9oifl11w@roman.talaiver.com
-DTSTAMP:20261026T133658Z
+DTSTAMP:20261026T150521Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 TRANSP:TRANSPARENT
-SUMMARY:Classwork: CW #16-Angles of Polygons - (Wayground) (0403_11207Y_Ho
- n Ingenuity Proj Geometry-0001_2627)
-DESCRIPTION:Status: todo\nClass: 0403_11207Y_Hon Ingenuity Proj Geometry-0
- 001_2627\nhttps://bcpss.instructure.com/calendar?include_contexts=course_
- 45716&month=10&year=2026#assignment_2549071
+SUMMARY:✓ Classwork: CW #16-Angles of Polygons - (Wayground) (0403_11207Y_
+ Hon Ingenuity Proj Geometry-0001_2627)
+DESCRIPTION:Status: turned_in\nClass: 0403_11207Y_Hon Ingenuity Proj Geome
+ try-0001_2627\nhttps://bcpss.instructure.com/calendar?include_contexts=co
+ urse_45716&month=10&year=2026#assignment_2549071
 URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
  onth=10&year=2026#assignment_2549071
 END:VEVENT
 BEGIN:VEVENT
 UID:mvpaw9oien351@roman.talaiver.com
-DTSTAMP:20261026T133658Z
+DTSTAMP:20261026T150521Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 TRANSP:TRANSPARENT
-SUMMARY:HW: 10/26 Warm Up (AP Computer Science Principles_SY26-27)
-DESCRIPTION:Status: todo\nClass: AP Computer Science Principles_SY26-27\nR
- eview the previous lesson. Choose the best answer. Correct answers are bo
- lded in this teacher copy.\nhttps://bcpss.instructure.com/calendar?includ
- e_contexts=course_46019&month=10&year=2026#assignment_2548752
+SUMMARY:◐ HW: 10/26 Warm Up (AP Computer Science Principles_SY26-27)
+DESCRIPTION:Status: doing\nClass: AP Computer Science Principles_SY26-27\n
+ Review the previous lesson. Choose the best answer. Correct answers are b
+ olded in this teacher copy.\nhttps://bcpss.instructure.com/calendar?inclu
+ de_contexts=course_46019&month=10&year=2026#assignment_2548752
 URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
  onth=10&year=2026#assignment_2548752
 END:VEVENT
 BEGIN:VEVENT
 UID:mvpaw9oikt456@roman.talaiver.com
-DTSTAMP:20261026T133658Z
+DTSTAMP:20261026T150521Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 TRANSP:TRANSPARENT
-SUMMARY:HW: 10/26 Knowledge Check (AP Computer Science Principles_SY26-27)
-DESCRIPTION:Status: todo\nClass: AP Computer Science Principles_SY26-27\nP
- lease answer the following AP Style Questions\nhttps://bcpss.instructure.
- com/calendar?include_contexts=course_46019&month=10&year=2026#assignment_
- 2549131
+SUMMARY:◐ HW: 10/26 Knowledge Check (AP Computer Science Principles_SY26-2
+ 7)
+DESCRIPTION:Status: doing\nClass: AP Computer Science Principles_SY26-27\n
+ Please answer the following AP Style Questions\nhttps://bcpss.instructure
+ .com/calendar?include_contexts=course_46019&month=10&year=2026#assignment
+ _2549131
 URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
  onth=10&year=2026#assignment_2549131
 END:VEVENT
