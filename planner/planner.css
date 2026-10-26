@@ -289,7 +289,8 @@ input[type=color].swatch::-moz-color-swatch { border: none; border-radius: 999px
 }
 
 /* completion meter (red 0% -> orange -> yellow -> green 100%) */
-.meter { display: flex; align-items: center; gap: 8px; margin-top: 6px; }
+.meter-label { font-size: 11px; font-weight: 600; color: #94a3b8; margin-top: 6px; }
+.meter { display: flex; align-items: center; gap: 8px; margin-top: 2px; }
 .meter-track { flex: 1; height: 6px; border-radius: 6px; background: #1e293b; overflow: hidden; }
 .meter-fill { height: 100%; border-radius: 6px; min-width: 4px; transition: width .2s; }
 .meter-pct { font-size: 11px; font-weight: 700; min-width: 32px; text-align: right; }

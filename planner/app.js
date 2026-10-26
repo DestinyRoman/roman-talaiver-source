@@ -108,7 +108,7 @@ function percentDone(t) {
 const meterColor = (p) => `hsl(${Math.round(p * 1.2)}, 85%, 50%)`;
 function meterHtml(t) {
     const p = percentDone(t), c = meterColor(p);
-    return `<div class="meter" title="${p}% done"><div class="meter-track"><div class="meter-fill" style="width:${p}%;background:${c}"></div></div><span class="meter-pct" style="color:${c}">${p}%</span></div>`;
+    return `<div class="meter-label">Progress:</div><div class="meter" title="${p}% done (how far along the work is, not a grade)"><div class="meter-track"><div class="meter-fill" style="width:${p}%;background:${c}"></div></div><span class="meter-pct" style="color:${c}">${p}%</span></div>`;
 }
 
 // ---------- Merge (last writer wins per item) ----------
