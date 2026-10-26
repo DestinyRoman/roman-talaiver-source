@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-26T15:46:13.624Z",
+  "updatedAt": "2026-10-26T16:49:56.573Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1088,23 +1088,23 @@
       "source": "manual",
       "createdAt": "2026-10-26T15:11:26.705Z",
       "statusAt": "2026-10-26T15:18:58.177Z",
-      "updatedAt": "2026-10-26T15:20:27.496Z"
+      "updatedAt": "2026-10-26T16:49:56.573Z"
     },
     {
+      "subtasks": [],
+      "status": "todo",
+      "type": "homework",
       "id": "mvpfdmk371b1s",
       "title": "Quarter 1 Reflection Email",
       "classId": "mvl45j1x6h632",
-      "type": "homework",
-      "due": "",
+      "due": "2026-10-27",
       "dueTime": "",
-      "status": "todo",
       "notes": "Write a professional reflection email to Ms. Whittemore and mi padres",
       "link": "",
-      "subtasks": [],
       "source": "manual",
       "createdAt": "2026-10-26T15:42:26.931Z",
       "statusAt": "2026-10-26T15:46:05.097Z",
-      "updatedAt": "2026-10-26T15:46:05.098Z"
+      "updatedAt": "2026-10-26T16:49:46.420Z"
     }
   ]
 }
