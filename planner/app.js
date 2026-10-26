@@ -97,6 +97,19 @@ const tidyName = (n) => String(n || '')
     .replace(/_SY\d{2}-\d{2}$/, '')
     .trim() || String(n || '');
 const className = (c) => c ? tidyName(c.name) : '';
+// Completion %: Complete/Turned In = 100; otherwise the slider value; if never set, the share of steps ticked.
+function percentDone(t) {
+    if (DONE.has(t.status)) return 100;
+    if (typeof t.progress === 'number') return Math.max(0, Math.min(100, t.progress));
+    const subs = t.subtasks || [];
+    return subs.length ? Math.round(subs.filter(s => s.done).length / subs.length * 100) : 0;
+}
+// 0 red -> 25 orange -> 50 yellow -> 100 green
+const meterColor = (p) => `hsl(${Math.round(p * 1.2)}, 85%, 50%)`;
+function meterHtml(t) {
+    const p = percentDone(t), c = meterColor(p);
+    return `<div class="meter" title="${p}% done"><div class="meter-track"><div class="meter-fill" style="width:${p}%;background:${c}"></div></div><span class="meter-pct" style="color:${c}">${p}%</span></div>`;
+}
 
 // ---------- Merge (last writer wins per item) ----------
 function mergeList(a = [], b = []) {
@@ -409,7 +422,7 @@ function dueLabel(t) {
     if (!t.due) return '';
     const diff = daysBetween(todayStr(), t.due);
     const time = t.dueTime ? ' ' + fmtTime(t.dueTime) : '';
-    const done = DONE.has(t.status);
+    const done = t.status === 'turned_in';
     if (diff < 0) return `<span class="${done ? '' : 'due-over'}">${done ? parseYmd(t.due).toLocaleDateString([], { month: 'short', day: 'numeric' }) : `Overdue ${-diff}d`}</span>`;
     if (diff === 0) return `<span class="due-today">Today${time}</span>`;
     if (diff === 1) return `<span class="due-soon">Tomorrow${time}</span>`;
@@ -425,18 +438,18 @@ function taskCard(t) {
     const cls = classById(t.classId);
     const subs = t.subtasks || [];
     const doneSubs = subs.filter(s => s.done).length;
-    return `<div class="task ${DONE.has(t.status) ? 'done' : ''}" ${isPhone() ? '' : 'draggable="true"'} data-id="${t.id}" style="--c:${classColor(t.classId)}">
+    return `<div class="task ${t.status === 'turned_in' ? 'turned-in' : ''}" ${isPhone() ? '' : 'draggable="true"'} data-id="${t.id}" style="--c:${classColor(t.classId)}">
         <button class="card-move" data-move="${t.id}" title="Move or reschedule" aria-label="Move or reschedule">⋯</button>
         <div class="task-title">${esc(t.title)}</div>
+        ${meterHtml(t)}
         <div class="task-meta">
             <span class="badge ${t.type}">${esc(TYPES.find(x => x.id === t.type)?.label || t.type)}</span>
             ${cls ? `<span class="trunc">${esc(className(cls))}</span>` : ''}
             ${t.due ? `<span>·</span>${dueLabel(t)}` : ''}
             ${t.source === 'canvas' ? '<span title="From Canvas">🎓</span>' : ''}
             ${t.notes ? '<span title="Has notes">📝</span>' : ''}
-            ${subs.length ? `<span class="ml-auto">${doneSubs}/${subs.length}</span>` : ''}
+            ${subs.length ? `<span class="ml-auto" title="Steps done">☑ ${doneSubs}/${subs.length}</span>` : ''}
         </div>
-        ${subs.length ? `<div class="progress"><div style="width:${Math.round(doneSubs / subs.length * 100)}%"></div></div>` : ''}
     </div>`;
 }
 
@@ -577,7 +590,7 @@ function renderMonth() {
         if (i === 35 && d.getMonth() !== m.getMonth()) break;
         const list = sortTasks(tasks.filter(t => t.due === ds));
         if (isPhone()) {
-            const dots = list.slice(0, 6).map(t => `<span class="dot" style="background:${DONE.has(t.status) ? '#334155' : classColor(t.classId)}"></span>`).join('');
+            const dots = list.slice(0, 6).map(t => `<span class="dot" style="background:${t.status === 'turned_in' ? '#334155' : classColor(t.classId)}"></span>`).join('');
             cells += `<div class="mcell ${d.getMonth() !== m.getMonth() ? 'other' : ''} ${ds === today ? 'today' : ''} ${ds === ui.selectedDay ? 'sel' : ''}" data-date="${ds}" data-pick-day="${ds}">
                 <span class="n">${d.getDate()}</span>
                 <div class="mdots">${dots}${list.length > 6 ? '<span class="plus">+</span>' : ''}</div></div>`;
@@ -586,7 +599,7 @@ function renderMonth() {
         const shown = list.slice(0, 4);
         cells += `<div class="mcell ${d.getMonth() !== m.getMonth() ? 'other' : ''} ${ds === today ? 'today' : ''}" data-date="${ds}">
             <span class="n">${d.getDate()}</span>
-            ${shown.map(t => `<div class="pill ${DONE.has(t.status) ? 'done' : ''}" draggable="true" data-id="${t.id}" style="--c:${classColor(t.classId)}" title="${esc(t.title)}">${esc(t.title)}</div>`).join('')}
+            ${shown.map(t => `<div class="pill ${t.status === 'turned_in' ? 'turned-in' : ''}" draggable="true" data-id="${t.id}" style="--c:${classColor(t.classId)}" title="${esc(t.title)}">${esc(t.title)}</div>`).join('')}
             ${list.length > shown.length ? `<div class="more" data-goto-week="${ds}">+${list.length - shown.length} more</div>` : ''}
         </div>`;
     }
@@ -647,12 +660,12 @@ function openTask(id, preset = {}) {
     const f = $('#taskForm');
     fillClassSelect(f.classId, draft.classId);
     f.type.innerHTML = TYPES.map(t => `<option value="${t.id}">${t.label}</option>`).join('');
-    f.title.value = draft.title;
+    f.title.value = draft.title || '';
     f.type.value = draft.type;
-    f.due.value = draft.due;
-    f.dueTime.value = draft.dueTime;
-    f.link.value = draft.link;
-    f.notes.value = draft.notes;
+    f.due.value = draft.due || '';
+    f.dueTime.value = draft.dueTime || '';
+    f.link.value = draft.link || '';
+    f.notes.value = draft.notes || '';
     $('#taskDelete').classList.toggle('hidden', !existing);
     $('#taskMeta').textContent = existing
         ? `${draft.source === 'canvas' ? 'From Canvas · ' : ''}Created ${new Date(draft.createdAt).toLocaleDateString()}${draft.dueOverridden ? ' · due date changed from Canvas' : ''}`
@@ -671,6 +684,19 @@ function fillClassSelect(sel, value) {
 
 function renderStatusSeg() {
     $('#statusSeg').innerHTML = STATUSES.map(s => `<button type="button" data-status="${s.id}" class="${draft.status === s.id ? 'on' : ''}">${s.label}</button>`).join('');
+    renderProgress();
+}
+
+function renderProgress() {
+    const locked = DONE.has(draft.status);
+    const p = percentDone(draft);
+    const slider = $('#progressSlider');
+    slider.value = p;
+    slider.disabled = locked;
+    slider.style.setProperty('--slider', meterColor(p));
+    $('#progressLabel').textContent = `${p}%`;
+    $('#progressLabel').style.color = meterColor(p);
+    $('#progressHint').classList.toggle('hidden', !locked);
 }
 
 function renderSubtasks() {
@@ -678,6 +704,7 @@ function renderSubtasks() {
     $('#subtaskList').innerHTML = subs.map(s => `<li class="sub ${s.done ? 'done' : ''}" data-sid="${s.id}">
         <input type="checkbox" ${s.done ? 'checked' : ''}><span>${esc(s.text)}</span><button type="button" title="Remove">✕</button></li>`).join('');
     const d = subs.filter(s => s.done).length;
+    if (draft) renderProgress();
     $('#subProgress').textContent = subs.length ? `${d} of ${subs.length} done` : '';
 }
 
@@ -700,12 +727,14 @@ function saveDraft() {
     draft.due = f.due.value;
     draft.dueTime = f.dueTime.value;
     draft.link = f.link.value.trim();
+    if (draft.link && !/^[a-z][a-z0-9+.-]*:/i.test(draft.link)) draft.link = 'https://' + draft.link; // "docs.google.com/..." works too
     draft.notes = f.notes.value;
     if (prev && prev.status !== draft.status) draft.statusAt = nowIso();
+    const progressNote = prev && percentDone(prev) !== percentDone(draft) && !DONE.has(draft.status) ? ` (${percentDone(draft)}% done)` : '';
     if (isNew) draft.statusAt = nowIso();
     if (draft.source === 'canvas' && prev && prev.due !== draft.due) draft.dueOverridden = draft.due !== draft.canvasDue;
     ui.lastClass = draft.classId; saveUi();
-    upsertTask(draft, `${isNew ? 'add' : 'edit'} "${draft.title}"`);
+    upsertTask(draft, `${isNew ? 'add' : 'edit'} "${draft.title}"${progressNote}`);
     $('#taskModal').close();
 }
 
@@ -724,7 +753,24 @@ function openSettings() {
         : 'Canvas is not hooked up yet. Add the <code>CANVAS_ICS_URL</code> repo secret (see planner/README.md).';
     renderAccentPicker();
     renderClassList();
+    renderVersion();
     $('#settingsModal').showModal();
+}
+
+let appVersion = null;
+async function loadVersion() {
+    try {
+        const res = await fetch(`./version.json?t=${Date.now()}`, { cache: 'no-store' });
+        if (res.ok) appVersion = await res.json();
+    } catch { /* offline: leave blank */ }
+    renderVersion();
+}
+function renderVersion() {
+    const el = $('#appVersion'); if (!el) return;
+    if (!appVersion) { el.textContent = "Roman's Planner"; return; }
+    const d = parseYmd(appVersion.date).toLocaleDateString([], { month: 'short', day: 'numeric', year: 'numeric' });
+    el.innerHTML = `Roman's Planner <b>v${esc(appVersion.version)}</b> · updated ${esc(d)}`;
+    el.title = `${appVersion.sha || ''} ${appVersion.message || ''}`.trim();
 }
 
 function renderAccentPicker() {
@@ -761,6 +807,8 @@ function openMoveSheet(id) {
     $('#moveTitle').textContent = t.title;
     $('#moveStatuses').innerHTML = STATUSES.map(s => `<button type="button" class="sheet-btn ${t.status === s.id ? 'on' : ''}" data-status="${s.id}">${s.icon} ${s.label}</button>`).join('');
     $('#moveDate').value = t.due || '';
+    const p = percentDone(t), locked = DONE.has(t.status);
+    $('#moveProgress').innerHTML = [0, 25, 50, 75, 100].map(v => `<button type="button" class="sheet-btn ${p === v ? 'on' : ''}" data-progress="${v}" ${locked ? 'disabled style="opacity:.5"' : ''}>${v}%</button>`).join('');
     $('#moveSheet').showModal();
 }
 
@@ -910,6 +958,14 @@ function wire() {
         draft.status = s; renderStatusSeg();
     };
     $('#subtaskAdd').onclick = addSubtask;
+    $('#progressSlider').addEventListener('input', e => { draft.progress = +e.target.value; renderProgress(); });
+    $('#moveProgress').addEventListener('click', e => {
+        const b = e.target.closest('[data-progress]'); if (!b || b.disabled) return;
+        const t = data.tasks.find(x => x.id === moveId); if (!t) return;
+        t.progress = +b.dataset.progress;
+        $('#moveSheet').close();
+        upsertTask(t, `"${t.title}" ${t.progress}% done`);
+    });
     $('#subtaskInput').addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); addSubtask(); } });
     $('#subtaskList').onclick = e => {
         const li = e.target.closest('[data-sid]'); if (!li) return;
@@ -1042,4 +1098,5 @@ function wire() {
 wire();
 wireDnD();
 load();
+loadVersion();
 })();

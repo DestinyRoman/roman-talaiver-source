@@ -15,7 +15,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./planner.css?v=2026-10-26a">
+    <link rel="stylesheet" href="./planner.css?v=2026-10-26c">
 </head>
 <body class="bg-slate-950 text-slate-100 min-h-screen">
 
@@ -91,6 +91,15 @@
 
         <div>
             <div class="flex items-center justify-between mb-1">
+                <span class="field">How done is it?</span>
+                <span id="progressLabel" class="text-sm font-bold"></span>
+            </div>
+            <input id="progressSlider" type="range" min="0" max="100" step="5" class="progress-slider w-full">
+            <div id="progressHint" class="text-xs text-slate-500 mt-1 hidden">Complete and Turned In always count as 100%.</div>
+        </div>
+
+        <div>
+            <div class="flex items-center justify-between mb-1">
                 <span class="field">Steps</span>
                 <span id="subProgress" class="text-xs text-slate-500"></span>
             </div>
@@ -102,7 +111,7 @@
         </div>
 
         <label class="field block">Link
-            <input name="link" type="url" placeholder="https://..." class="input w-full">
+            <input name="link" type="text" inputmode="url" autocomplete="off" placeholder="https://..." class="input w-full">
         </label>
         <label class="field block">Notes
             <textarea name="notes" rows="3" class="input w-full"></textarea>
@@ -183,6 +192,8 @@
                 <label class="btn-ghost cursor-pointer">Import JSON<input id="importFile" type="file" accept=".json,application/json" class="hidden"></label>
             </div>
         </section>
+
+        <div id="appVersion" class="app-version"></div>
     </div>
 </dialog>
 
@@ -218,6 +229,8 @@
         <div id="moveTitle" class="font-semibold text-center px-2"></div>
         <div class="field">Move to</div>
         <div id="moveStatuses" class="sheet-grid"></div>
+        <div class="field">How done is it?</div>
+        <div id="moveProgress" class="sheet-grid five"></div>
         <div class="field">Due</div>
         <div class="sheet-grid three">
             <button type="button" class="sheet-btn" data-due="today">Today</button>
@@ -233,6 +246,6 @@
 
 <div id="toast" class="toast hidden"></div>
 
-<script src="./app.js?v=2026-10-26a"></script>
+<script src="./app.js?v=2026-10-26c"></script>
 </body>
 </html>

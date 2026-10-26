@@ -43,3 +43,17 @@ Google refreshes subscribed calendars on its own schedule, often every 8 to 24 h
 ## Heads up
 - `planner.json` and `canvas.json` are publicly readable on the site and in the repo, same as everything else here.
 - Every autosave is a commit, so `git log planner/data/planner.json` is the full history and any version can be restored.
+
+## Versioning
+
+The version at the bottom of Settings (`planner/version.json`) is rebuilt by the planner-sync Action
+from commits that change the app itself. Task saves, Canvas syncs, the calendar feed, this README and
+the Hermes notes never change it. The commit message prefix decides the bump:
+
+| Prefix | Bump | Use for |
+|---|---|---|
+| `major:` | 1.0.0 | Big milestone or a change in how the planner works overall |
+| `feat:` | 0.x.0 | New feature or a noticeable behavior change |
+| `fix:` (or anything else) | 0.0.x | Bug fixes, tweaks, styling, wording |
+
+Example: `feat: completion slider on tasks and cards`

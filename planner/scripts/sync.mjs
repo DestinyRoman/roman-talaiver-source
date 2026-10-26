@@ -4,6 +4,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { execSync } from 'node:child_process';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = join(ROOT, 'data');
@@ -118,7 +119,7 @@ function buildCalendar() {
         const cls = classes[t.classId];
         const subs = t.subtasks || [];
         const desc = [
-            `Status: ${t.status}`, t.dueTime ? `Due at ${t.dueTime}` : '', cls ? `Class: ${cls}` : '',
+            `Status: ${t.status}`, typeof t.progress === 'number' && !['complete', 'turned_in'].includes(t.status) ? `${t.progress}% done` : '', t.dueTime ? `Due at ${t.dueTime}` : '', cls ? `Class: ${cls}` : '',
             subs.length ? `Steps: ${subs.filter(s => s.done).length}/${subs.length} done` : '', t.notes || '', t.link || '',
         ].filter(Boolean).join('\n');
         lines.push('BEGIN:VEVENT', `UID:${t.id}@roman.talaiver.com`, `DTSTAMP:${stamp}`,
@@ -133,5 +134,41 @@ function buildCalendar() {
     console.log(`calendar.ics ${changed ? 'updated' : 'unchanged'}.`);
 }
 
+// ---------- App version ----------
+// Semantic version built from the commits that changed the app itself (task saves, Canvas syncs,
+// the calendar feed, README and Hermes notes don't count). Commit message prefix decides the bump:
+//   "major: ..." or "feat!: ..."  -> major  (x.0.0)
+//   "feat: ..."                   -> minor  (0.x.0, patch resets)
+//   anything else ("fix: ...")    -> patch  (0.0.x)
+const APP_PATHS = ['planner/index.html', 'planner/app.js', 'planner/planner.css', 'planner/manifest.webmanifest', 'planner/icons', 'planner/scripts'];
+// Features committed before the prefix convention existed.
+const LEGACY_FEATURES = ['90687df', 'c221aac', '3592193', 'ee4db1b', '76e6169'];
+const bumpFor = (sha, subject) =>
+    /^(major|feat!)(\(.*\))?:/i.test(subject) || /BREAKING CHANGE/.test(subject) ? 'major'
+    : /^feat(\(.*\))?:/i.test(subject) || LEGACY_FEATURES.some(x => sha.startsWith(x)) ? 'minor'
+    : 'patch';
+function writeVersion() {
+    try {
+        const repo = join(ROOT, '..');
+        const out = execSync(`git log --reverse --no-merges --format=%H%x09%cI%x09%s -- ${APP_PATHS.join(' ')}`, { cwd: repo, encoding: 'utf8' }).trim();
+        if (!out) return;
+        let [maj, min, pat] = [0, 0, 0], last, lastBump;
+        for (const line of out.split('\n')) {
+            const [sha, iso, ...rest] = line.split('\t');
+            const subject = rest.join('\t');
+            const bump = bumpFor(sha, subject);
+            if (bump === 'major') [maj, min, pat] = [maj + 1, 0, 0];
+            else if (bump === 'minor') [min, pat] = [min + 1, 0];
+            else pat++;
+            last = { sha: sha.slice(0, 7), iso, subject }; lastBump = bump;
+        }
+        const day = new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(last.iso));
+        const info = { version: `${maj}.${min}.${pat}`, bump: lastBump, date: day, committedAt: last.iso, sha: last.sha, message: last.subject };
+        const changed = writeIfChanged(join(ROOT, 'version.json'), JSON.stringify(info, null, 2) + '\n');
+        console.log(`version v${info.version} (${lastBump}, ${day}) ${changed ? 'updated' : 'unchanged'}.`);
+    } catch (e) { console.error('Version stamp skipped:', e.message); }
+}
+
 await syncCanvas();
 buildCalendar();
+writeVersion();

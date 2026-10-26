@@ -27,6 +27,7 @@ Never write to these files. Roman updates the planner himself at https://roman.t
   - `status`: todo | doing (In Progress) | review (In Review) | complete | turned_in
   - `due`: "YYYY-MM-DD". `dueTime`: "HH:MM" 24h, or "" meaning 11:59 PM.
   - `statusAt`: ISO time of the last status change.
+  - `progress`: 0-100, how done Roman says it is (may be missing). Complete/turned_in count as 100. A test or project due within 2 days at under 50% is worth a nudge.
   - **Skip any task with `deleted: true`.**
 
 ### canvas.json shape
