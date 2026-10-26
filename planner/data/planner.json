@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-26T16:49:56.573Z",
+  "updatedAt": "2026-10-26T16:53:01.060Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1092,7 +1092,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "doing",
       "type": "homework",
       "id": "mvpfdmk371b1s",
       "title": "Quarter 1 Reflection Email",
@@ -1103,8 +1103,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-10-26T15:42:26.931Z",
-      "statusAt": "2026-10-26T15:46:05.097Z",
-      "updatedAt": "2026-10-26T16:49:46.420Z"
+      "statusAt": "2026-10-26T16:53:01.060Z",
+      "updatedAt": "2026-10-26T16:53:01.060Z"
     }
   ]
 }
