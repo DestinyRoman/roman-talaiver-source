@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-26T15:20:27.496Z",
+  "updatedAt": "2026-10-26T15:20:42.658Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1044,14 +1044,14 @@
       "id": "mvpdzg3dufgxo",
       "title": "Seed Lab",
       "classId": "mvl45j1xzms1h",
-      "due": "",
+      "due": "2026-10-28",
       "dueTime": "",
       "notes": "Questions 9 and 10",
       "link": "",
       "source": "manual",
       "createdAt": "2026-10-26T15:03:25.753Z",
       "statusAt": "2026-10-26T15:05:06.759Z",
-      "updatedAt": "2026-10-26T15:05:06.759Z"
+      "updatedAt": "2026-10-26T15:20:42.658Z"
     },
     {
       "id": "mvpe9r74ejgyg",
