@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-26T13:36:50.621Z",
+  "fetchedAt": "2026-10-26T23:07:33.748Z",
   "items": [
     {
       "uid": "event-assignment-2426331",
@@ -110,6 +110,16 @@
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=10&year=2026#assignment_2454016",
       "description": ""
+    },
+    {
+      "uid": "event-assignment-2552858",
+      "title": "Quiz #3 Reassessment (Lessons 3-1 to 3-3) - (Wayground)",
+      "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
+      "due": "2026-10-02",
+      "dueTime": "15:00",
+      "type": "quiz",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=10&year=2026#assignment_2552858",
+      "description": "-----------------------------------------------\nQuiz #3 Reassessment Schedule (Lessons 3.1-3.3)\n-----------------------------------------------\n\n-----------------------------------------------------------------------------------------------------------\nThe reassessment schedule for Quiz #3  is on Thursday, October 27, 2026 during Parrot Time or after school.\n-----------------------------------------------------------------------------------------------------------\n\nTo be eligible, you have to satisfy the following conditions:\n\n1. You took the original assessment on time.\n\n2. You attended at least one Parrot Time before the reassessment date.\n\n3. You did the Reassessment Review and got at least 80%.\n\n4. You signed up for reassessment by filling out the Google Form (see link below).\n\n[Click here to access the Reassessment Sign-up Form] (https://docs.google.com/forms/d/e/1FAIpQLScEqysBcpzT2OMgT4Z90pcnU_NsUzzeKuqRn1Olr1Xn9EB6OA/viewform?usp=header)\n\nIf any condition is not satisfied, your "
     },
     {
       "uid": "event-assignment-override-57328",
