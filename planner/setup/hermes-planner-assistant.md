@@ -22,7 +22,8 @@ Never write to these files. Roman updates the planner himself at https://roman.t
 ### planner.json shape
 - `classes[]`: `{ id, name, canvasCourse, color }`. Use a short friendly class name (e.g. "0403_13102Y_Honors Biology-0012_2627" -> "Honors Bio", "Hon. MWH" -> "World History", "AP Computer Science Principles_SY26-27" -> "AP CSP").
 - `tasks[]`: `{ id, title, classId, type, status, due, dueTime, statusAt, deleted, link, subtasks, canvasUid }`
-  - `type`: homework | quiz | test | project | reading
+  - `type`: homework | quiz | test | project | reading | formative | summative | classwork | participation | other
+    - Treat `summative` like a test (big, give a countdown). Treat `formative` like a quiz.
   - `status`: todo | doing (In Progress) | review (In Review) | complete | turned_in
   - `due`: "YYYY-MM-DD". `dueTime`: "HH:MM" 24h, or "" meaning 11:59 PM.
   - `statusAt`: ISO time of the last status change.

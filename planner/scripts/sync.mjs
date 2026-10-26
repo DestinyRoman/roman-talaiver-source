@@ -54,6 +54,10 @@ function icsDate(prop) {
 
 function guessType(title) {
     const t = title.toLowerCase();
+    if (/summative/.test(t)) return 'summative';
+    if (/formative/.test(t)) return 'formative';
+    if (/participation/.test(t)) return 'participation';
+    if (/classwork|\bcw\s*#?\d/.test(t)) return 'classwork';
     if (/\b(test|exam|midterm|final)\b/.test(t)) return 'test';
     if (/\bquiz/.test(t)) return 'quiz';
     if (/\bproject|essay|presentation|lab report\b/.test(t)) return 'project';
@@ -99,7 +103,7 @@ async function syncCanvas() {
 // ---------- ICS output ----------
 const icsEscape = (s) => String(s || '').replace(/\\/g, '\\\\').replace(/\n/g, '\\n').replace(/([,;])/g, '\\$1');
 const fold = (line) => { const out = []; while (line.length > 74) { out.push(line.slice(0, 74)); line = ' ' + line.slice(74); } out.push(line); return out.join('\r\n'); };
-const LABEL = { homework: 'HW', quiz: 'Quiz', test: 'TEST', project: 'Project', reading: 'Reading', other: 'Task' };
+const LABEL = { homework: 'HW', quiz: 'Quiz', test: 'TEST', project: 'Project', reading: 'Reading', formative: 'Formative', summative: 'SUMMATIVE', classwork: 'Classwork', participation: 'Participation', other: 'Task' };
 const STATUS = { todo: '', doing: '◐ ', review: '◎ ', complete: '● ', turned_in: '✓ ' };
 
 function buildCalendar() {

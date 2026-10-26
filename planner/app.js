@@ -21,6 +21,10 @@ const TYPES = [
     { id: 'test',     label: 'Test' },
     { id: 'project',  label: 'Project' },
     { id: 'reading',  label: 'Reading' },
+    { id: 'formative', label: 'Formative' },
+    { id: 'summative', label: 'Summative' },
+    { id: 'classwork', label: 'Classwork' },
+    { id: 'participation', label: 'Participation' },
     { id: 'other',    label: 'Other' },
 ];
 const ACCENTS = ['#3b82f6', '#8b5cf6', '#10b981', '#f59e0b', '#f43f5e', '#06b6d4', '#f97316', '#84cc16', '#ec4899'];
@@ -286,6 +290,10 @@ function pruneTombstones() {
 // ---------- Canvas merge ----------
 function guessType(title) {
     const t = title.toLowerCase();
+    if (/summative/.test(t)) return 'summative';
+    if (/formative/.test(t)) return 'formative';
+    if (/participation/.test(t)) return 'participation';
+    if (/classwork|\bcw\s*#?\d/.test(t)) return 'classwork';
     if (/\b(test|exam|midterm|final)\b/.test(t)) return 'test';
     if (/\bquiz/.test(t)) return 'quiz';
     if (/\bproject|essay|presentation|lab report\b/.test(t)) return 'project';
@@ -438,7 +446,7 @@ function renderStats() {
     const overdue = open.filter(t => t.due && t.due < today).length;
     const dueToday = open.filter(t => t.due === today).length;
     const week = open.filter(t => t.due && t.due > today && daysBetween(today, t.due) <= 7).length;
-    const tests = open.filter(t => (t.type === 'test' || t.type === 'quiz') && t.due && t.due >= today && daysBetween(today, t.due) <= 7).length;
+    const tests = open.filter(t => ['test', 'quiz', 'summative', 'formative'].includes(t.type) && t.due && t.due >= today && daysBetween(today, t.due) <= 7).length;
     $('#stats').innerHTML = `
         <span class="stat ${overdue ? 'bad' : ''}"><b>${overdue}</b> overdue</span>
         <span class="stat ${dueToday ? 'warn' : ''}"><b>${dueToday}</b> due today</span>

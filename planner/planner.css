@@ -67,6 +67,10 @@ button { background: none; border: 0; color: inherit; font: inherit; cursor: poi
 .badge.quiz { background: #3b2a06; color: #fcd34d; }
 .badge.test { background: #3f0d14; color: #fca5a5; }
 .badge.project { background: #2a1450; color: #c4b5fd; }
+.badge.formative { background: #0b3b2e; color: #6ee7b7; }
+.badge.summative { background: #3f0d2a; color: #f9a8d4; }
+.badge.classwork { background: #1e293b; color: #a5b4fc; }
+.badge.participation { background: #2b2a0b; color: #fde68a; }
 .badge.homework { background: #0c2a3f; color: #7dd3fc; }
 .due-over { color: #f87171; font-weight: 700; }
 .due-today { color: #fbbf24; font-weight: 700; }
