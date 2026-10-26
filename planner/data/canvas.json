@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-26T06:13:57.769Z",
+  "fetchedAt": "2026-10-26T11:29:39.536Z",
   "items": [
     {
       "uid": "event-assignment-2426331",
@@ -47,7 +47,7 @@
       "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
       "due": "2026-09-29",
       "dueTime": "",
-      "type": "homework",
+      "type": "classwork",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=09&year=2026#assignment_2429509",
       "description": "[2-5 CW-Perpendicular Lines.pdf] (https://bcpss.instructure.com/courses/45716/files/14607494?wrap=1)"
     },
@@ -57,7 +57,7 @@
       "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
       "due": "2026-09-29",
       "dueTime": "",
-      "type": "homework",
+      "type": "classwork",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=09&year=2026#assignment_2431542",
       "description": "[2-5 CW-Perpendicular Lines-1.pdf] (https://bcpss.instructure.com/courses/45716/files/14616565?wrap=1)"
     },
@@ -67,7 +67,7 @@
       "course": "0403_08105Y_Honors English I-0003_2627",
       "due": "2026-09-30",
       "dueTime": "08:00",
-      "type": "homework",
+      "type": "formative",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45304&month=09&year=2026#assignment_2426916",
       "description": "[Allusion Research Slides] (https://docs.google.com/presentation/d/1la-2UYWqVd2LL_NJV4U5qkp1QX2ngTBLcTuxVoNewJE/edit?usp=sharing)  <----The shared slide deck for you all to place your work. DO NOT CHANGE TEMPLATE OR MOVE SLIDES AROUND!"
     },
@@ -177,7 +177,7 @@
       "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
       "due": "2026-10-05",
       "dueTime": "",
-      "type": "homework",
+      "type": "classwork",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=10&year=2026#assignment_2450969",
       "description": "[2-6 CW-Planning a Proof.pdf] (https://bcpss.instructure.com/courses/45716/files/14652688?wrap=1)"
     },
@@ -187,7 +187,7 @@
       "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
       "due": "2026-10-05",
       "dueTime": "",
-      "type": "homework",
+      "type": "classwork",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=10&year=2026#assignment_2454128",
       "description": ""
     },
@@ -217,7 +217,7 @@
       "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
       "due": "2026-10-09",
       "dueTime": "",
-      "type": "homework",
+      "type": "classwork",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=10&year=2026#assignment_2460147",
       "description": ""
     },
@@ -267,7 +267,7 @@
       "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
       "due": "2026-10-13",
       "dueTime": "",
-      "type": "homework",
+      "type": "classwork",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=10&year=2026#assignment_2463776",
       "description": ""
     },
@@ -347,7 +347,7 @@
       "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
       "due": "2026-10-20",
       "dueTime": "",
-      "type": "homework",
+      "type": "classwork",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=10&year=2026#assignment_2495095",
       "description": ""
     },
