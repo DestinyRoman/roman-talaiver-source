@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-26T16:54:24.643Z",
+  "updatedAt": "2026-10-26T19:21:57.440Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1104,7 +1104,8 @@
       "source": "manual",
       "createdAt": "2026-10-26T15:42:26.931Z",
       "statusAt": "2026-10-26T16:53:01.060Z",
-      "updatedAt": "2026-10-26T16:53:01.060Z"
+      "updatedAt": "2026-10-26T19:21:57.440Z",
+      "progress": 5
     }
   ]
 }
