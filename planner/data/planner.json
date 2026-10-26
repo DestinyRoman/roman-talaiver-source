@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-26T15:19:26.233Z",
+  "updatedAt": "2026-10-26T15:20:27.496Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1058,7 +1058,7 @@
       "title": "Quiz on Verbs, Verb Phrases, and Adverbs",
       "classId": "mvl45j1xzms1h",
       "type": "quiz",
-      "due": "",
+      "due": "2026-10-29",
       "dueTime": "",
       "status": "todo",
       "notes": "",
@@ -1088,7 +1088,7 @@
       "source": "manual",
       "createdAt": "2026-10-26T15:11:26.705Z",
       "statusAt": "2026-10-26T15:18:58.177Z",
-      "updatedAt": "2026-10-26T15:18:58.177Z"
+      "updatedAt": "2026-10-26T15:20:27.496Z"
     }
   ]
 }
