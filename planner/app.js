@@ -446,9 +446,9 @@ function taskCard(t) {
             <span class="badge ${t.type}">${esc(TYPES.find(x => x.id === t.type)?.label || t.type)}</span>
             ${cls ? `<span class="trunc">${esc(className(cls))}</span>` : ''}
             ${t.due ? `<span>·</span>${dueLabel(t)}` : ''}
-            ${t.source === 'canvas' ? '<span title="From Canvas">🎓</span>' : ''}
-            ${t.notes ? '<span title="Has notes">📝</span>' : ''}
-            ${subs.length ? `<span class="ml-auto" title="Steps done">☑ ${doneSubs}/${subs.length}</span>` : ''}
+            ${t.source === 'canvas' ? '<span class="hint" title="From Canvas: this assignment was pulled in from your Canvas calendar" aria-label="From Canvas">🎓</span>' : ''}
+            ${t.notes ? '<span class="hint" title="Has notes: open the task to read them (Canvas items often include the teacher\'s instructions)" aria-label="Has notes">📝</span>' : ''}
+            ${subs.length ? `<span class="ml-auto hint" title="Steps: ${doneSubs} of ${subs.length} checklist steps done" aria-label="${doneSubs} of ${subs.length} steps done">☑ ${doneSubs}/${subs.length}</span>` : ''}
         </div>
     </div>`;
 }
