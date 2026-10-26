@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-26T15:20:42.658Z",
+  "updatedAt": "2026-10-26T15:46:13.624Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1020,7 +1020,7 @@
     },
     {
       "subtasks": [],
-      "status": "doing",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvpaw9oikt456",
       "title": "10/26 Knowledge Check",
@@ -1034,8 +1034,8 @@
       "canvasDue": "2026-10-27",
       "canvasTitle": "10/26 Knowledge Check",
       "createdAt": "2026-10-26T13:36:58.626Z",
-      "updatedAt": "2026-10-26T15:05:19.938Z",
-      "statusAt": "2026-10-26T15:05:19.938Z"
+      "updatedAt": "2026-10-26T15:46:13.624Z",
+      "statusAt": "2026-10-26T15:46:13.624Z"
     },
     {
       "subtasks": [],
@@ -1054,15 +1054,6 @@
       "updatedAt": "2026-10-26T15:20:42.658Z"
     },
     {
-      "id": "mvpe9r74ejgyg",
-      "title": "Quiz on Verbs, Verb Phrases, and Adverbs",
-      "classId": "mvl45j1xzms1h",
-      "type": "quiz",
-      "due": "2026-10-29",
-      "dueTime": "",
-      "status": "todo",
-      "notes": "",
-      "link": "",
       "subtasks": [
         {
           "id": "mvpeildjcic3q",
@@ -1085,10 +1076,35 @@
           "done": false
         }
       ],
+      "status": "todo",
+      "type": "quiz",
+      "id": "mvpe9r74ejgyg",
+      "title": "Quiz on Verbs, Verb Phrases, and Adverbs",
+      "classId": "mvl45j1xzms1h",
+      "due": "2026-10-29",
+      "dueTime": "",
+      "notes": "",
+      "link": "",
       "source": "manual",
       "createdAt": "2026-10-26T15:11:26.705Z",
       "statusAt": "2026-10-26T15:18:58.177Z",
       "updatedAt": "2026-10-26T15:20:27.496Z"
+    },
+    {
+      "id": "mvpfdmk371b1s",
+      "title": "Quarter 1 Reflection Email",
+      "classId": "mvl45j1x6h632",
+      "type": "homework",
+      "due": "",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "Write a professional reflection email to Ms. Whittemore and mi padres",
+      "link": "",
+      "subtasks": [],
+      "source": "manual",
+      "createdAt": "2026-10-26T15:42:26.931Z",
+      "statusAt": "2026-10-26T15:46:05.097Z",
+      "updatedAt": "2026-10-26T15:46:05.098Z"
     }
   ]
 }
