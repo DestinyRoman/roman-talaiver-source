@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-26T13:36:58.626Z",
+  "updatedAt": "2026-10-26T15:05:21.844Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -981,61 +981,77 @@
       "updatedAt": "2026-10-26T11:29:08.269Z"
     },
     {
+      "subtasks": [],
+      "status": "turned_in",
+      "type": "classwork",
       "id": "mvpaw9oifl11w",
       "title": "CW #16-Angles of Polygons - (Wayground)",
       "classId": "mvl45j1x0d9rx",
-      "type": "classwork",
       "due": "2026-10-26",
       "dueTime": "",
-      "status": "todo",
       "notes": "",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=10&year=2026#assignment_2549071",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-2549071",
       "canvasDue": "2026-10-26",
       "canvasTitle": "CW #16-Angles of Polygons - (Wayground)",
       "createdAt": "2026-10-26T13:36:58.626Z",
-      "updatedAt": "2026-10-26T13:36:58.626Z",
-      "statusAt": "2026-10-26T13:36:58.626Z"
+      "updatedAt": "2026-10-26T15:05:15.056Z",
+      "statusAt": "2026-10-26T15:05:15.056Z"
     },
     {
+      "subtasks": [],
+      "status": "doing",
+      "type": "homework",
       "id": "mvpaw9oien351",
       "title": "10/26 Warm Up",
       "classId": "mvl45j1x6najw",
-      "type": "homework",
       "due": "2026-10-27",
       "dueTime": "",
-      "status": "todo",
       "notes": "Review the previous lesson. Choose the best answer. Correct answers are bolded in this teacher copy.",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=10&year=2026#assignment_2548752",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-2548752",
       "canvasDue": "2026-10-27",
       "canvasTitle": "10/26 Warm Up",
       "createdAt": "2026-10-26T13:36:58.626Z",
-      "updatedAt": "2026-10-26T13:36:58.626Z",
-      "statusAt": "2026-10-26T13:36:58.626Z"
+      "updatedAt": "2026-10-26T15:05:21.844Z",
+      "statusAt": "2026-10-26T15:05:21.844Z"
     },
     {
+      "subtasks": [],
+      "status": "doing",
+      "type": "homework",
       "id": "mvpaw9oikt456",
       "title": "10/26 Knowledge Check",
       "classId": "mvl45j1x6najw",
-      "type": "homework",
       "due": "2026-10-27",
       "dueTime": "",
-      "status": "todo",
       "notes": "Please answer the following AP Style Questions",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=10&year=2026#assignment_2549131",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-2549131",
       "canvasDue": "2026-10-27",
       "canvasTitle": "10/26 Knowledge Check",
       "createdAt": "2026-10-26T13:36:58.626Z",
-      "updatedAt": "2026-10-26T13:36:58.626Z",
-      "statusAt": "2026-10-26T13:36:58.626Z"
+      "updatedAt": "2026-10-26T15:05:19.938Z",
+      "statusAt": "2026-10-26T15:05:19.938Z"
+    },
+    {
+      "id": "mvpdzg3dufgxo",
+      "title": "Seed Lab",
+      "classId": "mvl45j1xzms1h",
+      "type": "homework",
+      "due": "",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "Questions 9 and 10",
+      "link": "",
+      "subtasks": [],
+      "source": "manual",
+      "createdAt": "2026-10-26T15:03:25.753Z",
+      "statusAt": "2026-10-26T15:05:06.759Z",
+      "updatedAt": "2026-10-26T15:05:06.759Z"
     }
   ]
 }
