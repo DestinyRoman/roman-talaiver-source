@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-26T16:53:01.060Z",
+  "updatedAt": "2026-10-26T16:53:36.081Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -971,14 +971,14 @@
       "id": "mvoiu5jiwyo8e",
       "title": "Graph and Analysis Questions",
       "classId": "mvl45j1xzms1h",
-      "due": "",
+      "due": "2026-10-26",
       "dueTime": "",
       "notes": "",
       "link": "",
       "source": "manual",
       "createdAt": "2026-10-26T00:31:30.702Z",
       "statusAt": "2026-10-26T15:05:41.724Z",
-      "updatedAt": "2026-10-26T15:05:41.724Z"
+      "updatedAt": "2026-10-26T16:53:36.081Z"
     },
     {
       "subtasks": [],
