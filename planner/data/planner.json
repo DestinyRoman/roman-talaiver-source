@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-26T15:05:21.844Z",
+  "updatedAt": "2026-10-26T15:05:41.724Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -966,7 +966,7 @@
     },
     {
       "subtasks": [],
-      "status": "complete",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvoiu5jiwyo8e",
       "title": "Graph and Analysis Questions",
@@ -977,8 +977,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-10-26T00:31:30.702Z",
-      "statusAt": "2026-10-26T11:29:08.269Z",
-      "updatedAt": "2026-10-26T11:29:08.269Z"
+      "statusAt": "2026-10-26T15:05:41.724Z",
+      "updatedAt": "2026-10-26T15:05:41.724Z"
     },
     {
       "subtasks": [],
