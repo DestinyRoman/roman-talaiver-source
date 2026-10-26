@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-26T11:29:39.536Z",
+  "fetchedAt": "2026-10-26T13:36:50.621Z",
   "items": [
     {
       "uid": "event-assignment-2426331",
@@ -400,6 +400,36 @@
       "type": "quiz",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=10&year=2026#assignment_2543470",
       "description": ""
+    },
+    {
+      "uid": "event-assignment-2549071",
+      "title": "CW #16-Angles of Polygons - (Wayground)",
+      "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
+      "due": "2026-10-26",
+      "dueTime": "",
+      "type": "classwork",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=10&year=2026#assignment_2549071",
+      "description": ""
+    },
+    {
+      "uid": "event-assignment-2548752",
+      "title": "10/26 Warm Up",
+      "course": "AP Computer Science Principles_SY26-27",
+      "due": "2026-10-27",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=10&year=2026#assignment_2548752",
+      "description": "Review the previous lesson. Choose the best answer. Correct answers are bolded in this teacher copy."
+    },
+    {
+      "uid": "event-assignment-2549131",
+      "title": "10/26 Knowledge Check",
+      "course": "AP Computer Science Principles_SY26-27",
+      "due": "2026-10-27",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=10&year=2026#assignment_2549131",
+      "description": "Please answer the following AP Style Questions"
     }
   ]
 }

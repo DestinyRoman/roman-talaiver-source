@@ -1,8 +1,8 @@
 {
-  "version": "0.5.0",
+  "version": "0.6.0",
   "bump": "minor",
   "date": "2026-10-26",
-  "committedAt": "2026-10-26T06:52:56-04:00",
-  "sha": "76e6169",
-  "message": "types addtiion"
+  "committedAt": "2026-10-26T09:36:34-04:00",
+  "sha": "7d45ba6",
+  "message": "feat: task completion slider, color progress bars, version stamp"
 }
