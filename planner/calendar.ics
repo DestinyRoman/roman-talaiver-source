@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:mvpaw9oifl11w@roman.talaiver.com
-DTSTAMP:20261026T152042Z
+DTSTAMP:20261026T154613Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 TRANSP:TRANSPARENT
@@ -23,7 +23,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvpaw9oien351@roman.talaiver.com
-DTSTAMP:20261026T152042Z
+DTSTAMP:20261026T154613Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 TRANSP:TRANSPARENT
@@ -37,22 +37,22 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvpaw9oikt456@roman.talaiver.com
-DTSTAMP:20261026T152042Z
+DTSTAMP:20261026T154613Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 TRANSP:TRANSPARENT
-SUMMARY:◐ HW: 10/26 Knowledge Check (AP Computer Science Principles_SY26-2
+SUMMARY:✓ HW: 10/26 Knowledge Check (AP Computer Science Principles_SY26-2
  7)
-DESCRIPTION:Status: doing\nClass: AP Computer Science Principles_SY26-27\n
- Please answer the following AP Style Questions\nhttps://bcpss.instructure
- .com/calendar?include_contexts=course_46019&month=10&year=2026#assignment
- _2549131
+DESCRIPTION:Status: turned_in\nClass: AP Computer Science Principles_SY26-
+ 27\nPlease answer the following AP Style Questions\nhttps://bcpss.instruc
+ ture.com/calendar?include_contexts=course_46019&month=10&year=2026#assign
+ ment_2549131
 URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
  onth=10&year=2026#assignment_2549131
 END:VEVENT
 BEGIN:VEVENT
 UID:mvpdzg3dufgxo@roman.talaiver.com
-DTSTAMP:20261026T152042Z
+DTSTAMP:20261026T154613Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 TRANSP:TRANSPARENT
@@ -62,7 +62,7 @@ DESCRIPTION:Status: todo\nClass: 0403_13102Y_Honors Biology-0012_2627\nQue
 END:VEVENT
 BEGIN:VEVENT
 UID:mvpe9r74ejgyg@roman.talaiver.com
-DTSTAMP:20261026T152042Z
+DTSTAMP:20261026T154613Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 TRANSP:TRANSPARENT
