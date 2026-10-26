@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-26T00:32:19.700Z",
+  "updatedAt": "2026-10-26T11:29:08.269Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -965,20 +965,20 @@
       "deleted": true
     },
     {
+      "subtasks": [],
+      "status": "complete",
+      "type": "homework",
       "id": "mvoiu5jiwyo8e",
       "title": "Graph and Analysis Questions",
       "classId": "mvl45j1xzms1h",
-      "type": "homework",
       "due": "",
       "dueTime": "",
-      "status": "turned_in",
       "notes": "",
       "link": "",
-      "subtasks": [],
       "source": "manual",
       "createdAt": "2026-10-26T00:31:30.702Z",
-      "statusAt": "2026-10-26T00:32:19.699Z",
-      "updatedAt": "2026-10-26T00:32:19.700Z"
+      "statusAt": "2026-10-26T11:29:08.269Z",
+      "updatedAt": "2026-10-26T11:29:08.269Z"
     }
   ]
 }
