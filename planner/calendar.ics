@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:mvpaw9oifl11w@roman.talaiver.com
-DTSTAMP:20261026T151858Z
+DTSTAMP:20261026T151926Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 TRANSP:TRANSPARENT
@@ -23,21 +23,21 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvpaw9oien351@roman.talaiver.com
-DTSTAMP:20261026T151858Z
+DTSTAMP:20261026T151926Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 TRANSP:TRANSPARENT
-SUMMARY:◐ HW: 10/26 Warm Up (AP Computer Science Principles_SY26-27)
-DESCRIPTION:Status: doing\nClass: AP Computer Science Principles_SY26-27\n
- Review the previous lesson. Choose the best answer. Correct answers are b
- olded in this teacher copy.\nhttps://bcpss.instructure.com/calendar?inclu
- de_contexts=course_46019&month=10&year=2026#assignment_2548752
+SUMMARY:✓ HW: 10/26 Warm Up (AP Computer Science Principles_SY26-27)
+DESCRIPTION:Status: turned_in\nClass: AP Computer Science Principles_SY26-
+ 27\nReview the previous lesson. Choose the best answer. Correct answers a
+ re bolded in this teacher copy.\nhttps://bcpss.instructure.com/calendar?i
+ nclude_contexts=course_46019&month=10&year=2026#assignment_2548752
 URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
  onth=10&year=2026#assignment_2548752
 END:VEVENT
 BEGIN:VEVENT
 UID:mvpaw9oikt456@roman.talaiver.com
-DTSTAMP:20261026T151858Z
+DTSTAMP:20261026T151926Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 TRANSP:TRANSPARENT
