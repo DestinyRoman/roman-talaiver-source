@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-26T19:59:24.326Z",
+  "updatedAt": "2026-10-27T12:52:16.765Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1108,20 +1108,39 @@
       "progress": 5
     },
     {
+      "subtasks": [],
+      "status": "todo",
+      "type": "other",
       "id": "mvpofu9wiqype",
       "title": "Ask Ms. Scurry about Panel Analysis",
       "classId": "mvl45j1x8faki",
-      "type": "other",
       "due": "",
       "dueTime": "",
-      "status": "todo",
       "notes": "Panel Analysis 1-4 and go to parrot time?",
       "link": "",
-      "subtasks": [],
       "source": "manual",
       "createdAt": "2026-10-26T19:56:06.789Z",
       "statusAt": "2026-10-26T19:59:24.325Z",
       "updatedAt": "2026-10-26T19:59:24.325Z"
+    },
+    {
+      "id": "mvqoqn0clnqyu",
+      "title": "Quiz #3 Reassessment (Lessons 3-1 to 3-3) - (Wayground)",
+      "classId": "mvl45j1x0d9rx",
+      "type": "quiz",
+      "due": "2026-10-02",
+      "dueTime": "15:00",
+      "status": "todo",
+      "notes": "-----------------------------------------------\nQuiz #3 Reassessment Schedule (Lessons 3.1-3.3)\n-----------------------------------------------\n\n-----------------------------------------------------------------------------------------------------------\nThe reassessment schedule for Quiz #3  is on Thursday, October 27, 2026 during Parrot Time or after school.\n-----------------------------------------------------------------------------------------------------------\n\nTo be eligible, you have to satisfy the following conditions:\n\n1. You took the original assessment on time.\n\n2. You attended at least one Parrot Time before the reassessment date.\n\n3. You did the Reassessment Review and got at least 80%.\n\n4. You signed up for reassessment by filling out the Google Form (see link below).\n\n[Click here to access the Reassessment Sign-up Form] (https://docs.google.com/forms/d/e/1FAIpQLScEqysBcpzT2OMgT4Z90pcnU_NsUzzeKuqRn1Olr1Xn9EB6OA/viewform?usp=header)\n\nIf any condition is not satisfied, your ",
+      "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=10&year=2026#assignment_2552858",
+      "subtasks": [],
+      "source": "canvas",
+      "canvasUid": "event-assignment-2552858",
+      "canvasDue": "2026-10-02",
+      "canvasTitle": "Quiz #3 Reassessment (Lessons 3-1 to 3-3) - (Wayground)",
+      "createdAt": "2026-10-27T12:52:16.764Z",
+      "updatedAt": "2026-10-27T12:52:16.764Z",
+      "statusAt": "2026-10-27T12:52:16.764Z"
     }
   ]
 }
