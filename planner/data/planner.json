@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-27T20:57:16.392Z",
+  "updatedAt": "2026-10-27T20:57:51.259Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1109,7 +1109,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "other",
       "id": "mvpofu9wiqype",
       "title": "Ask Ms. Scurry about Panel Analysis",
@@ -1120,8 +1120,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-10-26T19:56:06.789Z",
-      "statusAt": "2026-10-26T19:59:24.325Z",
-      "updatedAt": "2026-10-26T19:59:24.325Z"
+      "statusAt": "2026-10-27T20:57:51.259Z",
+      "updatedAt": "2026-10-27T20:57:51.259Z"
     },
     {
       "subtasks": [],
