@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-27T15:12:35.715Z",
+  "fetchedAt": "2026-10-27T20:42:39.516Z",
   "items": [
     {
       "uid": "event-assignment-2426331",
@@ -372,16 +372,6 @@
       "description": ""
     },
     {
-      "uid": "event-assignment-2535224",
-      "title": "Examen Unidad 1",
-      "course": "0403_06200Y_Honors Spanish I-0005_2627",
-      "due": "2026-10-21",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=10&year=2026#assignment_2535224",
-      "description": ""
-    },
-    {
       "uid": "event-assignment-override-61950",
       "title": "Tusklessness Part 1 (P2-Honors Biology-Avery)",
       "course": "0403_13102Y_Honors Biology-0012_2627",
@@ -422,6 +412,16 @@
       "description": ""
     },
     {
+      "uid": "event-assignment-2535224",
+      "title": "Examen Unidad 1",
+      "course": "0403_06200Y_Honors Spanish I-0005_2627",
+      "due": "2026-10-27",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=10&year=2026#assignment_2535224",
+      "description": ""
+    },
+    {
       "uid": "event-assignment-2548752",
       "title": "10/26 Warm Up",
       "course": "AP Computer Science Principles_SY26-27",
@@ -446,7 +446,7 @@
       "title": "Mi horario de clases - (Wayground)",
       "course": "0403_06200Y_Honors Spanish I-0005_2627",
       "due": "2026-10-27",
-      "dueTime": "13:59",
+      "dueTime": "23:30",
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=10&year=2026#assignment_2553540",
       "description": ""
@@ -456,7 +456,7 @@
       "title": "Horarios Escolares - (Wayground)",
       "course": "0403_06200Y_Honors Spanish I-0005_2627",
       "due": "2026-10-27",
-      "dueTime": "13:30",
+      "dueTime": "23:30",
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=10&year=2026#assignment_2553544",
       "description": ""
