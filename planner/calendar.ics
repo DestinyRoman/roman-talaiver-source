@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:mvoiu5jiwyo8e@roman.talaiver.com
-DTSTAMP:20261027T154839Z
+DTSTAMP:20261027T205716Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 TRANSP:TRANSPARENT
@@ -19,7 +19,7 @@ DESCRIPTION:Status: turned_in\nClass: 0403_13102Y_Honors Biology-0012_2627
 END:VEVENT
 BEGIN:VEVENT
 UID:mvpaw9oifl11w@roman.talaiver.com
-DTSTAMP:20261027T154839Z
+DTSTAMP:20261027T205716Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 TRANSP:TRANSPARENT
@@ -33,7 +33,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvpaw9oien351@roman.talaiver.com
-DTSTAMP:20261027T154839Z
+DTSTAMP:20261027T205716Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 TRANSP:TRANSPARENT
@@ -47,7 +47,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvpaw9oikt456@roman.talaiver.com
-DTSTAMP:20261027T154839Z
+DTSTAMP:20261027T205716Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 TRANSP:TRANSPARENT
@@ -62,7 +62,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_46019&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvpdzg3dufgxo@roman.talaiver.com
-DTSTAMP:20261027T154839Z
+DTSTAMP:20261027T205716Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 TRANSP:TRANSPARENT
@@ -72,7 +72,7 @@ DESCRIPTION:Status: todo\nClass: 0403_13102Y_Honors Biology-0012_2627\nQue
 END:VEVENT
 BEGIN:VEVENT
 UID:mvpe9r74ejgyg@roman.talaiver.com
-DTSTAMP:20261027T154839Z
+DTSTAMP:20261027T205716Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 TRANSP:TRANSPARENT
@@ -83,7 +83,7 @@ DESCRIPTION:Status: todo\nClass: 0403_08105Y_Honors English I-0003_2627\nS
 END:VEVENT
 BEGIN:VEVENT
 UID:mvpfdmk371b1s@roman.talaiver.com
-DTSTAMP:20261027T154839Z
+DTSTAMP:20261027T205716Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 TRANSP:TRANSPARENT
@@ -93,7 +93,7 @@ DESCRIPTION:Status: turned_in\nClass: Hon. MWH\nWrite a professional refle
 END:VEVENT
 BEGIN:VEVENT
 UID:mvqoqn0clnqyu@roman.talaiver.com
-DTSTAMP:20261027T154839Z
+DTSTAMP:20261027T205716Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 TRANSP:TRANSPARENT
@@ -121,7 +121,7 @@ URL:https://bcpss.instructure.com/calendar?include_contexts=course_45716&m
 END:VEVENT
 BEGIN:VEVENT
 UID:mvqpdesx5e818@roman.talaiver.com
-DTSTAMP:20261027T154839Z
+DTSTAMP:20261027T205716Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 TRANSP:TRANSPARENT
@@ -130,38 +130,38 @@ DESCRIPTION:Status: doing\n10% done\nClass: Hon. MWH
 END:VEVENT
 BEGIN:VEVENT
 UID:mvqtnfc8o5tli@roman.talaiver.com
-DTSTAMP:20261027T154839Z
+DTSTAMP:20261027T205716Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 TRANSP:TRANSPARENT
-SUMMARY:Task: Are you staying for chess club today? Let mom & dad know
-DESCRIPTION:Status: todo\nSteps: 0/1 done
+SUMMARY:✓ Task: Are you staying for chess club today? Let mom & dad know
+DESCRIPTION:Status: turned_in\nSteps: 0/1 done
 END:VEVENT
 BEGIN:VEVENT
 UID:mvqv1ghnqeii0@roman.talaiver.com
-DTSTAMP:20261027T154839Z
+DTSTAMP:20261027T205716Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 TRANSP:TRANSPARENT
-SUMMARY:HW: Mi horario de clases - (Wayground) (0403_06200Y_Honors Spanish
-  I-0005_2627)
-DESCRIPTION:Status: todo\nDue at 13:59\nClass: 0403_06200Y_Honors Spanish 
- I-0005_2627\nhttps://bcpss.instructure.com/calendar?include_contexts=cour
- se_45092&month=10&year=2026#assignment_2553540
+SUMMARY:✓ HW: Mi horario de clases - (Wayground) (0403_06200Y_Honors Spani
+ sh I-0005_2627)
+DESCRIPTION:Status: turned_in\nDue at 13:59\nClass: 0403_06200Y_Honors Spa
+ nish I-0005_2627\nhttps://bcpss.instructure.com/calendar?include_contexts
+ =course_45092&month=10&year=2026#assignment_2553540
 URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
  onth=10&year=2026#assignment_2553540
 END:VEVENT
 BEGIN:VEVENT
 UID:mvqv1ghnn3ahj@roman.talaiver.com
-DTSTAMP:20261027T154839Z
+DTSTAMP:20261027T205716Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 TRANSP:TRANSPARENT
-SUMMARY:HW: Horarios Escolares - (Wayground) (0403_06200Y_Honors Spanish I
- -0005_2627)
-DESCRIPTION:Status: todo\nDue at 13:30\nClass: 0403_06200Y_Honors Spanish 
- I-0005_2627\nhttps://bcpss.instructure.com/calendar?include_contexts=cour
- se_45092&month=10&year=2026#assignment_2553544
+SUMMARY:✓ HW: Horarios Escolares - (Wayground) (0403_06200Y_Honors Spanish
+  I-0005_2627)
+DESCRIPTION:Status: turned_in\nDue at 13:30\nClass: 0403_06200Y_Honors Spa
+ nish I-0005_2627\nhttps://bcpss.instructure.com/calendar?include_contexts
+ =course_45092&month=10&year=2026#assignment_2553544
 URL:https://bcpss.instructure.com/calendar?include_contexts=course_45092&m
  onth=10&year=2026#assignment_2553544
 END:VEVENT
