@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-27T13:12:50.168Z",
+  "updatedAt": "2026-10-27T15:10:40.788Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1143,21 +1143,43 @@
       "statusAt": "2026-10-27T12:52:16.764Z"
     },
     {
+      "subtasks": [],
+      "status": "doing",
+      "type": "project",
       "id": "mvqpdesx5e818",
       "title": "Running Away Poster",
       "classId": "mvl45j1x6h632",
-      "type": "project",
       "due": "2026-10-30",
       "dueTime": "",
-      "status": "doing",
       "notes": "",
       "link": "",
-      "subtasks": [],
       "source": "manual",
       "createdAt": "2026-10-27T13:09:59.217Z",
       "progress": 10,
       "statusAt": "2026-10-27T13:12:50.168Z",
       "updatedAt": "2026-10-27T13:12:50.168Z"
+    },
+    {
+      "id": "mvqtnfc8o5tli",
+      "title": "Are you staying for chess club today? Let mom & dad know",
+      "classId": "",
+      "type": "other",
+      "due": "2026-10-27",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "",
+      "link": "",
+      "subtasks": [
+        {
+          "id": "mvqtol3e65n2y",
+          "text": "Reply in notes below or by email please",
+          "done": false
+        }
+      ],
+      "source": "manual",
+      "createdAt": "2026-10-27T15:09:44.936Z",
+      "statusAt": "2026-10-27T15:10:40.788Z",
+      "updatedAt": "2026-10-27T15:10:40.788Z"
     }
   ]
 }
