@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-27T13:09:26.571Z",
+  "updatedAt": "2026-10-27T13:12:50.168Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1141,6 +1141,23 @@
       "createdAt": "2026-10-27T12:52:16.764Z",
       "updatedAt": "2026-10-27T12:52:16.764Z",
       "statusAt": "2026-10-27T12:52:16.764Z"
+    },
+    {
+      "id": "mvqpdesx5e818",
+      "title": "Running Away Poster",
+      "classId": "mvl45j1x6h632",
+      "type": "project",
+      "due": "2026-10-30",
+      "dueTime": "",
+      "status": "doing",
+      "notes": "",
+      "link": "",
+      "subtasks": [],
+      "source": "manual",
+      "createdAt": "2026-10-27T13:09:59.217Z",
+      "progress": 10,
+      "statusAt": "2026-10-27T13:12:50.168Z",
+      "updatedAt": "2026-10-27T13:12:50.168Z"
     }
   ]
 }
