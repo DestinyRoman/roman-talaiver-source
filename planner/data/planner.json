@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-27T15:48:39.227Z",
+  "updatedAt": "2026-10-27T20:57:16.392Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1167,7 +1167,7 @@
           "done": false
         }
       ],
-      "status": "todo",
+      "status": "turned_in",
       "type": "other",
       "id": "mvqtnfc8o5tli",
       "title": "Are you staying for chess club today? Let mom & dad know",
@@ -1178,46 +1178,46 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-10-27T15:09:44.936Z",
-      "statusAt": "2026-10-27T15:10:40.788Z",
-      "updatedAt": "2026-10-27T15:10:40.788Z"
+      "statusAt": "2026-10-27T20:57:16.392Z",
+      "updatedAt": "2026-10-27T20:57:16.392Z"
     },
     {
+      "subtasks": [],
+      "status": "turned_in",
+      "type": "homework",
       "id": "mvqv1ghnqeii0",
       "title": "Mi horario de clases - (Wayground)",
       "classId": "mvl45j1xrzv95",
-      "type": "homework",
       "due": "2026-10-27",
       "dueTime": "13:59",
-      "status": "todo",
       "notes": "",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=10&year=2026#assignment_2553540",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-2553540",
       "canvasDue": "2026-10-27",
       "canvasTitle": "Mi horario de clases - (Wayground)",
       "createdAt": "2026-10-27T15:48:39.227Z",
-      "updatedAt": "2026-10-27T15:48:39.227Z",
-      "statusAt": "2026-10-27T15:48:39.227Z"
+      "updatedAt": "2026-10-27T20:57:06.778Z",
+      "statusAt": "2026-10-27T20:57:06.778Z"
     },
     {
+      "subtasks": [],
+      "status": "turned_in",
+      "type": "homework",
       "id": "mvqv1ghnn3ahj",
       "title": "Horarios Escolares - (Wayground)",
       "classId": "mvl45j1xrzv95",
-      "type": "homework",
       "due": "2026-10-27",
       "dueTime": "13:30",
-      "status": "todo",
       "notes": "",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=10&year=2026#assignment_2553544",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-2553544",
       "canvasDue": "2026-10-27",
       "canvasTitle": "Horarios Escolares - (Wayground)",
       "createdAt": "2026-10-27T15:48:39.227Z",
-      "updatedAt": "2026-10-27T15:48:39.227Z",
-      "statusAt": "2026-10-27T15:48:39.227Z"
+      "updatedAt": "2026-10-27T20:57:04.322Z",
+      "statusAt": "2026-10-27T20:57:04.322Z"
     }
   ]
 }
