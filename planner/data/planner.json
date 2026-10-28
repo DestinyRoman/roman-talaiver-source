@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28T11:39:22.325Z",
+  "updatedAt": "2026-10-28T13:36:44.461Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1234,6 +1234,22 @@
       "createdAt": "2026-10-28T11:03:52.749Z",
       "statusAt": "2026-10-28T11:04:23.732Z",
       "updatedAt": "2026-10-28T11:04:23.733Z"
+    },
+    {
+      "id": "mvs5qnd0st276",
+      "title": "Mitosis, Plant Growth, and Photosynthesis",
+      "classId": "mvl45j1xzms1h",
+      "type": "quiz",
+      "due": "2026-10-30",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "",
+      "link": "",
+      "subtasks": [],
+      "source": "manual",
+      "createdAt": "2026-10-28T13:35:56.868Z",
+      "statusAt": "2026-10-28T13:36:44.461Z",
+      "updatedAt": "2026-10-28T13:36:44.461Z"
     }
   ]
 }
