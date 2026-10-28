@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28T15:03:06.642Z",
+  "updatedAt": "2026-10-28T19:08:39.009Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1236,20 +1236,37 @@
       "updatedAt": "2026-10-28T11:04:23.733Z"
     },
     {
+      "subtasks": [],
+      "status": "todo",
+      "type": "quiz",
       "id": "mvs5qnd0st276",
       "title": "Mitosis, Plant Growth, and Photosynthesis Quiz",
       "classId": "mvl45j1xzms1h",
-      "type": "quiz",
       "due": "2026-10-30",
       "dueTime": "",
-      "status": "todo",
       "notes": "",
       "link": "",
-      "subtasks": [],
       "source": "manual",
       "createdAt": "2026-10-28T13:35:56.868Z",
       "statusAt": "2026-10-28T13:36:44.461Z",
       "updatedAt": "2026-10-28T15:03:06.642Z"
+    },
+    {
+      "id": "mvshk0m9k2qr4",
+      "title": "Biology Paper",
+      "classId": "mvl45j1xzms1h",
+      "type": "homework",
+      "due": "2026-10-30",
+      "dueTime": "",
+      "status": "doing",
+      "notes": "Add ACTUAL name of assignment",
+      "link": "",
+      "subtasks": [],
+      "source": "manual",
+      "createdAt": "2026-10-28T19:06:42.849Z",
+      "progress": 60,
+      "statusAt": "2026-10-28T19:08:39.009Z",
+      "updatedAt": "2026-10-28T19:08:39.009Z"
     }
   ]
 }
