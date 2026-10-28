@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28T21:12:19.850Z",
+  "updatedAt": "2026-10-28T21:34:39.513Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1232,8 +1232,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-10-28T11:03:52.749Z",
-      "statusAt": "2026-10-28T11:04:23.732Z",
-      "updatedAt": "2026-10-28T11:04:23.733Z"
+      "statusAt": "2026-10-28T21:34:39.513Z",
+      "updatedAt": "2026-10-28T21:34:39.513Z"
     },
     {
       "subtasks": [],
