@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28T13:36:44.461Z",
+  "updatedAt": "2026-10-28T15:03:06.642Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1237,7 +1237,7 @@
     },
     {
       "id": "mvs5qnd0st276",
-      "title": "Mitosis, Plant Growth, and Photosynthesis",
+      "title": "Mitosis, Plant Growth, and Photosynthesis Quiz",
       "classId": "mvl45j1xzms1h",
       "type": "quiz",
       "due": "2026-10-30",
@@ -1249,7 +1249,7 @@
       "source": "manual",
       "createdAt": "2026-10-28T13:35:56.868Z",
       "statusAt": "2026-10-28T13:36:44.461Z",
-      "updatedAt": "2026-10-28T13:36:44.461Z"
+      "updatedAt": "2026-10-28T15:03:06.642Z"
     }
   ]
 }
