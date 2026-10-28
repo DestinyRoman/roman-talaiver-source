@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28T19:36:15.767Z",
+  "updatedAt": "2026-10-28T20:10:12.863Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1267,6 +1267,22 @@
       "progress": 60,
       "statusAt": "2026-10-28T19:08:39.009Z",
       "updatedAt": "2026-10-28T19:08:39.009Z"
+    },
+    {
+      "id": "mvsjsjutwoxs4",
+      "title": "Unit Test Review Guide: The Early Modern Period",
+      "classId": "mvl45j1x6h632",
+      "type": "homework",
+      "due": "2026-10-29",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "",
+      "link": "",
+      "subtasks": [],
+      "source": "manual",
+      "createdAt": "2026-10-28T20:09:20.261Z",
+      "statusAt": "2026-10-28T20:10:00.871Z",
+      "updatedAt": "2026-10-28T20:10:12.863Z"
     }
   ]
 }
