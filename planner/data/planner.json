@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28T19:09:17.030Z",
+  "updatedAt": "2026-10-28T19:36:15.767Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1125,7 +1125,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "quiz",
       "id": "mvqoqn0clnqyu",
       "title": "Quiz #3 Reassessment (Lessons 3-1 to 3-3) - (Wayground)",
@@ -1139,8 +1139,8 @@
       "canvasDue": "2026-10-02",
       "canvasTitle": "Quiz #3 Reassessment (Lessons 3-1 to 3-3) - (Wayground)",
       "createdAt": "2026-10-27T12:52:16.764Z",
-      "updatedAt": "2026-10-27T12:52:16.764Z",
-      "statusAt": "2026-10-27T12:52:16.764Z"
+      "updatedAt": "2026-10-28T19:36:15.766Z",
+      "statusAt": "2026-10-28T19:36:15.766Z"
     },
     {
       "subtasks": [],
@@ -1252,16 +1252,16 @@
       "updatedAt": "2026-10-28T15:03:06.642Z"
     },
     {
+      "subtasks": [],
+      "status": "doing",
+      "type": "homework",
       "id": "mvshk0m9k2qr4",
       "title": "Biology Paper",
       "classId": "mvl45j1xzms1h",
-      "type": "homework",
       "due": "2026-10-30",
       "dueTime": "",
-      "status": "doing",
       "notes": "Add ACTUAL name of assignment",
       "link": "",
-      "subtasks": [],
       "source": "manual",
       "createdAt": "2026-10-28T19:06:42.849Z",
       "progress": 60,
