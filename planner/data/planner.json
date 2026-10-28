@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28T19:08:39.009Z",
+  "updatedAt": "2026-10-28T19:09:17.030Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1039,7 +1039,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvpdzg3dufgxo",
       "title": "Seed Lab",
@@ -1050,8 +1050,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-10-26T15:03:25.753Z",
-      "statusAt": "2026-10-26T15:05:06.759Z",
-      "updatedAt": "2026-10-26T15:20:42.658Z"
+      "statusAt": "2026-10-28T19:09:17.030Z",
+      "updatedAt": "2026-10-28T19:09:17.030Z"
     },
     {
       "subtasks": [
