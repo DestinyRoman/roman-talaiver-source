@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-29T07:05:57.433Z",
+  "fetchedAt": "2026-10-29T16:56:43.075Z",
   "items": [
     {
       "uid": "event-assignment-2426505",
@@ -430,6 +430,16 @@
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=10&year=2026#assignment_2553544",
       "description": ""
+    },
+    {
+      "uid": "event-assignment-2556232",
+      "title": "Literature Circle Roles Ch. 9-12",
+      "course": "0403_08105Y_Honors English I-0003_2627",
+      "due": "2026-11-02",
+      "dueTime": "08:00",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45304&month=11&year=2026#assignment_2556232",
+      "description": "1. Read chapters 9-12 (\"The Sheep\"- \"The Jewels,\" pg. 62-93)\n\n2. Complete your assigned role on your own sheet of paper. Write legibly.\n\n "
     }
   ]
 }
