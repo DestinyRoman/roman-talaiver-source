@@ -1,36 +1,6 @@
 {
-  "fetchedAt": "2026-10-28T19:09:15.593Z",
+  "fetchedAt": "2026-10-29T07:05:57.433Z",
   "items": [
-    {
-      "uid": "event-assignment-2426331",
-      "title": "09/25 Warm Up",
-      "course": "AP Computer Science Principles_SY26-27",
-      "due": "2026-09-28",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=09&year=2026#assignment_2426331",
-      "description": "Please answer the following"
-    },
-    {
-      "uid": "event-assignment-2428296",
-      "title": "Prueba Intermedia U1",
-      "course": "0403_06200Y_Honors Spanish I-0005_2627",
-      "due": "2026-09-28",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=09&year=2026#assignment_2428296",
-      "description": "[Prueba Intermedia U1] (https://forms.gle/L3PcV3XhgbwTqkHR6)"
-    },
-    {
-      "uid": "event-assignment-override-55843",
-      "title": "Macromolecules Lab Pre-Reading  (P2-Honors Biology-Avery)",
-      "course": "0403_13102Y_Honors Biology-0012_2627",
-      "due": "2026-09-28",
-      "dueTime": "",
-      "type": "reading",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=09&year=2026#assignment_2426163",
-      "description": ""
-    },
     {
       "uid": "event-assignment-2426505",
       "title": "09/25 Closure",
