@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-29T16:56:43.075Z",
+  "fetchedAt": "2026-10-29T22:36:15.466Z",
   "items": [
     {
       "uid": "event-assignment-2426505",
@@ -342,26 +342,6 @@
       "description": ""
     },
     {
-      "uid": "event-assignment-override-61950",
-      "title": "Tusklessness Part 1 (P2-Honors Biology-Avery)",
-      "course": "0403_13102Y_Honors Biology-0012_2627",
-      "due": "2026-10-21",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=10&year=2026#assignment_2492664",
-      "description": "Use this [link] (https://docs.google.com/document/d/1EC_K5iYXYEmhWsWb5_YK5wLYgWyK6rjlHw2vSHZtV3E/copy) to create a copy of the assignment.  When you have completed the assignment, go to File, select Download and select PDF.  Upload the PDF on Canvas for grading.  "
-    },
-    {
-      "uid": "event-assignment-override-61958",
-      "title": "Tusklessness Part 2 (P2-Honors Biology-Avery)",
-      "course": "0403_13102Y_Honors Biology-0012_2627",
-      "due": "2026-10-21",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=10&year=2026#assignment_2492677",
-      "description": "Use this [link] (https://docs.google.com/document/d/1s5Ty_Fh3AhDSel8-Uw7mBiYo5PxbY-U4QY1n9_wwsDY/copy) to make a copy of the assignment.  When the assignment is completed, go to File and select Download, select PDF.  Upload the PDF to Canvas."
-    },
-    {
       "uid": "event-assignment-2543470",
       "title": "Quiz #3 Review (Lessons 3-1 to 3-3) - (Wayground)",
       "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
@@ -380,6 +360,26 @@
       "type": "classwork",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=10&year=2026#assignment_2549071",
       "description": ""
+    },
+    {
+      "uid": "event-assignment-override-61950",
+      "title": "Tusklessness Part 1 (P2-Honors Biology-Avery)",
+      "course": "0403_13102Y_Honors Biology-0012_2627",
+      "due": "2026-10-26",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=10&year=2026#assignment_2492664",
+      "description": "Use this [link] (https://docs.google.com/document/d/1EC_K5iYXYEmhWsWb5_YK5wLYgWyK6rjlHw2vSHZtV3E/copy) to create a copy of the assignment.  When you have completed the assignment, go to File, select Download and select PDF.  Upload the PDF on Canvas for grading.  \n\nOriginal Due Date--10/20, 10/21\n\nDue date changed to add to Infinite Campus for 2nd quarter grade.  Assignments that were not submitted by the original due date are still counted as late. "
+    },
+    {
+      "uid": "event-assignment-override-61958",
+      "title": "Tusklessness Part 2 (P2-Honors Biology-Avery)",
+      "course": "0403_13102Y_Honors Biology-0012_2627",
+      "due": "2026-10-26",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=10&year=2026#assignment_2492677",
+      "description": "Use this [link] (https://docs.google.com/document/d/1s5Ty_Fh3AhDSel8-Uw7mBiYo5PxbY-U4QY1n9_wwsDY/copy) to make a copy of the assignment.  When the assignment is completed, go to File and select Download, select PDF.  Upload the PDF to Canvas.\n\nOriginal Due Date--10/20, 10/21\n\nDue date changed to add to Infinite Campus for 2nd quarter grade.  Assignments that were not submitted by the original due date are still counted as late.  "
     },
     {
       "uid": "event-assignment-2535224",
@@ -429,6 +429,16 @@
       "dueTime": "23:30",
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=10&year=2026#assignment_2553544",
+      "description": ""
+    },
+    {
+      "uid": "event-assignment-override-64917",
+      "title": "Photosynthesis and Mitosis Quiz (P2-Honors Biology-Avery)",
+      "course": "0403_13102Y_Honors Biology-0012_2627",
+      "due": "2026-10-30",
+      "dueTime": "10:00",
+      "type": "quiz",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=10&year=2026#assignment_2556031",
       "description": ""
     },
     {
