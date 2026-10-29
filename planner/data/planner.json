@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-28T21:34:39.513Z",
+  "updatedAt": "2026-10-29T22:35:57.846Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1283,6 +1283,25 @@
       "createdAt": "2026-10-28T20:09:20.261Z",
       "statusAt": "2026-10-28T20:10:00.871Z",
       "updatedAt": "2026-10-28T20:10:12.863Z"
+    },
+    {
+      "id": "mvu4gys6izpup",
+      "title": "Literature Circle Roles Ch. 9-12",
+      "classId": "mvl45j1x8faki",
+      "type": "homework",
+      "due": "2026-11-02",
+      "dueTime": "08:00",
+      "status": "todo",
+      "notes": "1. Read chapters 9-12 (\"The Sheep\"- \"The Jewels,\" pg. 62-93)\n\n2. Complete your assigned role on your own sheet of paper. Write legibly.\n\n ",
+      "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45304&month=11&year=2026#assignment_2556232",
+      "subtasks": [],
+      "source": "canvas",
+      "canvasUid": "event-assignment-2556232",
+      "canvasDue": "2026-11-02",
+      "canvasTitle": "Literature Circle Roles Ch. 9-12",
+      "createdAt": "2026-10-29T22:35:57.846Z",
+      "updatedAt": "2026-10-29T22:35:57.846Z",
+      "statusAt": "2026-10-29T22:35:57.846Z"
     }
   ]
 }
