@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-29T22:52:10.661Z",
+  "updatedAt": "2026-10-30T10:40:47.793Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1285,16 +1285,16 @@
       "updatedAt": "2026-10-28T20:10:12.863Z"
     },
     {
+      "subtasks": [],
+      "status": "todo",
+      "type": "homework",
       "id": "mvu4gys6izpup",
       "title": "Literature Circle Roles Ch. 9-12",
       "classId": "mvl45j1x8faki",
-      "type": "homework",
       "due": "2026-11-02",
       "dueTime": "08:00",
-      "status": "todo",
       "notes": "1. Read chapters 9-12 (\"The Sheep\"- \"The Jewels,\" pg. 62-93)\n\n2. Complete your assigned role on your own sheet of paper. Write legibly.\n\n ",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45304&month=11&year=2026#assignment_2556232",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-2556232",
       "canvasDue": "2026-11-02",
@@ -1302,6 +1302,25 @@
       "createdAt": "2026-10-29T22:35:57.846Z",
       "updatedAt": "2026-10-29T22:35:57.846Z",
       "statusAt": "2026-10-29T22:35:57.846Z"
+    },
+    {
+      "id": "mvuud3u9h4x7n",
+      "title": "Photosynthesis and Mitosis Quiz (P2-Honors Biology-Avery)",
+      "classId": "mvl45j1xzms1h",
+      "type": "quiz",
+      "due": "2026-10-30",
+      "dueTime": "10:00",
+      "status": "todo",
+      "notes": "",
+      "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=10&year=2026#assignment_2556031",
+      "subtasks": [],
+      "source": "canvas",
+      "canvasUid": "event-assignment-override-64917",
+      "canvasDue": "2026-10-30",
+      "canvasTitle": "Photosynthesis and Mitosis Quiz (P2-Honors Biology-Avery)",
+      "createdAt": "2026-10-30T10:40:47.793Z",
+      "updatedAt": "2026-10-30T10:40:47.793Z",
+      "statusAt": "2026-10-30T10:40:47.793Z"
     }
   ]
 }
