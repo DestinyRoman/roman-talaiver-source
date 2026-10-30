@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-30T10:42:15.189Z",
+  "updatedAt": "2026-10-30T10:43:03.022Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1144,7 +1144,7 @@
     },
     {
       "subtasks": [],
-      "status": "doing",
+      "status": "turned_in",
       "type": "project",
       "id": "mvqpdesx5e818",
       "title": "Running Away Poster",
@@ -1156,8 +1156,8 @@
       "source": "manual",
       "createdAt": "2026-10-27T13:09:59.217Z",
       "progress": 10,
-      "statusAt": "2026-10-27T13:12:50.168Z",
-      "updatedAt": "2026-10-27T13:12:50.168Z"
+      "statusAt": "2026-10-30T10:43:03.022Z",
+      "updatedAt": "2026-10-30T10:43:03.022Z"
     },
     {
       "subtasks": [
@@ -1256,7 +1256,7 @@
       "status": "doing",
       "type": "homework",
       "id": "mvshk0m9k2qr4",
-      "title": "Biology Paper",
+      "title": "What’s in a Leaf?: MISSING",
       "classId": "mvl45j1xzms1h",
       "due": "2026-10-30",
       "dueTime": "",
@@ -1266,7 +1266,7 @@
       "createdAt": "2026-10-28T19:06:42.849Z",
       "progress": 60,
       "statusAt": "2026-10-28T19:08:39.009Z",
-      "updatedAt": "2026-10-30T10:42:15.189Z"
+      "updatedAt": "2026-10-30T10:42:51.681Z"
     },
     {
       "subtasks": [],
@@ -1304,16 +1304,16 @@
       "statusAt": "2026-10-29T22:35:57.846Z"
     },
     {
+      "subtasks": [],
+      "status": "todo",
+      "type": "quiz",
       "id": "mvuud3u9h4x7n",
       "title": "Photosynthesis and Mitosis Quiz (P2-Honors Biology-Avery)",
       "classId": "mvl45j1xzms1h",
-      "type": "quiz",
       "due": "2026-10-30",
       "dueTime": "10:00",
-      "status": "todo",
       "notes": "",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=10&year=2026#assignment_2556031",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-override-64917",
       "canvasDue": "2026-10-30",
