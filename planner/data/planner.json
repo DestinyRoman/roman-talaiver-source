@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-30T10:43:52.169Z",
+  "updatedAt": "2026-10-30T11:11:13.437Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1337,6 +1337,22 @@
       "createdAt": "2026-10-30T10:43:12.843Z",
       "statusAt": "2026-10-30T10:43:52.168Z",
       "updatedAt": "2026-10-30T10:43:52.168Z"
+    },
+    {
+      "id": "mvuvew2c1381c",
+      "title": "Spanish: Una entrevista",
+      "classId": "mvl45j1xrzv95",
+      "type": "homework",
+      "due": "2026-11-02",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "",
+      "link": "",
+      "subtasks": [],
+      "source": "manual",
+      "createdAt": "2026-10-30T11:10:10.644Z",
+      "statusAt": "2026-10-30T11:11:13.437Z",
+      "updatedAt": "2026-10-30T11:11:13.437Z"
     }
   ]
 }
