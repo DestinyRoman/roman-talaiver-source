@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-30T10:40:47.793Z",
+  "updatedAt": "2026-10-30T10:41:15.560Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1076,7 +1076,7 @@
           "done": false
         }
       ],
-      "status": "todo",
+      "status": "turned_in",
       "type": "quiz",
       "id": "mvpe9r74ejgyg",
       "title": "Quiz on Verbs, Verb Phrases, and Adverbs",
@@ -1087,8 +1087,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-10-26T15:11:26.705Z",
-      "statusAt": "2026-10-26T15:18:58.177Z",
-      "updatedAt": "2026-10-28T21:12:19.850Z"
+      "statusAt": "2026-10-30T10:41:01.126Z",
+      "updatedAt": "2026-10-30T10:41:01.126Z"
     },
     {
       "subtasks": [],
@@ -1221,7 +1221,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "test",
       "id": "mvs0b359yr3kx",
       "title": "Unit Test",
@@ -1232,8 +1232,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-10-28T11:03:52.749Z",
-      "statusAt": "2026-10-28T21:34:39.513Z",
-      "updatedAt": "2026-10-28T21:34:39.513Z"
+      "statusAt": "2026-10-30T10:41:09.213Z",
+      "updatedAt": "2026-10-30T10:41:09.213Z"
     },
     {
       "subtasks": [],
@@ -1270,7 +1270,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvsjsjutwoxs4",
       "title": "Unit Test Review Guide: The Early Modern Period",
@@ -1281,8 +1281,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-10-28T20:09:20.261Z",
-      "statusAt": "2026-10-28T20:10:00.871Z",
-      "updatedAt": "2026-10-28T20:10:12.863Z"
+      "statusAt": "2026-10-30T10:41:15.560Z",
+      "updatedAt": "2026-10-30T10:41:15.560Z"
     },
     {
       "subtasks": [],
