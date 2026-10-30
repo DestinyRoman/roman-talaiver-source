@@ -1,16 +1,6 @@
 {
-  "fetchedAt": "2026-10-30T07:06:58.004Z",
+  "fetchedAt": "2026-10-30T16:42:18.828Z",
   "items": [
-    {
-      "uid": "event-assignment-2426916",
-      "title": "FORMATIVE- Allusion Research Slides",
-      "course": "0403_08105Y_Honors English I-0003_2627",
-      "due": "2026-09-30",
-      "dueTime": "08:00",
-      "type": "formative",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45304&month=09&year=2026#assignment_2426916",
-      "description": "[Allusion Research Slides] (https://docs.google.com/presentation/d/1la-2UYWqVd2LL_NJV4U5qkp1QX2ngTBLcTuxVoNewJE/edit?usp=sharing)  <----The shared slide deck for you all to place your work. DO NOT CHANGE TEMPLATE OR MOVE SLIDES AROUND!"
-    },
     {
       "uid": "event-assignment-2427961",
       "title": "Unit 1 Reassessment: Points, Lines, Planes and Angles - (Wayground)",
@@ -399,6 +389,16 @@
       "dueTime": "23:30",
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=10&year=2026#assignment_2553544",
+      "description": ""
+    },
+    {
+      "uid": "event-assignment-2557263",
+      "title": "CW #18-Congruent Figures - (Wayground)",
+      "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
+      "due": "2026-10-30",
+      "dueTime": "",
+      "type": "classwork",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=10&year=2026#assignment_2557263",
       "description": ""
     },
     {
