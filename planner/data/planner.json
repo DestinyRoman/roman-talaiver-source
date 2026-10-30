@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-30T10:41:15.560Z",
+  "updatedAt": "2026-10-30T10:42:15.189Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1260,13 +1260,13 @@
       "classId": "mvl45j1xzms1h",
       "due": "2026-10-30",
       "dueTime": "",
-      "notes": "Add ACTUAL name of assignment",
+      "notes": "MISSING",
       "link": "",
       "source": "manual",
       "createdAt": "2026-10-28T19:06:42.849Z",
       "progress": 60,
       "statusAt": "2026-10-28T19:08:39.009Z",
-      "updatedAt": "2026-10-28T19:08:39.009Z"
+      "updatedAt": "2026-10-30T10:42:15.189Z"
     },
     {
       "subtasks": [],
