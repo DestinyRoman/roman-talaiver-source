@@ -1,36 +1,6 @@
 {
-  "fetchedAt": "2026-10-29T22:36:15.466Z",
+  "fetchedAt": "2026-10-30T07:06:58.004Z",
   "items": [
-    {
-      "uid": "event-assignment-2426505",
-      "title": "09/25 Closure",
-      "course": "AP Computer Science Principles_SY26-27",
-      "due": "2026-09-29",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=09&year=2026#assignment_2426505",
-      "description": "Please copy your code to this assignment and answer the following quetions.\n\n* What two variables did you create?\n\n* What relational operators did you use?\n\n* Did your final expression evaluate to True or False?\n\n* What value could you change to make the result flip?\n\n* Did you use and or or? Why?"
-    },
-    {
-      "uid": "event-assignment-2429509",
-      "title": "CW #10-Perpendicular Lines",
-      "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
-      "due": "2026-09-29",
-      "dueTime": "",
-      "type": "classwork",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=09&year=2026#assignment_2429509",
-      "description": "[2-5 CW-Perpendicular Lines.pdf] (https://bcpss.instructure.com/courses/45716/files/14607494?wrap=1)"
-    },
-    {
-      "uid": "event-assignment-2431542",
-      "title": "CW #10-Perpendicular Lines",
-      "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
-      "due": "2026-09-29",
-      "dueTime": "",
-      "type": "classwork",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=09&year=2026#assignment_2431542",
-      "description": "[2-5 CW-Perpendicular Lines-1.pdf] (https://bcpss.instructure.com/courses/45716/files/14616565?wrap=1)"
-    },
     {
       "uid": "event-assignment-2426916",
       "title": "FORMATIVE- Allusion Research Slides",
