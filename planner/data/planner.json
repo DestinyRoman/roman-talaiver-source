@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-30T10:43:03.022Z",
+  "updatedAt": "2026-10-30T10:43:52.169Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1321,6 +1321,22 @@
       "createdAt": "2026-10-30T10:40:47.793Z",
       "updatedAt": "2026-10-30T10:40:47.793Z",
       "statusAt": "2026-10-30T10:40:47.793Z"
+    },
+    {
+      "id": "mvuug7rf66v9o",
+      "title": "Computer Science Test",
+      "classId": "mvl45j1x6najw",
+      "type": "test",
+      "due": "2026-10-30",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "",
+      "link": "",
+      "subtasks": [],
+      "source": "manual",
+      "createdAt": "2026-10-30T10:43:12.843Z",
+      "statusAt": "2026-10-30T10:43:52.168Z",
+      "updatedAt": "2026-10-30T10:43:52.168Z"
     }
   ]
 }
