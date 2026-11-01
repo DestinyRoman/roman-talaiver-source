@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-01T21:47:30.913Z",
+  "updatedAt": "2026-11-01T21:48:02.081Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1286,7 +1286,7 @@
     },
     {
       "subtasks": [],
-      "status": "turned_in",
+      "status": "complete",
       "type": "homework",
       "id": "mvu4gys6izpup",
       "title": "Literature Circle Roles Ch. 9-12",
@@ -1300,8 +1300,8 @@
       "canvasDue": "2026-11-02",
       "canvasTitle": "Literature Circle Roles Ch. 9-12",
       "createdAt": "2026-10-29T22:35:57.846Z",
-      "updatedAt": "2026-11-01T21:47:24.482Z",
-      "statusAt": "2026-11-01T21:47:24.481Z"
+      "updatedAt": "2026-11-01T21:48:02.081Z",
+      "statusAt": "2026-11-01T21:48:02.081Z"
     },
     {
       "subtasks": [],
