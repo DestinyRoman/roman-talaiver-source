@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-30T11:11:13.437Z",
+  "updatedAt": "2026-11-01T21:46:40.296Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1323,36 +1323,55 @@
       "statusAt": "2026-10-30T10:40:47.793Z"
     },
     {
+      "subtasks": [],
+      "status": "todo",
+      "type": "test",
       "id": "mvuug7rf66v9o",
       "title": "Computer Science Test",
       "classId": "mvl45j1x6najw",
-      "type": "test",
       "due": "2026-10-30",
       "dueTime": "",
-      "status": "todo",
       "notes": "",
       "link": "",
-      "subtasks": [],
       "source": "manual",
       "createdAt": "2026-10-30T10:43:12.843Z",
       "statusAt": "2026-10-30T10:43:52.168Z",
       "updatedAt": "2026-10-30T10:43:52.168Z"
     },
     {
+      "subtasks": [],
+      "status": "todo",
+      "type": "homework",
       "id": "mvuvew2c1381c",
       "title": "Spanish: Una entrevista",
       "classId": "mvl45j1xrzv95",
-      "type": "homework",
       "due": "2026-11-02",
       "dueTime": "",
-      "status": "todo",
       "notes": "",
       "link": "",
-      "subtasks": [],
       "source": "manual",
       "createdAt": "2026-10-30T11:10:10.644Z",
       "statusAt": "2026-10-30T11:11:13.437Z",
       "updatedAt": "2026-10-30T11:11:13.437Z"
+    },
+    {
+      "id": "mvyd14q0twdkh",
+      "title": "CW #18-Congruent Figures - (Wayground)",
+      "classId": "mvl45j1x0d9rx",
+      "type": "classwork",
+      "due": "2026-10-30",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "",
+      "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=10&year=2026#assignment_2557263",
+      "subtasks": [],
+      "source": "canvas",
+      "canvasUid": "event-assignment-2557263",
+      "canvasDue": "2026-10-30",
+      "canvasTitle": "CW #18-Congruent Figures - (Wayground)",
+      "createdAt": "2026-11-01T21:46:40.296Z",
+      "updatedAt": "2026-11-01T21:46:40.296Z",
+      "statusAt": "2026-11-01T21:46:40.296Z"
     }
   ]
 }
