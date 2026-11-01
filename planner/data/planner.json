@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-01T21:46:52.955Z",
+  "updatedAt": "2026-11-01T21:47:09.081Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1361,7 +1361,7 @@
       "type": "classwork",
       "due": "2026-10-30",
       "dueTime": "",
-      "status": "todo",
+      "status": "turned_in",
       "notes": "",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=10&year=2026#assignment_2557263",
       "subtasks": [],
@@ -1370,8 +1370,8 @@
       "canvasDue": "2026-10-30",
       "canvasTitle": "CW #18-Congruent Figures - (Wayground)",
       "createdAt": "2026-11-01T21:46:40.296Z",
-      "updatedAt": "2026-11-01T21:46:40.296Z",
-      "statusAt": "2026-11-01T21:46:40.296Z"
+      "updatedAt": "2026-11-01T21:47:09.081Z",
+      "statusAt": "2026-11-01T21:47:09.081Z"
     }
   ]
 }
