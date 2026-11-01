@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-01T21:47:09.081Z",
+  "updatedAt": "2026-11-01T21:47:30.913Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1237,7 +1237,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "quiz",
       "id": "mvs5qnd0st276",
       "title": "Mitosis, Plant Growth, and Photosynthesis Quiz",
@@ -1248,8 +1248,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-10-28T13:35:56.868Z",
-      "statusAt": "2026-10-28T13:36:44.461Z",
-      "updatedAt": "2026-10-29T22:52:10.661Z"
+      "statusAt": "2026-11-01T21:47:17.975Z",
+      "updatedAt": "2026-11-01T21:47:17.975Z"
     },
     {
       "subtasks": [],
@@ -1286,7 +1286,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvu4gys6izpup",
       "title": "Literature Circle Roles Ch. 9-12",
@@ -1300,8 +1300,8 @@
       "canvasDue": "2026-11-02",
       "canvasTitle": "Literature Circle Roles Ch. 9-12",
       "createdAt": "2026-10-29T22:35:57.846Z",
-      "updatedAt": "2026-10-29T22:35:57.846Z",
-      "statusAt": "2026-10-29T22:35:57.846Z"
+      "updatedAt": "2026-11-01T21:47:24.482Z",
+      "statusAt": "2026-11-01T21:47:24.481Z"
     },
     {
       "subtasks": [],
@@ -1340,7 +1340,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "complete",
       "type": "homework",
       "id": "mvuvew2c1381c",
       "title": "Spanish: Una entrevista",
@@ -1351,8 +1351,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-10-30T11:10:10.644Z",
-      "statusAt": "2026-10-30T11:11:13.437Z",
-      "updatedAt": "2026-10-30T11:11:13.437Z"
+      "statusAt": "2026-11-01T21:47:30.913Z",
+      "updatedAt": "2026-11-01T21:47:30.913Z"
     },
     {
       "id": "mvyd14q0twdkh",
