@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-01T21:51:11.416Z",
+  "updatedAt": "2026-11-01T21:53:06.557Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1374,21 +1374,37 @@
       "statusAt": "2026-11-01T21:47:09.081Z"
     },
     {
+      "subtasks": [],
+      "status": "doing",
+      "type": "homework",
       "id": "mvyd50ut3ium5",
       "title": "CSI Wildlife Paper",
       "classId": "mvl45j1xzms1h",
-      "type": "homework",
       "due": "2026-11-04",
       "dueTime": "",
-      "status": "doing",
       "notes": "",
       "link": "",
-      "subtasks": [],
       "source": "manual",
       "createdAt": "2026-11-01T21:49:41.909Z",
       "statusAt": "2026-11-01T21:50:25.461Z",
       "updatedAt": "2026-11-01T21:50:57.637Z",
       "progress": 90
+    },
+    {
+      "id": "mvyd8kih0msgg",
+      "title": "Como es tu horario?",
+      "classId": "mvl45j1xrzv95",
+      "type": "homework",
+      "due": "2026-11-02",
+      "dueTime": "",
+      "status": "complete",
+      "notes": "",
+      "link": "",
+      "subtasks": [],
+      "source": "manual",
+      "createdAt": "2026-11-01T21:52:27.353Z",
+      "statusAt": "2026-11-01T21:53:06.557Z",
+      "updatedAt": "2026-11-01T21:53:06.557Z"
     }
   ]
 }
