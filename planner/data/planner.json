@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-01T21:48:02.081Z",
+  "updatedAt": "2026-11-01T21:48:20.363Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1256,7 +1256,7 @@
       "status": "doing",
       "type": "homework",
       "id": "mvshk0m9k2qr4",
-      "title": "What’s in a Leaf?: MISSING",
+      "title": "What’s in a Leaf?",
       "classId": "mvl45j1xzms1h",
       "due": "2026-10-30",
       "dueTime": "",
@@ -1264,9 +1264,9 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-10-28T19:06:42.849Z",
-      "progress": 60,
+      "progress": 95,
       "statusAt": "2026-10-28T19:08:39.009Z",
-      "updatedAt": "2026-10-30T10:42:51.681Z"
+      "updatedAt": "2026-11-01T21:48:20.363Z"
     },
     {
       "subtasks": [],
