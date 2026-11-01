@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-01T21:46:40.296Z",
+  "updatedAt": "2026-11-01T21:46:52.955Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1305,7 +1305,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "quiz",
       "id": "mvuud3u9h4x7n",
       "title": "Photosynthesis and Mitosis Quiz (P2-Honors Biology-Avery)",
@@ -1319,12 +1319,12 @@
       "canvasDue": "2026-10-30",
       "canvasTitle": "Photosynthesis and Mitosis Quiz (P2-Honors Biology-Avery)",
       "createdAt": "2026-10-30T10:40:47.793Z",
-      "updatedAt": "2026-10-30T10:40:47.793Z",
-      "statusAt": "2026-10-30T10:40:47.793Z"
+      "updatedAt": "2026-11-01T21:46:47.270Z",
+      "statusAt": "2026-11-01T21:46:47.270Z"
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "test",
       "id": "mvuug7rf66v9o",
       "title": "Computer Science Test",
@@ -1335,8 +1335,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-10-30T10:43:12.843Z",
-      "statusAt": "2026-10-30T10:43:52.168Z",
-      "updatedAt": "2026-10-30T10:43:52.168Z"
+      "statusAt": "2026-11-01T21:46:52.955Z",
+      "updatedAt": "2026-11-01T21:46:52.955Z"
     },
     {
       "subtasks": [],
