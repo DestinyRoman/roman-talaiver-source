@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-02T18:38:57.154Z",
+  "updatedAt": "2026-11-02T18:39:30.935Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1426,8 +1426,8 @@
       "id": "mvzlr3d9u9gvm",
       "title": "Check Infinite Campus for missing assignments",
       "classId": "",
-      "type": "homework",
-      "due": "",
+      "type": "quiz",
+      "due": "2026-11-02",
       "dueTime": "",
       "status": "todo",
       "notes": "English & Spanish missing assignments",
@@ -1436,7 +1436,7 @@
       "source": "manual",
       "createdAt": "2026-11-02T18:38:34.701Z",
       "statusAt": "2026-11-02T18:38:57.154Z",
-      "updatedAt": "2026-11-02T18:38:57.154Z"
+      "updatedAt": "2026-11-02T18:39:30.935Z"
     }
   ]
 }
