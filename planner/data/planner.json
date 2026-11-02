@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-02T18:41:35.799Z",
+  "updatedAt": "2026-11-02T18:42:41.138Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1443,7 +1443,7 @@
       "title": "MISSING - Persepolis Panel Analysis ch 5-8",
       "classId": "",
       "type": "homework",
-      "due": "",
+      "due": "2026-10-30",
       "dueTime": "",
       "status": "todo",
       "notes": "",
@@ -1452,14 +1452,14 @@
       "source": "manual",
       "createdAt": "2026-11-02T18:39:37.497Z",
       "statusAt": "2026-11-02T18:40:32.720Z",
-      "updatedAt": "2026-11-02T18:40:32.721Z"
+      "updatedAt": "2026-11-02T18:42:28.500Z"
     },
     {
       "id": "mvzltnq2es0li",
       "title": "MISSING - A Que Hora empieza/termina",
       "classId": "",
       "type": "homework",
-      "due": "",
+      "due": "2026-10-30",
       "dueTime": "",
       "status": "todo",
       "notes": "missing",
@@ -1468,14 +1468,14 @@
       "source": "manual",
       "createdAt": "2026-11-02T18:40:34.394Z",
       "statusAt": "2026-11-02T18:41:04.896Z",
-      "updatedAt": "2026-11-02T18:41:04.896Z"
+      "updatedAt": "2026-11-02T18:42:17.153Z"
     },
     {
       "id": "mvzludph2c1ux",
       "title": "MISSING - Poem Analysis",
       "classId": "",
       "type": "homework",
-      "due": "",
+      "due": "2026-10-30",
       "dueTime": "",
       "status": "todo",
       "notes": "missing",
@@ -1484,7 +1484,7 @@
       "source": "manual",
       "createdAt": "2026-11-02T18:41:08.069Z",
       "statusAt": "2026-11-02T18:41:35.799Z",
-      "updatedAt": "2026-11-02T18:41:35.799Z"
+      "updatedAt": "2026-11-02T18:42:41.138Z"
     }
   ]
 }
