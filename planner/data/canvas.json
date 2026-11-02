@@ -1,26 +1,6 @@
 {
-  "fetchedAt": "2026-11-01T21:46:57.396Z",
+  "fetchedAt": "2026-11-02T07:41:13.782Z",
   "items": [
-    {
-      "uid": "event-assignment-2453860",
-      "title": "Paises Hispanohablantes",
-      "course": "0403_06200Y_Honors Spanish I-0005_2627",
-      "due": "2026-10-02",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=10&year=2026#assignment_2453860",
-      "description": "Completa los ejercicios 6 y 7\n\nUsa los acentos: é, á, í, ó, ú, ñ\n\n[Paises Hispanohablantes] (https://www.profedeele.es/actividad/paises-lenguas-nacionalidades/)"
-    },
-    {
-      "uid": "event-assignment-2454016",
-      "title": "Edpuzzle | Nombres, Edades y Nacionalidades",
-      "course": "0403_06200Y_Honors Spanish I-0005_2627",
-      "due": "2026-10-02",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=10&year=2026#assignment_2454016",
-      "description": ""
-    },
     {
       "uid": "event-assignment-override-57810",
       "title": "Lion Endpoint Exam Review and Slides (P2-Honors Biology-Avery)",
