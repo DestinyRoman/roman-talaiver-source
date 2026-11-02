@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-02T19:27:52.406Z",
+  "updatedAt": "2026-11-02T20:46:39.859Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1487,42 +1487,42 @@
       "updatedAt": "2026-11-02T18:42:41.138Z"
     },
     {
+      "subtasks": [],
+      "status": "turned_in",
+      "type": "homework",
       "id": "mvznihjq0cl7k",
       "title": "Edpuzzle |  Las clases y el horario",
       "classId": "mvl45j1xrzv95",
-      "type": "homework",
       "due": "2026-11-02",
       "dueTime": "",
-      "status": "todo",
       "notes": "",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=11&year=2026#assignment_2559470",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-2559470",
       "canvasDue": "2026-11-02",
       "canvasTitle": "Edpuzzle |  Las clases y el horario",
       "createdAt": "2026-11-02T19:27:52.406Z",
-      "updatedAt": "2026-11-02T19:27:52.406Z",
-      "statusAt": "2026-11-02T19:27:52.406Z"
+      "updatedAt": "2026-11-02T20:46:36.026Z",
+      "statusAt": "2026-11-02T20:46:36.026Z"
     },
     {
+      "subtasks": [],
+      "status": "turned_in",
+      "type": "homework",
       "id": "mvznihjqxiz5y",
       "title": "Imagen misteriosa Que hora es?",
       "classId": "mvl45j1xrzv95",
-      "type": "homework",
       "due": "2026-11-02",
       "dueTime": "",
-      "status": "todo",
       "notes": "",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=11&year=2026#assignment_2559475",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-2559475",
       "canvasDue": "2026-11-02",
       "canvasTitle": "Imagen misteriosa Que hora es?",
       "createdAt": "2026-11-02T19:27:52.406Z",
-      "updatedAt": "2026-11-02T19:27:52.406Z",
-      "statusAt": "2026-11-02T19:27:52.406Z"
+      "updatedAt": "2026-11-02T20:46:39.859Z",
+      "statusAt": "2026-11-02T20:46:39.859Z"
     }
   ]
 }
