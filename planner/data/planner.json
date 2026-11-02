@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-02T11:49:36.451Z",
+  "updatedAt": "2026-11-02T18:38:57.154Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1407,20 +1407,36 @@
       "updatedAt": "2026-11-01T21:53:06.557Z"
     },
     {
+      "subtasks": [],
+      "status": "todo",
+      "type": "test",
       "id": "mvz7378xtnttw",
       "title": "Unit Test",
       "classId": "mvl45j1x0d9rx",
-      "type": "test",
       "due": "2026-11-04",
       "dueTime": "",
-      "status": "todo",
       "notes": "",
       "link": "",
-      "subtasks": [],
       "source": "manual",
       "createdAt": "2026-11-02T11:48:05.361Z",
       "statusAt": "2026-11-02T11:49:36.451Z",
       "updatedAt": "2026-11-02T11:49:36.451Z"
+    },
+    {
+      "id": "mvzlr3d9u9gvm",
+      "title": "Check Infinite Campus for missing assignments",
+      "classId": "",
+      "type": "homework",
+      "due": "",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "English & Spanish missing assignments",
+      "link": "",
+      "subtasks": [],
+      "source": "manual",
+      "createdAt": "2026-11-02T18:38:34.701Z",
+      "statusAt": "2026-11-02T18:38:57.154Z",
+      "updatedAt": "2026-11-02T18:38:57.154Z"
     }
   ]
 }
