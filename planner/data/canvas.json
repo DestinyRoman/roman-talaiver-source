@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-02T07:41:13.782Z",
+  "fetchedAt": "2026-11-02T18:39:29.615Z",
   "items": [
     {
       "uid": "event-assignment-override-57810",
@@ -350,6 +350,26 @@
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45304&month=11&year=2026#assignment_2556232",
       "description": "1. Read chapters 9-12 (\"The Sheep\"- \"The Jewels,\" pg. 62-93)\n\n2. Complete your assigned role on your own sheet of paper. Write legibly.\n\n "
+    },
+    {
+      "uid": "event-assignment-2559470",
+      "title": "Edpuzzle |  Las clases y el horario",
+      "course": "0403_06200Y_Honors Spanish I-0005_2627",
+      "due": "2026-11-02",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=11&year=2026#assignment_2559470",
+      "description": ""
+    },
+    {
+      "uid": "event-assignment-2559475",
+      "title": "Imagen misteriosa Que hora es?",
+      "course": "0403_06200Y_Honors Spanish I-0005_2627",
+      "due": "2026-11-02",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=11&year=2026#assignment_2559475",
+      "description": ""
     }
   ]
 }
