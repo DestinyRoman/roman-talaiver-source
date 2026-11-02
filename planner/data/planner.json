@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-02T18:41:04.896Z",
+  "updatedAt": "2026-11-02T18:41:35.799Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1469,6 +1469,22 @@
       "createdAt": "2026-11-02T18:40:34.394Z",
       "statusAt": "2026-11-02T18:41:04.896Z",
       "updatedAt": "2026-11-02T18:41:04.896Z"
+    },
+    {
+      "id": "mvzludph2c1ux",
+      "title": "MISSING - Poem Analysis",
+      "classId": "",
+      "type": "homework",
+      "due": "",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "missing",
+      "link": "",
+      "subtasks": [],
+      "source": "manual",
+      "createdAt": "2026-11-02T18:41:08.069Z",
+      "statusAt": "2026-11-02T18:41:35.799Z",
+      "updatedAt": "2026-11-02T18:41:35.799Z"
     }
   ]
 }
