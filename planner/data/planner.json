@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-02T20:46:39.859Z",
+  "updatedAt": "2026-11-02T20:47:01.763Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1456,7 +1456,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvzltnq2es0li",
       "title": "MISSING - A Que Hora empieza/termina",
@@ -1467,8 +1467,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-11-02T18:40:34.394Z",
-      "statusAt": "2026-11-02T18:41:04.896Z",
-      "updatedAt": "2026-11-02T18:42:17.153Z"
+      "statusAt": "2026-11-02T20:47:01.763Z",
+      "updatedAt": "2026-11-02T20:47:01.763Z"
     },
     {
       "subtasks": [],
