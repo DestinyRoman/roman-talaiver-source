@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-02T20:47:01.763Z",
+  "updatedAt": "2026-11-03T22:00:57.208Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1375,7 +1375,7 @@
     },
     {
       "subtasks": [],
-      "status": "doing",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvyd50ut3ium5",
       "title": "CSI Wildlife Paper",
@@ -1386,8 +1386,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-11-01T21:49:41.909Z",
-      "statusAt": "2026-11-01T21:50:25.461Z",
-      "updatedAt": "2026-11-01T21:50:57.637Z",
+      "statusAt": "2026-11-03T22:00:57.208Z",
+      "updatedAt": "2026-11-03T22:00:57.208Z",
       "progress": 90
     },
     {
