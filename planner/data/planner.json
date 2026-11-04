@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-04T16:02:29.364Z",
+  "updatedAt": "2026-11-04T16:03:05.855Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1440,7 +1440,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "complete",
       "type": "homework",
       "id": "mvzlsftl6gd3o",
       "title": "MISSING - Persepolis Panel Analysis ch 5-8",
@@ -1451,8 +1451,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-11-02T18:39:37.497Z",
-      "statusAt": "2026-11-02T18:40:32.720Z",
-      "updatedAt": "2026-11-02T18:42:28.500Z"
+      "statusAt": "2026-11-04T16:03:03.667Z",
+      "updatedAt": "2026-11-04T16:03:03.667Z"
     },
     {
       "subtasks": [],
@@ -1472,7 +1472,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "complete",
       "type": "homework",
       "id": "mvzludph2c1ux",
       "title": "MISSING - Poem Analysis",
@@ -1483,8 +1483,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-11-02T18:41:08.069Z",
-      "statusAt": "2026-11-02T18:41:35.799Z",
-      "updatedAt": "2026-11-02T18:42:41.138Z"
+      "statusAt": "2026-11-04T16:03:05.854Z",
+      "updatedAt": "2026-11-04T16:03:05.855Z"
     },
     {
       "subtasks": [],
