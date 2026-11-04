@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T22:00:57.208Z",
+  "updatedAt": "2026-11-04T16:02:29.364Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1253,7 +1253,7 @@
     },
     {
       "subtasks": [],
-      "status": "complete",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvshk0m9k2qr4",
       "title": "What’s in a Leaf?",
@@ -1265,8 +1265,8 @@
       "source": "manual",
       "createdAt": "2026-10-28T19:06:42.849Z",
       "progress": 100,
-      "statusAt": "2026-11-01T21:51:11.416Z",
-      "updatedAt": "2026-11-01T21:51:11.416Z"
+      "statusAt": "2026-11-04T16:02:23.076Z",
+      "updatedAt": "2026-11-04T16:02:23.076Z"
     },
     {
       "subtasks": [],
@@ -1340,7 +1340,7 @@
     },
     {
       "subtasks": [],
-      "status": "complete",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvuvew2c1381c",
       "title": "Spanish: Una entrevista",
@@ -1351,8 +1351,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-10-30T11:10:10.644Z",
-      "statusAt": "2026-11-01T21:47:30.913Z",
-      "updatedAt": "2026-11-01T21:47:30.913Z"
+      "statusAt": "2026-11-04T16:02:29.363Z",
+      "updatedAt": "2026-11-04T16:02:29.364Z"
     },
     {
       "subtasks": [],
@@ -1408,7 +1408,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "test",
       "id": "mvz7378xtnttw",
       "title": "Unit Test",
@@ -1419,8 +1419,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-11-02T11:48:05.361Z",
-      "statusAt": "2026-11-02T11:49:36.451Z",
-      "updatedAt": "2026-11-02T11:49:36.451Z"
+      "statusAt": "2026-11-04T16:02:19.194Z",
+      "updatedAt": "2026-11-04T16:02:19.194Z"
     },
     {
       "subtasks": [],
