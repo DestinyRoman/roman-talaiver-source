@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-03T17:51:53.746Z",
+  "fetchedAt": "2026-11-04T16:03:00.168Z",
   "items": [
     {
       "uid": "event-assignment-2432946",
@@ -360,6 +360,36 @@
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=11&year=2026#assignment_2559475",
       "description": ""
+    },
+    {
+      "uid": "event-assignment-2559970",
+      "title": "Unit 3 Test Review- Parallel Lines and Planes - (Wayground)",
+      "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
+      "due": "2026-11-04",
+      "dueTime": "08:45",
+      "type": "test",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=11&year=2026#assignment_2559970",
+      "description": ""
+    },
+    {
+      "uid": "event-assignment-2561203",
+      "title": "11/04 Check for Understanding",
+      "course": "AP Computer Science Principles_SY26-27",
+      "due": "2026-11-05",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2561203",
+      "description": "# Create a list of three songs.\nsongs = [\"Sunrise\", \"Groove\", \"Home\"]\n\n# 1. Print the first song.\nprint(songs[_____])\n\n# 2. Print the last song using its index.\nprint(songs[_____])\n\n# 3. Use a function to count the songs.\nprint(_____(songs))\n\n# 4. Replace the second song with \"City Lights\".\nsongs[_____] = \"_____\"\n\n# Display the updated playlist.\nprint(songs)\n\nSunrise Home\n\n3\n\n['Sunrise', 'City Lights', 'Home']"
+    },
+    {
+      "uid": "event-assignment-override-65861",
+      "title": "Virtual Photosynthesis Lab (P2-Honors Biology-Avery)",
+      "course": "0403_13102Y_Honors Biology-0012_2627",
+      "due": "2026-11-05",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=11&year=2026#assignment_2560783",
+      "description": "Use this [link] (https://nt7-mhe-complex-assets.mheducation.com/nt7-mhe-complex-assets/Upload-20190715/InspireScience6-8CA/LS12/index.html) to access the virtual lab.  \n\nComplete the 5 journal questions on Canvas.  \n\nInclude a screenshot of your completed table.  The graph function is not working.  "
     }
   ]
 }
