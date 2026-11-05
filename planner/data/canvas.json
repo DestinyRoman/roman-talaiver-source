@@ -1,56 +1,6 @@
 {
-  "fetchedAt": "2026-11-04T16:03:00.168Z",
+  "fetchedAt": "2026-11-05T07:54:51.769Z",
   "items": [
-    {
-      "uid": "event-assignment-2432946",
-      "title": "10/01 Activity 2",
-      "course": "AP Computer Science Principles_SY26-27",
-      "due": "2026-10-05",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=10&year=2026#assignment_2432946",
-      "description": "Please answer the following"
-    },
-    {
-      "uid": "event-assignment-2433016",
-      "title": "10/01 Activity Theme Park Access",
-      "course": "AP Computer Science Principles_SY26-27",
-      "due": "2026-10-05",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=10&year=2026#assignment_2433016",
-      "description": "Activity -  Theme Part Access\n\nYou will create an app that determines a persons access based on:\n\nHeight → Age → Adult supervision\n\nThen rewrite one nested solution as a compound Boolean expression.\n\nThe planning document specifically emphasizes that nested versus compound structures can both be valid designs and students should compare them for readability.\n\nYour goal: Create a Python app that decides whether a person can ride an attraction by checking height → age → adult supervision. Then rewrite your nested solution using a compound Boolean expression.\n\nRide Rules\n----------\n\nUse these fictional rules for this activity:\n\n*\n\nRiders must be at least 48 inches tall.\n\n*\n\nRiders who meet the height requirement and are 12 or older may ride without an adult.\n\n*\n\nRiders who meet the height requirement but are under 12 need adult supervision.\n\nDirections\n----------\n\n*\n\nOpen your Python editor and create a file named theme_park_access.py.\n\n*\n\nAsk the user to enter their height in inches and "
-    },
-    {
-      "uid": "event-assignment-2433032",
-      "title": "10/01 Closure",
-      "course": "AP Computer Science Principles_SY26-27",
-      "due": "2026-10-05",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=10&year=2026#assignment_2433032",
-      "description": "Closure\n-------\n\nTrace the Path\n--------------\n\nage = 16\nhasAdult = True\n\nif age >= 16:\nif age < 18:\nif hasAdult: ,\nprint(\"Welcome!\")\n\nStudents answer:\n\n* Which conditions are checked?\n\n* In what order?\n\n* What is displayed?\n\n "
-    },
-    {
-      "uid": "event-assignment-2450969",
-      "title": "CW #11-Planning a Proof",
-      "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
-      "due": "2026-10-05",
-      "dueTime": "",
-      "type": "classwork",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=10&year=2026#assignment_2450969",
-      "description": "[2-6 CW-Planning a Proof.pdf] (https://bcpss.instructure.com/courses/45716/files/14652688?wrap=1)"
-    },
-    {
-      "uid": "event-assignment-2454128",
-      "title": "CW #12-Transversals - (Wayground)",
-      "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
-      "due": "2026-10-05",
-      "dueTime": "",
-      "type": "classwork",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=10&year=2026#assignment_2454128",
-      "description": ""
-    },
     {
       "uid": "event-assignment-2457802",
       "title": "Unit 2 Test Review (Deductive Reasoning) - (Wayground)",
