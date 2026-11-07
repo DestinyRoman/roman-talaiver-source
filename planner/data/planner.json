@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T14:44:25.028Z",
+  "updatedAt": "2026-11-07T14:45:00.055Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1286,7 +1286,7 @@
     },
     {
       "subtasks": [],
-      "status": "complete",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvu4gys6izpup",
       "title": "Literature Circle Roles Ch. 9-12",
@@ -1300,8 +1300,8 @@
       "canvasDue": "2026-11-02",
       "canvasTitle": "Literature Circle Roles Ch. 9-12",
       "createdAt": "2026-10-29T22:35:57.846Z",
-      "updatedAt": "2026-11-01T21:48:02.081Z",
-      "statusAt": "2026-11-01T21:48:02.081Z"
+      "updatedAt": "2026-11-07T14:44:44.442Z",
+      "statusAt": "2026-11-07T14:44:44.442Z"
     },
     {
       "subtasks": [],
@@ -1392,7 +1392,7 @@
     },
     {
       "subtasks": [],
-      "status": "complete",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvyd8kih0msgg",
       "title": "Como es tu horario?",
@@ -1403,8 +1403,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-11-01T21:52:27.353Z",
-      "statusAt": "2026-11-01T21:53:06.557Z",
-      "updatedAt": "2026-11-01T21:53:06.557Z"
+      "statusAt": "2026-11-07T14:44:49.905Z",
+      "updatedAt": "2026-11-07T14:44:49.905Z"
     },
     {
       "subtasks": [],
@@ -1440,7 +1440,7 @@
     },
     {
       "subtasks": [],
-      "status": "complete",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvzlsftl6gd3o",
       "title": "MISSING - Persepolis Panel Analysis ch 5-8",
@@ -1451,8 +1451,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-11-02T18:39:37.497Z",
-      "statusAt": "2026-11-04T16:03:03.667Z",
-      "updatedAt": "2026-11-04T16:03:03.667Z"
+      "statusAt": "2026-11-07T14:44:34.365Z",
+      "updatedAt": "2026-11-07T14:44:34.365Z"
     },
     {
       "subtasks": [],
@@ -1472,7 +1472,7 @@
     },
     {
       "subtasks": [],
-      "status": "complete",
+      "status": "turned_in",
       "type": "homework",
       "id": "mvzludph2c1ux",
       "title": "MISSING - Poem Analysis",
@@ -1483,8 +1483,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-11-02T18:41:08.069Z",
-      "statusAt": "2026-11-04T16:03:05.854Z",
-      "updatedAt": "2026-11-04T16:03:05.855Z"
+      "statusAt": "2026-11-07T14:44:37.333Z",
+      "updatedAt": "2026-11-07T14:44:37.333Z"
     },
     {
       "subtasks": [],
@@ -1547,7 +1547,7 @@
       "type": "test",
       "due": "2026-11-04",
       "dueTime": "08:45",
-      "status": "todo",
+      "status": "turned_in",
       "notes": "",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=11&year=2026#assignment_2559970",
       "subtasks": [],
@@ -1556,8 +1556,8 @@
       "canvasDue": "2026-11-04",
       "canvasTitle": "Unit 3 Test Review- Parallel Lines and Planes - (Wayground)",
       "createdAt": "2026-11-07T14:44:25.028Z",
-      "updatedAt": "2026-11-07T14:44:25.028Z",
-      "statusAt": "2026-11-07T14:44:25.028Z"
+      "updatedAt": "2026-11-07T14:44:31.448Z",
+      "statusAt": "2026-11-07T14:44:31.448Z"
     },
     {
       "id": "mw6il7wkq02ug",
@@ -1566,7 +1566,7 @@
       "type": "homework",
       "due": "2026-11-05",
       "dueTime": "",
-      "status": "todo",
+      "status": "turned_in",
       "notes": "# Create a list of three songs.\nsongs = [\"Sunrise\", \"Groove\", \"Home\"]\n\n# 1. Print the first song.\nprint(songs[_____])\n\n# 2. Print the last song using its index.\nprint(songs[_____])\n\n# 3. Use a function to count the songs.\nprint(_____(songs))\n\n# 4. Replace the second song with \"City Lights\".\nsongs[_____] = \"_____\"\n\n# Display the updated playlist.\nprint(songs)\n\nSunrise Home\n\n3\n\n['Sunrise', 'City Lights', 'Home']",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2561203",
       "subtasks": [],
@@ -1575,8 +1575,8 @@
       "canvasDue": "2026-11-05",
       "canvasTitle": "11/04 Check for Understanding",
       "createdAt": "2026-11-07T14:44:25.028Z",
-      "updatedAt": "2026-11-07T14:44:25.028Z",
-      "statusAt": "2026-11-07T14:44:25.028Z"
+      "updatedAt": "2026-11-07T14:44:54.791Z",
+      "statusAt": "2026-11-07T14:44:54.791Z"
     },
     {
       "id": "mw6il7wksyc4t",
@@ -1585,7 +1585,7 @@
       "type": "homework",
       "due": "2026-11-05",
       "dueTime": "",
-      "status": "todo",
+      "status": "turned_in",
       "notes": "Use this [link] (https://nt7-mhe-complex-assets.mheducation.com/nt7-mhe-complex-assets/Upload-20190715/InspireScience6-8CA/LS12/index.html) to access the virtual lab.  \n\nComplete the 5 journal questions on Canvas.  \n\nInclude a screenshot of your completed table.  The graph function is not working.  ",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=11&year=2026#assignment_2560783",
       "subtasks": [],
@@ -1594,8 +1594,8 @@
       "canvasDue": "2026-11-05",
       "canvasTitle": "Virtual Photosynthesis Lab (P2-Honors Biology-Avery)",
       "createdAt": "2026-11-07T14:44:25.028Z",
-      "updatedAt": "2026-11-07T14:44:25.028Z",
-      "statusAt": "2026-11-07T14:44:25.028Z"
+      "updatedAt": "2026-11-07T14:45:00.055Z",
+      "statusAt": "2026-11-07T14:45:00.055Z"
     }
   ]
 }
