@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-05T13:32:55.050Z",
+  "updatedAt": "2026-11-07T14:44:25.028Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1525,20 +1525,77 @@
       "statusAt": "2026-11-02T20:46:39.859Z"
     },
     {
+      "subtasks": [],
+      "status": "todo",
+      "type": "homework",
       "id": "mw3l3wqevp3xg",
       "title": "Topic #2 in Unit 3 Overview Packet",
       "classId": "mvl45j1x6h632",
-      "type": "homework",
       "due": "",
       "dueTime": "",
-      "status": "todo",
       "notes": "From Textbook Notes: pages 310-315",
       "link": "",
-      "subtasks": [],
       "source": "manual",
       "createdAt": "2026-11-05T13:31:37.718Z",
       "statusAt": "2026-11-05T13:32:48.145Z",
       "updatedAt": "2026-11-05T13:32:55.050Z"
+    },
+    {
+      "id": "mw6il7wkhx6zk",
+      "title": "Unit 3 Test Review- Parallel Lines and Planes - (Wayground)",
+      "classId": "mvl45j1x0d9rx",
+      "type": "test",
+      "due": "2026-11-04",
+      "dueTime": "08:45",
+      "status": "todo",
+      "notes": "",
+      "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=11&year=2026#assignment_2559970",
+      "subtasks": [],
+      "source": "canvas",
+      "canvasUid": "event-assignment-2559970",
+      "canvasDue": "2026-11-04",
+      "canvasTitle": "Unit 3 Test Review- Parallel Lines and Planes - (Wayground)",
+      "createdAt": "2026-11-07T14:44:25.028Z",
+      "updatedAt": "2026-11-07T14:44:25.028Z",
+      "statusAt": "2026-11-07T14:44:25.028Z"
+    },
+    {
+      "id": "mw6il7wkq02ug",
+      "title": "11/04 Check for Understanding",
+      "classId": "mvl45j1x6najw",
+      "type": "homework",
+      "due": "2026-11-05",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "# Create a list of three songs.\nsongs = [\"Sunrise\", \"Groove\", \"Home\"]\n\n# 1. Print the first song.\nprint(songs[_____])\n\n# 2. Print the last song using its index.\nprint(songs[_____])\n\n# 3. Use a function to count the songs.\nprint(_____(songs))\n\n# 4. Replace the second song with \"City Lights\".\nsongs[_____] = \"_____\"\n\n# Display the updated playlist.\nprint(songs)\n\nSunrise Home\n\n3\n\n['Sunrise', 'City Lights', 'Home']",
+      "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2561203",
+      "subtasks": [],
+      "source": "canvas",
+      "canvasUid": "event-assignment-2561203",
+      "canvasDue": "2026-11-05",
+      "canvasTitle": "11/04 Check for Understanding",
+      "createdAt": "2026-11-07T14:44:25.028Z",
+      "updatedAt": "2026-11-07T14:44:25.028Z",
+      "statusAt": "2026-11-07T14:44:25.028Z"
+    },
+    {
+      "id": "mw6il7wksyc4t",
+      "title": "Virtual Photosynthesis Lab (P2-Honors Biology-Avery)",
+      "classId": "mvl45j1xzms1h",
+      "type": "homework",
+      "due": "2026-11-05",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "Use this [link] (https://nt7-mhe-complex-assets.mheducation.com/nt7-mhe-complex-assets/Upload-20190715/InspireScience6-8CA/LS12/index.html) to access the virtual lab.  \n\nComplete the 5 journal questions on Canvas.  \n\nInclude a screenshot of your completed table.  The graph function is not working.  ",
+      "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=11&year=2026#assignment_2560783",
+      "subtasks": [],
+      "source": "canvas",
+      "canvasUid": "event-assignment-override-65861",
+      "canvasDue": "2026-11-05",
+      "canvasTitle": "Virtual Photosynthesis Lab (P2-Honors Biology-Avery)",
+      "createdAt": "2026-11-07T14:44:25.028Z",
+      "updatedAt": "2026-11-07T14:44:25.028Z",
+      "statusAt": "2026-11-07T14:44:25.028Z"
     }
   ]
 }
