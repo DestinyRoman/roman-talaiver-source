@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T14:45:00.055Z",
+  "updatedAt": "2026-11-07T14:46:22.075Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1596,6 +1596,22 @@
       "createdAt": "2026-11-07T14:44:25.028Z",
       "updatedAt": "2026-11-07T14:45:00.055Z",
       "statusAt": "2026-11-07T14:45:00.055Z"
+    },
+    {
+      "id": "mw6imsjspprxo",
+      "title": "Analyzing Uncle Anoosh's Characterization",
+      "classId": "mvl45j1x8faki",
+      "type": "homework",
+      "due": "2026-11-10",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "",
+      "link": "",
+      "subtasks": [],
+      "source": "manual",
+      "createdAt": "2026-11-07T14:45:38.440Z",
+      "statusAt": "2026-11-07T14:46:22.075Z",
+      "updatedAt": "2026-11-07T14:46:22.075Z"
     }
   ]
 }
