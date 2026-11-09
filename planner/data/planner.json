@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T20:52:41.915Z",
+  "updatedAt": "2026-11-09T20:58:54.645Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1635,7 +1635,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "classwork",
       "id": "mw9gh6lclt04r",
       "title": "CW #19-Some Ways to Prove Triangles Congruent - (Wayground)",
@@ -1649,8 +1649,8 @@
       "canvasDue": "2026-11-09",
       "canvasTitle": "CW #19-Some Ways to Prove Triangles Congruent - (Wayground)",
       "createdAt": "2026-11-09T16:08:36.000Z",
-      "updatedAt": "2026-11-09T16:08:51.254Z",
-      "statusAt": "2026-11-09T16:08:36.000Z",
+      "updatedAt": "2026-11-09T20:58:50.681Z",
+      "statusAt": "2026-11-09T20:58:50.681Z",
       "progress": 85
     },
     {
@@ -1693,7 +1693,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mw9gh6lcun8xs",
       "title": "11/09 Buzzy Bee's Ocean Data Mission",
@@ -1707,8 +1707,8 @@
       "canvasDue": "2026-11-10",
       "canvasTitle": "11/09 Buzzy Bee's Ocean Data Mission",
       "createdAt": "2026-11-09T16:08:36.000Z",
-      "updatedAt": "2026-11-09T16:08:36.000Z",
-      "statusAt": "2026-11-09T16:08:36.000Z"
+      "updatedAt": "2026-11-09T20:58:54.645Z",
+      "statusAt": "2026-11-09T20:58:54.645Z"
     },
     {
       "subtasks": [],
@@ -1743,16 +1743,16 @@
       "updatedAt": "2026-11-09T20:52:13.974Z"
     },
     {
+      "subtasks": [],
+      "status": "complete",
+      "type": "homework",
       "id": "mw9qkrtzsf1fi",
       "title": "Analyzing Uncle Anoosh's Characterization",
       "classId": "mvl45j1x8faki",
-      "type": "homework",
       "due": "2026-11-10",
       "dueTime": "08:00",
-      "status": "complete",
       "notes": "Complete the graphic organizer in preparation for your formative writing assignment.",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45304&month=11&year=2026#assignment_2575898",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-2575898",
       "canvasDue": "2026-11-10",
@@ -1762,16 +1762,16 @@
       "statusAt": "2026-11-09T20:52:33.349Z"
     },
     {
+      "subtasks": [],
+      "status": "turned_in",
+      "type": "homework",
       "id": "mw9qkrtztzyb8",
       "title": "11/09 check for understanding",
       "classId": "mvl45j1x6najw",
-      "type": "homework",
       "due": "2026-11-10",
       "dueTime": "",
-      "status": "turned_in",
       "notes": "",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2575989",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-2575989",
       "canvasDue": "2026-11-10",
@@ -1781,16 +1781,16 @@
       "statusAt": "2026-11-09T20:51:38.711Z"
     },
     {
+      "subtasks": [],
+      "status": "todo",
+      "type": "homework",
       "id": "mw9qkrtzk318s",
       "title": "Africa Storyline Endpoint Study Guide (P2-Honors Biology-Avery)",
       "classId": "mvl45j1xzms1h",
-      "type": "homework",
       "due": "2026-11-11",
       "dueTime": "",
-      "status": "todo",
       "notes": "[Digital Copy of Assignment] (https://docs.google.com/document/d/1OQT51neMpdFJya4bXTitYZA5a6u28Kv8RLs3Iy2eHPM/copy) (you will need to make a copy, complete it, download it as a PDF, and upload it to Canvas--do not share the document with me)\n\nIf you complete the paper copy (suggested you do this), take pictures of your work and attach them to this assignment for credit.\n\nThis assignment is required to be eligible for test retakes.  You need to complete it in full and submit it on time.  Key will post the morning after your study guide is due.  ",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=11&year=2026#assignment_2576068",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-override-67064",
       "canvasDue": "2026-11-11",
