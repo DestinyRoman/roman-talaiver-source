@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T20:51:54.295Z",
+  "updatedAt": "2026-11-09T20:52:13.974Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1727,7 +1727,7 @@
     },
     {
       "subtasks": [],
-      "status": "turned_in",
+      "status": "todo",
       "type": "test",
       "id": "mw9gu70qa8qo9",
       "title": "Unit Test",
@@ -1738,8 +1738,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-11-09T16:18:43.082Z",
-      "statusAt": "2026-11-09T20:51:54.295Z",
-      "updatedAt": "2026-11-09T20:51:54.295Z"
+      "statusAt": "2026-11-09T20:52:13.974Z",
+      "updatedAt": "2026-11-09T20:52:13.974Z"
     },
     {
       "id": "mw9qkrtzsf1fi",
