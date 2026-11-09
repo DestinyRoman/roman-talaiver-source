@@ -1,26 +1,6 @@
 {
-  "fetchedAt": "2026-11-08T07:21:07.737Z",
+  "fetchedAt": "2026-11-09T07:59:41.205Z",
   "items": [
-    {
-      "uid": "event-assignment-2460147",
-      "title": "CW #13-Parallel Lines Cut by a Transversal - (Wayground)",
-      "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
-      "due": "2026-10-09",
-      "dueTime": "",
-      "type": "classwork",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=10&year=2026#assignment_2460147",
-      "description": ""
-    },
-    {
-      "uid": "event-assignment-override-60185",
-      "title": "Nitrogen Cycle Review (P2-Honors Biology-Avery)",
-      "course": "0403_13102Y_Honors Biology-0012_2627",
-      "due": "2026-10-09",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=10&year=2026#assignment_2460585",
-      "description": ""
-    },
     {
       "uid": "event-assignment-2460987",
       "title": "10/09 Closure",
