@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T16:09:04.373Z",
+  "updatedAt": "2026-11-09T16:13:21.521Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1633,16 +1633,16 @@
       "deleted": true
     },
     {
+      "subtasks": [],
+      "status": "todo",
+      "type": "classwork",
       "id": "mw9gh6lclt04r",
       "title": "CW #19-Some Ways to Prove Triangles Congruent - (Wayground)",
       "classId": "mvl45j1x0d9rx",
-      "type": "classwork",
       "due": "2026-11-09",
       "dueTime": "",
-      "status": "todo",
       "notes": "",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=11&year=2026#assignment_2574541",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-2574541",
       "canvasDue": "2026-11-09",
@@ -1653,16 +1653,16 @@
       "progress": 85
     },
     {
+      "subtasks": [],
+      "status": "todo",
+      "type": "homework",
       "id": "mw9gh6lcq1aff",
       "title": "11/09 Warm Up",
       "classId": "mvl45j1x6najw",
-      "type": "homework",
       "due": "2026-11-10",
       "dueTime": "",
-      "status": "todo",
       "notes": "--------------------------\nLists and Data Abstraction\n--------------------------\n\nDirections: Choose the best answer. ",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2575626",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-2575626",
       "canvasDue": "2026-11-10",
@@ -1672,16 +1672,16 @@
       "statusAt": "2026-11-09T16:08:36.000Z"
     },
     {
+      "subtasks": [],
+      "status": "todo",
+      "type": "homework",
       "id": "mw9gh6lcmd54j",
       "title": "11/09 Snack Cart Switchero",
       "classId": "mvl45j1x6najw",
-      "type": "homework",
       "due": "2026-11-10",
       "dueTime": "",
-      "status": "todo",
       "notes": "Please submit a link to you code here.\n\n[Buzzy Bee Snack Cart Switcheroo-1.png] (https://bcpss.instructure.com/courses/46019/files/15200562/preview?hidden=1)",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2575792",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-2575792",
       "canvasDue": "2026-11-10",
@@ -1691,16 +1691,16 @@
       "statusAt": "2026-11-09T16:08:36.000Z"
     },
     {
+      "subtasks": [],
+      "status": "todo",
+      "type": "homework",
       "id": "mw9gh6lcun8xs",
       "title": "11/09 Buzzy Bee's Ocean Data Mission",
       "classId": "mvl45j1x6najw",
-      "type": "homework",
       "due": "2026-11-10",
       "dueTime": "",
-      "status": "todo",
       "notes": "Help Ollie update her ocean sightings using Python.\n\n* Create the starting list: [\"Ray\", \"Eel\", \"Crab\", \"Turtle\"].\n\n* Use append() to add \"Shark\" to the end.\n\n* Use insert() to place \"Octopus\" at index 1.\n\n* Use pop() to remove the item currently at index 2.\n\n* Print the list and its length after each change.\n\nSilver Challenge: Translate your three operations into AP pseudocode.\nGold Challenge: Use .copy() to create a separate list and explain how copying differs from sharing.",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2575846",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-2575846",
       "canvasDue": "2026-11-10",
@@ -1708,6 +1708,22 @@
       "createdAt": "2026-11-09T16:08:36.000Z",
       "updatedAt": "2026-11-09T16:08:36.000Z",
       "statusAt": "2026-11-09T16:08:36.000Z"
+    },
+    {
+      "id": "mw9glr2fcxmnu",
+      "title": "Photosynthesis Labeling",
+      "classId": "mvl45j1xzms1h",
+      "type": "homework",
+      "due": "2026-11-11",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "",
+      "link": "",
+      "subtasks": [],
+      "source": "manual",
+      "createdAt": "2026-11-09T16:12:09.159Z",
+      "statusAt": "2026-11-09T16:13:21.521Z",
+      "updatedAt": "2026-11-09T16:13:21.521Z"
     }
   ]
 }
