@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T16:13:21.521Z",
+  "updatedAt": "2026-11-09T16:14:02.824Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1654,7 +1654,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mw9gh6lcq1aff",
       "title": "11/09 Warm Up",
@@ -1668,8 +1668,8 @@
       "canvasDue": "2026-11-10",
       "canvasTitle": "11/09 Warm Up",
       "createdAt": "2026-11-09T16:08:36.000Z",
-      "updatedAt": "2026-11-09T16:08:36.000Z",
-      "statusAt": "2026-11-09T16:08:36.000Z"
+      "updatedAt": "2026-11-09T16:14:02.824Z",
+      "statusAt": "2026-11-09T16:14:02.824Z"
     },
     {
       "subtasks": [],
@@ -1710,16 +1710,16 @@
       "statusAt": "2026-11-09T16:08:36.000Z"
     },
     {
+      "subtasks": [],
+      "status": "todo",
+      "type": "homework",
       "id": "mw9glr2fcxmnu",
       "title": "Photosynthesis Labeling",
       "classId": "mvl45j1xzms1h",
-      "type": "homework",
       "due": "2026-11-11",
       "dueTime": "",
-      "status": "todo",
       "notes": "",
       "link": "",
-      "subtasks": [],
       "source": "manual",
       "createdAt": "2026-11-09T16:12:09.159Z",
       "statusAt": "2026-11-09T16:13:21.521Z",
