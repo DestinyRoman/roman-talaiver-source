@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T21:10:24.566Z",
+  "updatedAt": "2026-11-09T21:24:12.797Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1815,8 +1815,9 @@
       "canvasDue": "2026-11-10",
       "canvasTitle": "Analyzing Uncle Anoosh's Characterization",
       "createdAt": "2026-11-09T20:47:16.185Z",
-      "updatedAt": "2026-11-09T20:47:16.185Z",
-      "statusAt": "2026-11-09T20:47:16.185Z"
+      "updatedAt": "2026-11-09T21:24:12.796Z",
+      "statusAt": "2026-11-09T20:47:16.185Z",
+      "deleted": true
     },
     {
       "subtasks": [],
