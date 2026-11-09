@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T16:08:36.000Z",
+  "updatedAt": "2026-11-09T16:09:04.373Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1436,7 +1436,8 @@
       "source": "manual",
       "createdAt": "2026-11-02T18:38:34.701Z",
       "statusAt": "2026-11-02T18:38:57.154Z",
-      "updatedAt": "2026-11-02T18:39:30.935Z"
+      "updatedAt": "2026-11-09T16:09:04.373Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -1627,8 +1628,9 @@
       "source": "manual",
       "createdAt": "2026-11-09T16:03:04.830Z",
       "statusAt": "2026-11-09T16:03:43.444Z",
-      "updatedAt": "2026-11-09T16:04:05.458Z",
-      "progress": 85
+      "updatedAt": "2026-11-09T16:08:43.257Z",
+      "progress": 85,
+      "deleted": true
     },
     {
       "id": "mw9gh6lclt04r",
@@ -1646,8 +1648,9 @@
       "canvasDue": "2026-11-09",
       "canvasTitle": "CW #19-Some Ways to Prove Triangles Congruent - (Wayground)",
       "createdAt": "2026-11-09T16:08:36.000Z",
-      "updatedAt": "2026-11-09T16:08:36.000Z",
-      "statusAt": "2026-11-09T16:08:36.000Z"
+      "updatedAt": "2026-11-09T16:08:51.254Z",
+      "statusAt": "2026-11-09T16:08:36.000Z",
+      "progress": 85
     },
     {
       "id": "mw9gh6lcq1aff",
