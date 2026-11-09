@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T16:48:58.029Z",
+  "updatedAt": "2026-11-09T16:03:43.445Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1612,6 +1612,22 @@
       "createdAt": "2026-11-07T14:45:38.440Z",
       "statusAt": "2026-11-07T15:11:53.043Z",
       "updatedAt": "2026-11-07T15:11:53.043Z"
+    },
+    {
+      "id": "mw9ga326sypxy",
+      "title": "CW #19",
+      "classId": "mvl45j1x0d9rx",
+      "type": "classwork",
+      "due": "2026-10-09",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "",
+      "link": "",
+      "subtasks": [],
+      "source": "manual",
+      "createdAt": "2026-11-09T16:03:04.830Z",
+      "statusAt": "2026-11-09T16:03:43.444Z",
+      "updatedAt": "2026-11-09T16:03:43.444Z"
     }
   ]
 }
