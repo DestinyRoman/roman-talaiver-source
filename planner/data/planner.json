@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T16:14:02.824Z",
+  "updatedAt": "2026-11-09T16:19:02.507Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1724,6 +1724,22 @@
       "createdAt": "2026-11-09T16:12:09.159Z",
       "statusAt": "2026-11-09T16:13:21.521Z",
       "updatedAt": "2026-11-09T16:13:21.521Z"
+    },
+    {
+      "id": "mw9gu70qa8qo9",
+      "title": "Unit Test",
+      "classId": "mvl45j1xzms1h",
+      "type": "test",
+      "due": "2026-11-13",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "",
+      "link": "",
+      "subtasks": [],
+      "source": "manual",
+      "createdAt": "2026-11-09T16:18:43.082Z",
+      "statusAt": "2026-11-09T16:19:02.507Z",
+      "updatedAt": "2026-11-09T16:19:02.507Z"
     }
   ]
 }
