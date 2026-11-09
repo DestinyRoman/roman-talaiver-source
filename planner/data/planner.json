@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T20:51:19.655Z",
+  "updatedAt": "2026-11-09T20:51:54.295Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1673,7 +1673,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mw9gh6lcmd54j",
       "title": "11/09 Snack Cart Switchero",
@@ -1687,8 +1687,8 @@
       "canvasDue": "2026-11-10",
       "canvasTitle": "11/09 Snack Cart Switchero",
       "createdAt": "2026-11-09T16:08:36.000Z",
-      "updatedAt": "2026-11-09T16:08:36.000Z",
-      "statusAt": "2026-11-09T16:08:36.000Z"
+      "updatedAt": "2026-11-09T20:51:48.115Z",
+      "statusAt": "2026-11-09T20:51:48.115Z"
     },
     {
       "subtasks": [],
@@ -1727,7 +1727,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "test",
       "id": "mw9gu70qa8qo9",
       "title": "Unit Test",
@@ -1738,8 +1738,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-11-09T16:18:43.082Z",
-      "statusAt": "2026-11-09T16:19:02.507Z",
-      "updatedAt": "2026-11-09T16:19:02.507Z"
+      "statusAt": "2026-11-09T20:51:54.295Z",
+      "updatedAt": "2026-11-09T20:51:54.295Z"
     },
     {
       "id": "mw9qkrtzsf1fi",
@@ -1767,7 +1767,7 @@
       "type": "homework",
       "due": "2026-11-10",
       "dueTime": "",
-      "status": "todo",
+      "status": "turned_in",
       "notes": "",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2575989",
       "subtasks": [],
@@ -1776,8 +1776,8 @@
       "canvasDue": "2026-11-10",
       "canvasTitle": "11/09 check for understanding",
       "createdAt": "2026-11-09T20:51:19.655Z",
-      "updatedAt": "2026-11-09T20:51:19.655Z",
-      "statusAt": "2026-11-09T20:51:19.655Z"
+      "updatedAt": "2026-11-09T20:51:38.711Z",
+      "statusAt": "2026-11-09T20:51:38.711Z"
     },
     {
       "id": "mw9qkrtzk318s",
