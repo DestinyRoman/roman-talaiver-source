@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-09T07:59:41.205Z",
+  "fetchedAt": "2026-11-09T16:04:08.882Z",
   "items": [
     {
       "uid": "event-assignment-2460987",
@@ -300,6 +300,46 @@
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=11&year=2026#assignment_2560783",
       "description": "Use this [link] (https://nt7-mhe-complex-assets.mheducation.com/nt7-mhe-complex-assets/Upload-20190715/InspireScience6-8CA/LS12/index.html) to access the virtual lab.  \n\nComplete the 5 journal questions on Canvas.  \n\nInclude a screenshot of your completed table.  The graph function is not working.  "
+    },
+    {
+      "uid": "event-assignment-2574541",
+      "title": "CW #19-Some Ways to Prove Triangles Congruent - (Wayground)",
+      "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
+      "due": "2026-11-09",
+      "dueTime": "",
+      "type": "classwork",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=11&year=2026#assignment_2574541",
+      "description": ""
+    },
+    {
+      "uid": "event-assignment-2575626",
+      "title": "11/09 Warm Up",
+      "course": "AP Computer Science Principles_SY26-27",
+      "due": "2026-11-10",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2575626",
+      "description": "--------------------------\nLists and Data Abstraction\n--------------------------\n\nDirections: Choose the best answer. "
+    },
+    {
+      "uid": "event-assignment-2575792",
+      "title": "11/09 Snack Cart Switchero",
+      "course": "AP Computer Science Principles_SY26-27",
+      "due": "2026-11-10",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2575792",
+      "description": "Please submit a link to you code here.\n\n[Buzzy Bee Snack Cart Switcheroo-1.png] (https://bcpss.instructure.com/courses/46019/files/15200562/preview?hidden=1)"
+    },
+    {
+      "uid": "event-assignment-2575846",
+      "title": "11/09 Buzzy Bee's Ocean Data Mission",
+      "course": "AP Computer Science Principles_SY26-27",
+      "due": "2026-11-10",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2575846",
+      "description": "Help Ollie update her ocean sightings using Python.\n\n* Create the starting list: [\"Ray\", \"Eel\", \"Crab\", \"Turtle\"].\n\n* Use append() to add \"Shark\" to the end.\n\n* Use insert() to place \"Octopus\" at index 1.\n\n* Use pop() to remove the item currently at index 2.\n\n* Print the list and its length after each change.\n\nSilver Challenge: Translate your three operations into AP pseudocode.\nGold Challenge: Use .copy() to create a separate list and explain how copying differs from sharing."
     }
   ]
 }
