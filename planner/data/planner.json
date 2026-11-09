@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T20:52:13.974Z",
+  "updatedAt": "2026-11-09T20:52:41.915Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1612,7 +1612,8 @@
       "source": "manual",
       "createdAt": "2026-11-07T14:45:38.440Z",
       "statusAt": "2026-11-07T15:11:53.043Z",
-      "updatedAt": "2026-11-07T15:11:53.043Z"
+      "updatedAt": "2026-11-09T20:52:41.915Z",
+      "deleted": true
     },
     {
       "subtasks": [],
@@ -1748,7 +1749,7 @@
       "type": "homework",
       "due": "2026-11-10",
       "dueTime": "08:00",
-      "status": "todo",
+      "status": "complete",
       "notes": "Complete the graphic organizer in preparation for your formative writing assignment.",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45304&month=11&year=2026#assignment_2575898",
       "subtasks": [],
@@ -1757,8 +1758,8 @@
       "canvasDue": "2026-11-10",
       "canvasTitle": "Analyzing Uncle Anoosh's Characterization",
       "createdAt": "2026-11-09T20:51:19.655Z",
-      "updatedAt": "2026-11-09T20:51:19.655Z",
-      "statusAt": "2026-11-09T20:51:19.655Z"
+      "updatedAt": "2026-11-09T20:52:33.349Z",
+      "statusAt": "2026-11-09T20:52:33.349Z"
     },
     {
       "id": "mw9qkrtztzyb8",
