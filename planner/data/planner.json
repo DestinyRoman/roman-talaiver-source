@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T13:42:21.450Z",
+  "updatedAt": "2026-11-10T20:48:48.644Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1796,8 +1796,9 @@
       "canvasDue": "2026-11-11",
       "canvasTitle": "Africa Storyline Endpoint Study Guide (P2-Honors Biology-Avery)",
       "createdAt": "2026-11-09T20:51:19.655Z",
-      "updatedAt": "2026-11-09T20:51:19.655Z",
-      "statusAt": "2026-11-09T20:51:19.655Z"
+      "updatedAt": "2026-11-10T20:48:48.644Z",
+      "statusAt": "2026-11-09T20:51:19.655Z",
+      "deleted": true
     },
     {
       "subtasks": [],
