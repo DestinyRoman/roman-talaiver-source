@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-10T17:50:32.564Z",
+  "fetchedAt": "2026-11-11T15:35:58.122Z",
   "items": [
     {
       "uid": "event-assignment-2460987",
@@ -370,6 +370,26 @@
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=11&year=2026#assignment_2576068",
       "description": "[Digital Copy of Assignment] (https://docs.google.com/document/d/1OQT51neMpdFJya4bXTitYZA5a6u28Kv8RLs3Iy2eHPM/copy) (you will need to make a copy, complete it, download it as a PDF, and upload it to Canvas--do not share the document with me)\n\nIf you complete the paper copy (suggested you do this), take pictures of your work and attach them to this assignment for credit.\n\nThis assignment is required to be eligible for test retakes.  You need to complete it in full and submit it on time.  Key will post the morning after your study guide is due.  "
+    },
+    {
+      "uid": "event-assignment-2588095",
+      "title": "Test #3 Reassessment",
+      "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
+      "due": "2026-11-12",
+      "dueTime": "13:00",
+      "type": "test",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=11&year=2026#assignment_2588095",
+      "description": "-----------------------------\nTest #3 Reassessment Schedule\n-----------------------------\n\n------------------------------------------------------------------------------------------------------------\nThe reassessment schedule for Test #3  is on Thursday, November 12, 2026 during Parrot Time or after school.\n------------------------------------------------------------------------------------------------------------\n\nTo be eligible, you have to satisfy the following conditions:\n\n1. You took the original assessment on time.\n\n2. You attended at least one Parrot Time before the reassessment date.\n\n3. You did the Reassessment Review and got at least 80%.\n\n4. You signed up for reassessment by filling out the Google Form (see link below).\n\n[Click here to access the Reassessment Sign-up Form] (https://docs.google.com/forms/d/e/1FAIpQLScEqysBcpzT2OMgT4Z90pcnU_NsUzzeKuqRn1Olr1Xn9EB6OA/viewform?usp=header)\n\nIf any condition is not satisfied, your reassessment grade will be invalidated.\n\nThis topic"
+    },
+    {
+      "uid": "event-assignment-2588425",
+      "title": "11/11 Warm Up Traversing and Processing Lists",
+      "course": "AP Computer Science Principles_SY26-27",
+      "due": "2026-11-12",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2588425",
+      "description": "-------------------------------\nTraversing and Processing Lists\n-------------------------------\n\nDirections: Choose the best answer."
     }
   ]
 }
