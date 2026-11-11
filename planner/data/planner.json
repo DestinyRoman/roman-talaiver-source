@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-11T20:41:20.565Z",
+  "updatedAt": "2026-11-11T21:05:40.088Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1841,7 +1841,7 @@
     },
     {
       "subtasks": [],
-      "status": "doing",
+      "status": "turned_in",
       "type": "homework",
       "id": "mw9qfjyxquro3",
       "title": "Africa Storyline Endpoint Study Guide (P2-Honors Biology-Avery)",
@@ -1855,8 +1855,8 @@
       "canvasDue": "2026-11-11",
       "canvasTitle": "Africa Storyline Endpoint Study Guide (P2-Honors Biology-Avery)",
       "createdAt": "2026-11-09T20:47:16.185Z",
-      "updatedAt": "2026-11-11T15:35:16.504Z",
-      "statusAt": "2026-11-11T15:35:09.637Z",
+      "updatedAt": "2026-11-11T21:05:40.088Z",
+      "statusAt": "2026-11-11T21:05:40.088Z",
       "progress": 95
     },
     {
@@ -1915,16 +1915,16 @@
       "updatedAt": "2026-11-11T15:43:06.026Z"
     },
     {
+      "subtasks": [],
+      "status": "turned_in",
+      "type": "homework",
       "id": "mwcl35tiuc0z8",
       "title": "11/11 Activity One — Buzzy Bee’s Temperature Patrol",
       "classId": "mvl45j1x6najw",
-      "type": "homework",
       "due": "2026-11-12",
       "dueTime": "",
-      "status": "turned_in",
       "notes": "Choose the best answer.",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2588575",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-2588575",
       "canvasDue": "2026-11-12",
@@ -1934,16 +1934,16 @@
       "statusAt": "2026-11-11T20:41:13.657Z"
     },
     {
+      "subtasks": [],
+      "status": "turned_in",
+      "type": "homework",
       "id": "mwcl35tidpn4z",
       "title": "11/11 Activity Two Buzzy Bee’s Missing Creature Mission",
       "classId": "mvl45j1x6najw",
-      "type": "homework",
       "due": "2026-11-12",
       "dueTime": "",
-      "status": "turned_in",
       "notes": "Directions: Choose the best answer. \n\nUse this procedure for all four questions:\n\ndef contains_target(values, target):\n    for value in values:\n        if value == target:\n            return True\n    return False",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2588596",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-2588596",
       "canvasDue": "2026-11-12",
