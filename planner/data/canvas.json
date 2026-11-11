@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-11T15:35:58.122Z",
+  "fetchedAt": "2026-11-11T15:43:08.734Z",
   "items": [
     {
       "uid": "event-assignment-2460987",
@@ -390,6 +390,16 @@
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2588425",
       "description": "-------------------------------\nTraversing and Processing Lists\n-------------------------------\n\nDirections: Choose the best answer."
+    },
+    {
+      "uid": "event-assignment-2588575",
+      "title": "11/11 Activity One — Buzzy Bee’s Temperature Patrol",
+      "course": "AP Computer Science Principles_SY26-27",
+      "due": "2026-11-12",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2588575",
+      "description": "Choose the best answer."
     }
   ]
 }
