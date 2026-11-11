@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-11T20:40:58.422Z",
+  "updatedAt": "2026-11-11T20:41:20.565Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1880,7 +1880,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mwcafsz77f0mz",
       "title": "11/11 Warm Up Traversing and Processing Lists",
@@ -1894,8 +1894,8 @@
       "canvasDue": "2026-11-12",
       "canvasTitle": "11/11 Warm Up Traversing and Processing Lists",
       "createdAt": "2026-11-11T15:42:52.531Z",
-      "updatedAt": "2026-11-11T15:42:52.531Z",
-      "statusAt": "2026-11-11T15:42:52.531Z"
+      "updatedAt": "2026-11-11T20:41:20.565Z",
+      "statusAt": "2026-11-11T20:41:20.565Z"
     },
     {
       "subtasks": [],
@@ -1921,7 +1921,7 @@
       "type": "homework",
       "due": "2026-11-12",
       "dueTime": "",
-      "status": "todo",
+      "status": "turned_in",
       "notes": "Choose the best answer.",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2588575",
       "subtasks": [],
@@ -1930,8 +1930,8 @@
       "canvasDue": "2026-11-12",
       "canvasTitle": "11/11 Activity One — Buzzy Bee’s Temperature Patrol",
       "createdAt": "2026-11-11T20:40:58.422Z",
-      "updatedAt": "2026-11-11T20:40:58.422Z",
-      "statusAt": "2026-11-11T20:40:58.422Z"
+      "updatedAt": "2026-11-11T20:41:13.657Z",
+      "statusAt": "2026-11-11T20:41:13.657Z"
     },
     {
       "id": "mwcl35tidpn4z",
@@ -1940,7 +1940,7 @@
       "type": "homework",
       "due": "2026-11-12",
       "dueTime": "",
-      "status": "todo",
+      "status": "turned_in",
       "notes": "Directions: Choose the best answer. \n\nUse this procedure for all four questions:\n\ndef contains_target(values, target):\n    for value in values:\n        if value == target:\n            return True\n    return False",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2588596",
       "subtasks": [],
@@ -1949,8 +1949,8 @@
       "canvasDue": "2026-11-12",
       "canvasTitle": "11/11 Activity Two Buzzy Bee’s Missing Creature Mission",
       "createdAt": "2026-11-11T20:40:58.422Z",
-      "updatedAt": "2026-11-11T20:40:58.422Z",
-      "statusAt": "2026-11-11T20:40:58.422Z"
+      "updatedAt": "2026-11-11T20:41:17.856Z",
+      "statusAt": "2026-11-11T20:41:17.856Z"
     }
   ]
 }
