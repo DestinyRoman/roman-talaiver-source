@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T20:48:48.644Z",
+  "updatedAt": "2026-11-11T02:32:50.138Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1527,7 +1527,7 @@
     },
     {
       "subtasks": [],
-      "status": "complete",
+      "status": "turned_in",
       "type": "homework",
       "id": "mw3l3wqevp3xg",
       "title": "Topic #2 in Unit 3 Overview Packet",
@@ -1538,8 +1538,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-11-05T13:31:37.718Z",
-      "statusAt": "2026-11-07T16:48:58.029Z",
-      "updatedAt": "2026-11-07T16:48:58.029Z"
+      "statusAt": "2026-11-11T02:32:43.371Z",
+      "updatedAt": "2026-11-11T02:32:43.371Z"
     },
     {
       "subtasks": [],
@@ -1744,7 +1744,7 @@
     },
     {
       "subtasks": [],
-      "status": "complete",
+      "status": "turned_in",
       "type": "homework",
       "id": "mw9qkrtzsf1fi",
       "title": "Analyzing Uncle Anoosh's Characterization",
@@ -1758,8 +1758,8 @@
       "canvasDue": "2026-11-10",
       "canvasTitle": "Analyzing Uncle Anoosh's Characterization",
       "createdAt": "2026-11-09T20:51:19.655Z",
-      "updatedAt": "2026-11-09T20:52:33.349Z",
-      "statusAt": "2026-11-09T20:52:33.349Z"
+      "updatedAt": "2026-11-11T02:32:50.137Z",
+      "statusAt": "2026-11-11T02:32:50.137Z"
     },
     {
       "subtasks": [],
