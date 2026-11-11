@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-11T15:42:52.531Z",
+  "updatedAt": "2026-11-11T15:43:06.026Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1896,6 +1896,23 @@
       "createdAt": "2026-11-11T15:42:52.531Z",
       "updatedAt": "2026-11-11T15:42:52.531Z",
       "statusAt": "2026-11-11T15:42:52.531Z"
+    },
+    {
+      "id": "mwca733dcdy96",
+      "title": "CW - SAS, SSS, ASA",
+      "classId": "mvl45j1x0d9rx",
+      "type": "classwork",
+      "due": "2026-11-13",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "",
+      "link": "",
+      "subtasks": [],
+      "source": "manual",
+      "createdAt": "2026-11-11T15:36:05.737Z",
+      "progress": 85,
+      "statusAt": "2026-11-11T15:43:06.026Z",
+      "updatedAt": "2026-11-11T15:43:06.026Z"
     }
   ]
 }
