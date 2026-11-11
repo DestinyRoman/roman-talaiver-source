@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-11T15:43:08.734Z",
+  "fetchedAt": "2026-11-11T17:54:01.705Z",
   "items": [
     {
       "uid": "event-assignment-2460987",
@@ -400,6 +400,16 @@
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2588575",
       "description": "Choose the best answer."
+    },
+    {
+      "uid": "event-assignment-2588596",
+      "title": "11/11 Activity Two Buzzy Bee’s Missing Creature Mission",
+      "course": "AP Computer Science Principles_SY26-27",
+      "due": "2026-11-12",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2588596",
+      "description": "Directions: Choose the best answer. \n\nUse this procedure for all four questions:\n\ndef contains_target(values, target):\n    for value in values:\n        if value == target:\n            return True\n    return False"
     }
   ]
 }
