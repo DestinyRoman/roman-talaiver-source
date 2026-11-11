@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-11T02:32:50.138Z",
+  "updatedAt": "2026-11-11T15:35:43.455Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1712,7 +1712,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mw9glr2fcxmnu",
       "title": "Photosynthesis Labeling",
@@ -1723,8 +1723,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-11-09T16:12:09.159Z",
-      "statusAt": "2026-11-09T16:13:21.521Z",
-      "updatedAt": "2026-11-09T16:13:21.521Z"
+      "statusAt": "2026-11-11T15:35:27.624Z",
+      "updatedAt": "2026-11-11T15:35:27.624Z"
     },
     {
       "subtasks": [],
@@ -1841,7 +1841,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "doing",
       "type": "homework",
       "id": "mw9qfjyxquro3",
       "title": "Africa Storyline Endpoint Study Guide (P2-Honors Biology-Avery)",
@@ -1855,8 +1855,9 @@
       "canvasDue": "2026-11-11",
       "canvasTitle": "Africa Storyline Endpoint Study Guide (P2-Honors Biology-Avery)",
       "createdAt": "2026-11-09T20:47:16.185Z",
-      "updatedAt": "2026-11-09T20:47:16.185Z",
-      "statusAt": "2026-11-09T20:47:16.185Z"
+      "updatedAt": "2026-11-11T15:35:16.504Z",
+      "statusAt": "2026-11-11T15:35:09.637Z",
+      "progress": 95
     }
   ]
 }
