@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-12T19:15:18.549Z",
+  "updatedAt": "2026-11-12T19:15:37.520Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1975,7 +1975,7 @@
       "type": "classwork",
       "due": "2026-11-11",
       "dueTime": "",
-      "status": "todo",
+      "status": "turned_in",
       "notes": "[4-2B CW2-SSS, SAS, ASA.pdf] (https://bcpss.instructure.com/courses/45716/files/15225813?wrap=1)",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=11&year=2026#assignment_2582204",
       "subtasks": [],
@@ -1984,8 +1984,8 @@
       "canvasDue": "2026-11-11",
       "canvasTitle": "CW #20-SSS, SAS, ASA (Day 2)",
       "createdAt": "2026-11-12T19:15:18.549Z",
-      "updatedAt": "2026-11-12T19:15:18.549Z",
-      "statusAt": "2026-11-12T19:15:18.549Z"
+      "updatedAt": "2026-11-12T19:15:37.520Z",
+      "statusAt": "2026-11-12T19:15:37.520Z"
     },
     {
       "id": "mwdxguj9n5874",
@@ -1994,7 +1994,7 @@
       "type": "project",
       "due": "2026-11-12",
       "dueTime": "13:30",
-      "status": "todo",
+      "status": "turned_in",
       "notes": "",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=11&year=2026#assignment_1404761",
       "subtasks": [],
@@ -2003,8 +2003,8 @@
       "canvasDue": "2026-11-12",
       "canvasTitle": "Unit I Honors Presentational Speaking Systemic Assessment",
       "createdAt": "2026-11-12T19:15:18.549Z",
-      "updatedAt": "2026-11-12T19:15:18.549Z",
-      "statusAt": "2026-11-12T19:15:18.549Z"
+      "updatedAt": "2026-11-12T19:15:23.458Z",
+      "statusAt": "2026-11-12T19:15:23.458Z"
     },
     {
       "id": "mwdxguj9dumm2",
@@ -2013,7 +2013,7 @@
       "type": "project",
       "due": "2026-11-12",
       "dueTime": "13:30",
-      "status": "todo",
+      "status": "turned_in",
       "notes": "",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=11&year=2026#assignment_1404767",
       "subtasks": [],
@@ -2022,8 +2022,8 @@
       "canvasDue": "2026-11-12",
       "canvasTitle": "Unit I Honors Presentational Writing Systemic Assessment",
       "createdAt": "2026-11-12T19:15:18.549Z",
-      "updatedAt": "2026-11-12T19:15:18.549Z",
-      "statusAt": "2026-11-12T19:15:18.549Z"
+      "updatedAt": "2026-11-12T19:15:29.588Z",
+      "statusAt": "2026-11-12T19:15:29.588Z"
     },
     {
       "id": "mwdxguj9src41",
@@ -2032,7 +2032,7 @@
       "type": "homework",
       "due": "2026-11-12",
       "dueTime": "",
-      "status": "todo",
+      "status": "turned_in",
       "notes": "Completa los Ejercicios 1, 2, 3, 4, 5 y 10\n\nToma las [] (https://bcpss.instructure.com/courses/24558/files/5034857/preview) capturas de pantalla de tus [] (https://bcpss.instructure.com/courses/24558/files/5090359/preview) puntajes.\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\nUsa los acentos: é, á, í, ó, ú, ñ\n\n[Material Escolar] (https://www.profedeele.es/actividad/material-escolar/)",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=11&year=2026#assignment_2588913",
       "subtasks": [],
@@ -2041,8 +2041,8 @@
       "canvasDue": "2026-11-12",
       "canvasTitle": "ELE Material Escolar",
       "createdAt": "2026-11-12T19:15:18.549Z",
-      "updatedAt": "2026-11-12T19:15:18.549Z",
-      "statusAt": "2026-11-12T19:15:18.549Z"
+      "updatedAt": "2026-11-12T19:15:32.191Z",
+      "statusAt": "2026-11-12T19:15:32.191Z"
     },
     {
       "id": "mwdxguj9is2g4",
