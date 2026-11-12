@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-12T13:20:53.970Z",
+  "updatedAt": "2026-11-12T13:21:13.376Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1960,13 +1960,13 @@
       "due": "",
       "dueTime": "",
       "status": "todo",
-      "notes": "",
+      "notes": "In Unit 3 notes packet",
       "link": "",
       "subtasks": [],
       "source": "manual",
       "createdAt": "2026-11-12T13:19:05.315Z",
       "statusAt": "2026-11-12T13:20:53.970Z",
-      "updatedAt": "2026-11-12T13:20:53.970Z"
+      "updatedAt": "2026-11-12T13:21:13.376Z"
     }
   ]
 }
