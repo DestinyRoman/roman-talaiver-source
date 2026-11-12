@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-12T19:16:59.066Z",
+  "updatedAt": "2026-11-12T19:17:18.083Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1960,13 +1960,13 @@
       "title": "Textbook Pages 340-345/576-581 (The French Revolution Begins)",
       "classId": "mvl45j1x0d9rx",
       "due": "2026-11-16",
-      "dueTime": "",
+      "dueTime": "08:00",
       "notes": "In Unit 3 notes packet",
       "link": "",
       "source": "manual",
       "createdAt": "2026-11-12T13:19:05.315Z",
       "statusAt": "2026-11-12T13:20:53.970Z",
-      "updatedAt": "2026-11-12T19:16:59.066Z"
+      "updatedAt": "2026-11-12T19:17:18.083Z"
     },
     {
       "id": "mwdxguj9cdy5m",
