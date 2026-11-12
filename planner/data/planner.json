@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-11T21:06:15.975Z",
+  "updatedAt": "2026-11-12T13:20:53.970Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1951,6 +1951,22 @@
       "createdAt": "2026-11-11T20:40:58.422Z",
       "updatedAt": "2026-11-11T20:41:17.856Z",
       "statusAt": "2026-11-11T20:41:17.856Z"
+    },
+    {
+      "id": "mwdkqqublyopz",
+      "title": "Textbook Pages 340-345/576-581 (The French Revolution Begins)",
+      "classId": "mvl45j1x0d9rx",
+      "type": "homework",
+      "due": "",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "",
+      "link": "",
+      "subtasks": [],
+      "source": "manual",
+      "createdAt": "2026-11-12T13:19:05.315Z",
+      "statusAt": "2026-11-12T13:20:53.970Z",
+      "updatedAt": "2026-11-12T13:20:53.970Z"
     }
   ]
 }
