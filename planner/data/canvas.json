@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-12T13:21:27.792Z",
+  "fetchedAt": "2026-11-12T18:19:29.972Z",
   "items": [
     {
       "uid": "event-assignment-override-61170",
@@ -419,7 +419,17 @@
       "dueTime": "",
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=11&year=2026#assignment_2588913",
-      "description": ""
+      "description": "Completa los Ejercicios 1, 2, 3, 4, 5 y 10\n\nToma las [] (https://bcpss.instructure.com/courses/24558/files/5034857/preview) capturas de pantalla de tus [] (https://bcpss.instructure.com/courses/24558/files/5090359/preview) puntajes.\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\nUsa los acentos: é, á, í, ó, ú, ñ\n\n[Material Escolar] (https://www.profedeele.es/actividad/material-escolar/)"
+    },
+    {
+      "uid": "event-assignment-2589585",
+      "title": "Literature Circle Roles Ch. 13-16",
+      "course": "0403_08105Y_Honors English I-0003_2627",
+      "due": "2026-11-16",
+      "dueTime": "08:00",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45304&month=11&year=2026#assignment_2589585",
+      "description": "1. Read chapters 13-16 (\"The Key\"- \"The Passport,\" pg. 94-125)\n\n2. Complete your assigned role on your graphic organizer. Write legibly.\n\n "
     }
   ]
 }
