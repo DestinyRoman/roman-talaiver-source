@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-11T17:54:01.705Z",
+  "fetchedAt": "2026-11-12T01:32:21.021Z",
   "items": [
     {
       "uid": "event-assignment-2460987",
@@ -372,6 +372,26 @@
       "description": "[Digital Copy of Assignment] (https://docs.google.com/document/d/1OQT51neMpdFJya4bXTitYZA5a6u28Kv8RLs3Iy2eHPM/copy) (you will need to make a copy, complete it, download it as a PDF, and upload it to Canvas--do not share the document with me)\n\nIf you complete the paper copy (suggested you do this), take pictures of your work and attach them to this assignment for credit.\n\nThis assignment is required to be eligible for test retakes.  You need to complete it in full and submit it on time.  Key will post the morning after your study guide is due.  "
     },
     {
+      "uid": "event-assignment-1404761",
+      "title": "Unit I Honors Presentational Speaking Systemic Assessment",
+      "course": "0403_06200Y_Honors Spanish I-0005_2627",
+      "due": "2026-11-12",
+      "dueTime": "13:30",
+      "type": "project",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=11&year=2026#assignment_1404761",
+      "description": ""
+    },
+    {
+      "uid": "event-assignment-1404767",
+      "title": "Unit I Honors Presentational Writing Systemic Assessment",
+      "course": "0403_06200Y_Honors Spanish I-0005_2627",
+      "due": "2026-11-12",
+      "dueTime": "13:30",
+      "type": "project",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=11&year=2026#assignment_1404767",
+      "description": ""
+    },
+    {
       "uid": "event-assignment-2588095",
       "title": "Test #3 Reassessment",
       "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
@@ -410,6 +430,16 @@
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2588596",
       "description": "Directions: Choose the best answer. \n\nUse this procedure for all four questions:\n\ndef contains_target(values, target):\n    for value in values:\n        if value == target:\n            return True\n    return False"
+    },
+    {
+      "uid": "event-assignment-2588913",
+      "title": "ELE Material Escolar",
+      "course": "0403_06200Y_Honors Spanish I-0005_2627",
+      "due": "2026-11-12",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=11&year=2026#assignment_2588913",
+      "description": ""
     }
   ]
 }
