@@ -1,36 +1,6 @@
 {
-  "fetchedAt": "2026-11-12T01:32:21.021Z",
+  "fetchedAt": "2026-11-12T13:21:27.792Z",
   "items": [
-    {
-      "uid": "event-assignment-2460987",
-      "title": "10/09 Closure",
-      "course": "AP Computer Science Principles_SY26-27",
-      "due": "2026-10-12",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=10&year=2026#assignment_2460987",
-      "description": "Please answer the following"
-    },
-    {
-      "uid": "event-assignment-2461012",
-      "title": "10/09 Knowledge Check",
-      "course": "AP Computer Science Principles_SY26-27",
-      "due": "2026-10-12",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=10&year=2026#assignment_2461012",
-      "description": ""
-    },
-    {
-      "uid": "event-assignment-2463406",
-      "title": "Mi mapa de Google",
-      "course": "0403_06200Y_Honors Spanish I-0005_2627",
-      "due": "2026-10-12",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=10&year=2026#assignment_2463406",
-      "description": ""
-    },
     {
       "uid": "event-assignment-override-61170",
       "title": "CW#14-Proving Lines Parallel - (Wayground) (P1-Hon Ingenuity Proj Geometry-Cubebe)",
@@ -360,6 +330,16 @@
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2575989",
       "description": ""
+    },
+    {
+      "uid": "event-assignment-2582204",
+      "title": "CW #20-SSS, SAS, ASA (Day 2)",
+      "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
+      "due": "2026-11-11",
+      "dueTime": "",
+      "type": "classwork",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=11&year=2026#assignment_2582204",
+      "description": "[4-2B CW2-SSS, SAS, ASA.pdf] (https://bcpss.instructure.com/courses/45716/files/15225813?wrap=1)"
     },
     {
       "uid": "event-assignment-override-67064",
