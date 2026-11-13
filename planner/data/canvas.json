@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-13T07:57:57.848Z",
+  "fetchedAt": "2026-11-13T17:44:09.822Z",
   "items": [
     {
       "uid": "event-assignment-2460056",
@@ -410,6 +410,36 @@
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=11&year=2026#assignment_2588913",
       "description": "Completa los Ejercicios 1, 2, 3, 4, 5 y 10\n\nToma las [] (https://bcpss.instructure.com/courses/24558/files/5034857/preview) capturas de pantalla de tus [] (https://bcpss.instructure.com/courses/24558/files/5090359/preview) puntajes.\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\nUsa los acentos: é, á, í, ó, ú, ñ\n\n[Material Escolar] (https://www.profedeele.es/actividad/material-escolar/)"
+    },
+    {
+      "uid": "event-assignment-2593666",
+      "title": "CW#21-CPCTC - (Wayground)",
+      "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
+      "due": "2026-11-13",
+      "dueTime": "",
+      "type": "classwork",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=11&year=2026#assignment_2593666",
+      "description": ""
+    },
+    {
+      "uid": "event-assignment-override-68347",
+      "title": "11/13 Warm Up - Strings and Research Reports (3A-APCSP)",
+      "course": "AP Computer Science Principles_SY26-27",
+      "due": "2026-11-13",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2594420",
+      "description": "Please choose the BEST available answer."
+    },
+    {
+      "uid": "event-assignment-override-68468",
+      "title": "11/13 Closure (3A-APCSP)",
+      "course": "AP Computer Science Principles_SY26-27",
+      "due": "2026-11-13",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2594670",
+      "description": "Today, you practiced building clear messages and selecting parts of strings. Before you leave, explain why a number needs to be converted to text when using concatenation. Then describe how to select a substring using a starting index and a length."
     },
     {
       "uid": "event-assignment-2589585",
