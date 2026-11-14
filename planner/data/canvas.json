@@ -1,26 +1,6 @@
 {
-  "fetchedAt": "2026-11-14T00:19:54.415Z",
+  "fetchedAt": "2026-11-14T07:36:55.633Z",
   "items": [
-    {
-      "uid": "event-assignment-2464318",
-      "title": "10/13 Program Submission",
-      "course": "AP Computer Science Principles_SY26-27",
-      "due": "2026-10-14",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=10&year=2026#assignment_2464318",
-      "description": "Please submit your one compiler link to this assignment."
-    },
-    {
-      "uid": "event-assignment-2466038",
-      "title": "Que hora es.. Spanish 1 - (Wayground)",
-      "course": "0403_06200Y_Honors Spanish I-0005_2627",
-      "due": "2026-10-14",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=10&year=2026#assignment_2466038",
-      "description": ""
-    },
     {
       "uid": "event-assignment-2476475",
       "title": "10/15 Warm Up",
