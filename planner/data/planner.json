@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15T18:28:24.097Z",
+  "updatedAt": "2026-11-15T18:28:41.852Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1728,7 +1728,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "test",
       "id": "mw9gu70qa8qo9",
       "title": "Unit Test",
@@ -1739,8 +1739,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-11-09T16:18:43.082Z",
-      "statusAt": "2026-11-09T20:52:13.974Z",
-      "updatedAt": "2026-11-09T20:52:13.974Z"
+      "statusAt": "2026-11-15T18:28:41.852Z",
+      "updatedAt": "2026-11-15T18:28:41.852Z"
     },
     {
       "subtasks": [],
@@ -2070,7 +2070,7 @@
       "type": "classwork",
       "due": "2026-11-13",
       "dueTime": "",
-      "status": "todo",
+      "status": "turned_in",
       "notes": "",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=11&year=2026#assignment_2593666",
       "subtasks": [],
@@ -2079,8 +2079,8 @@
       "canvasDue": "2026-11-13",
       "canvasTitle": "CW#21-CPCTC - (Wayground)",
       "createdAt": "2026-11-15T18:28:24.097Z",
-      "updatedAt": "2026-11-15T18:28:24.097Z",
-      "statusAt": "2026-11-15T18:28:24.097Z"
+      "updatedAt": "2026-11-15T18:28:38.612Z",
+      "statusAt": "2026-11-15T18:28:38.612Z"
     },
     {
       "id": "mwi642w1p9dfe",
@@ -2089,7 +2089,7 @@
       "type": "homework",
       "due": "2026-11-13",
       "dueTime": "",
-      "status": "todo",
+      "status": "doing",
       "notes": "Please choose the BEST available answer.",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2594420",
       "subtasks": [],
@@ -2098,8 +2098,8 @@
       "canvasDue": "2026-11-13",
       "canvasTitle": "11/13 Warm Up - Strings and Research Reports (3A-APCSP)",
       "createdAt": "2026-11-15T18:28:24.097Z",
-      "updatedAt": "2026-11-15T18:28:24.097Z",
-      "statusAt": "2026-11-15T18:28:24.097Z"
+      "updatedAt": "2026-11-15T18:28:34.271Z",
+      "statusAt": "2026-11-15T18:28:34.271Z"
     },
     {
       "id": "mwi642w1oeuux",
@@ -2108,7 +2108,7 @@
       "type": "homework",
       "due": "2026-11-13",
       "dueTime": "",
-      "status": "todo",
+      "status": "turned_in",
       "notes": "Today, you practiced building clear messages and selecting parts of strings. Before you leave, explain why a number needs to be converted to text when using concatenation. Then describe how to select a substring using a starting index and a length.",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2594670",
       "subtasks": [],
@@ -2117,8 +2117,8 @@
       "canvasDue": "2026-11-13",
       "canvasTitle": "11/13 Closure (3A-APCSP)",
       "createdAt": "2026-11-15T18:28:24.097Z",
-      "updatedAt": "2026-11-15T18:28:24.097Z",
-      "statusAt": "2026-11-15T18:28:24.097Z"
+      "updatedAt": "2026-11-15T18:28:32.524Z",
+      "statusAt": "2026-11-15T18:28:32.524Z"
     },
     {
       "id": "mwi642w15beyb",
@@ -2127,7 +2127,7 @@
       "type": "homework",
       "due": "2026-11-13",
       "dueTime": "",
-      "status": "todo",
+      "status": "turned_in",
       "notes": "Please choose the best answer",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2594843",
       "subtasks": [],
@@ -2136,8 +2136,8 @@
       "canvasDue": "2026-11-13",
       "canvasTitle": "11/13 Activity one Ollie Write a Report Knowledge Check (3A-APCSP)",
       "createdAt": "2026-11-15T18:28:24.097Z",
-      "updatedAt": "2026-11-15T18:28:24.097Z",
-      "statusAt": "2026-11-15T18:28:24.097Z"
+      "updatedAt": "2026-11-15T18:28:29.305Z",
+      "statusAt": "2026-11-15T18:28:29.305Z"
     }
   ]
 }
