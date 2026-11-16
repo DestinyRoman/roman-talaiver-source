@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-16T07:59:09.075Z",
+  "fetchedAt": "2026-11-16T20:29:08.705Z",
   "items": [
     {
       "uid": "event-assignment-2476475",
@@ -430,6 +430,16 @@
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45304&month=11&year=2026#assignment_2589585",
       "description": "1. Read chapters 13-16 (\"The Key\"- \"The Passport,\" pg. 94-125)\n\n2. Complete your assigned role on your graphic organizer. Write legibly.\n\n "
+    },
+    {
+      "uid": "event-assignment-override-68885",
+      "title": "Planning Document (P2-Honors Biology-Avery)",
+      "course": "0403_13102Y_Honors Biology-0012_2627",
+      "due": "2026-11-17",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=11&year=2026#assignment_2596407",
+      "description": ""
     }
   ]
 }
