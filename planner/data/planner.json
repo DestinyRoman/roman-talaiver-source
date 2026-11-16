@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15T18:28:41.852Z",
+  "updatedAt": "2026-11-16T00:30:03.102Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1899,7 +1899,7 @@
     },
     {
       "subtasks": [],
-      "status": "doing",
+      "status": "turned_in",
       "type": "classwork",
       "id": "mwca733dcdy96",
       "title": "CW - SAS, SSS, ASA",
@@ -1911,8 +1911,8 @@
       "source": "manual",
       "createdAt": "2026-11-11T15:36:05.737Z",
       "progress": 85,
-      "statusAt": "2026-11-12T19:16:26.797Z",
-      "updatedAt": "2026-11-12T19:16:26.797Z"
+      "statusAt": "2026-11-16T00:30:03.102Z",
+      "updatedAt": "2026-11-16T00:30:03.102Z"
     },
     {
       "subtasks": [],
@@ -1954,7 +1954,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "complete",
       "type": "homework",
       "id": "mwdkqqublyopz",
       "title": "Textbook Pages 340-345/576-581 (The French Revolution Begins)",
@@ -1965,8 +1965,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-11-12T13:19:05.315Z",
-      "statusAt": "2026-11-12T13:20:53.970Z",
-      "updatedAt": "2026-11-12T19:17:18.083Z"
+      "statusAt": "2026-11-16T00:29:57.485Z",
+      "updatedAt": "2026-11-16T00:29:57.486Z"
     },
     {
       "subtasks": [],
@@ -2046,7 +2046,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "complete",
       "type": "homework",
       "id": "mwdxguj9is2g4",
       "title": "Literature Circle Roles Ch. 13-16",
@@ -2060,20 +2060,20 @@
       "canvasDue": "2026-11-16",
       "canvasTitle": "Literature Circle Roles Ch. 13-16",
       "createdAt": "2026-11-12T19:15:18.549Z",
-      "updatedAt": "2026-11-12T19:15:18.549Z",
-      "statusAt": "2026-11-12T19:15:18.549Z"
+      "updatedAt": "2026-11-16T00:29:55.597Z",
+      "statusAt": "2026-11-16T00:29:55.597Z"
     },
     {
+      "subtasks": [],
+      "status": "turned_in",
+      "type": "classwork",
       "id": "mwi642w1zjaq3",
       "title": "CW#21-CPCTC - (Wayground)",
       "classId": "mvl45j1x0d9rx",
-      "type": "classwork",
       "due": "2026-11-13",
       "dueTime": "",
-      "status": "turned_in",
       "notes": "",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=11&year=2026#assignment_2593666",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-2593666",
       "canvasDue": "2026-11-13",
@@ -2083,16 +2083,16 @@
       "statusAt": "2026-11-15T18:28:38.612Z"
     },
     {
+      "subtasks": [],
+      "status": "doing",
+      "type": "homework",
       "id": "mwi642w1p9dfe",
       "title": "11/13 Warm Up - Strings and Research Reports (3A-APCSP)",
       "classId": "mvl45j1x6najw",
-      "type": "homework",
       "due": "2026-11-13",
       "dueTime": "",
-      "status": "doing",
       "notes": "Please choose the BEST available answer.",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2594420",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-override-68347",
       "canvasDue": "2026-11-13",
@@ -2102,16 +2102,16 @@
       "statusAt": "2026-11-15T18:28:34.271Z"
     },
     {
+      "subtasks": [],
+      "status": "turned_in",
+      "type": "homework",
       "id": "mwi642w1oeuux",
       "title": "11/13 Closure (3A-APCSP)",
       "classId": "mvl45j1x6najw",
-      "type": "homework",
       "due": "2026-11-13",
       "dueTime": "",
-      "status": "turned_in",
       "notes": "Today, you practiced building clear messages and selecting parts of strings. Before you leave, explain why a number needs to be converted to text when using concatenation. Then describe how to select a substring using a starting index and a length.",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2594670",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-override-68468",
       "canvasDue": "2026-11-13",
@@ -2121,16 +2121,16 @@
       "statusAt": "2026-11-15T18:28:32.524Z"
     },
     {
+      "subtasks": [],
+      "status": "turned_in",
+      "type": "homework",
       "id": "mwi642w15beyb",
       "title": "11/13 Activity one Ollie Write a Report Knowledge Check (3A-APCSP)",
       "classId": "mvl45j1x6najw",
-      "type": "homework",
       "due": "2026-11-13",
       "dueTime": "",
-      "status": "turned_in",
       "notes": "Please choose the best answer",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2594843",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-override-68555",
       "canvasDue": "2026-11-13",
