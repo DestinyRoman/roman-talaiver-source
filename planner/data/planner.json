@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T15:24:26.902Z",
+  "updatedAt": "2026-11-17T16:30:54.811Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -1954,7 +1954,7 @@
     },
     {
       "subtasks": [],
-      "status": "complete",
+      "status": "turned_in",
       "type": "homework",
       "id": "mwdkqqublyopz",
       "title": "Textbook Pages 340-345/576-581 (The French Revolution Begins)",
@@ -1965,8 +1965,8 @@
       "link": "",
       "source": "manual",
       "createdAt": "2026-11-12T13:19:05.315Z",
-      "statusAt": "2026-11-16T00:29:57.485Z",
-      "updatedAt": "2026-11-16T00:29:57.486Z"
+      "statusAt": "2026-11-17T16:30:40.782Z",
+      "updatedAt": "2026-11-17T16:30:40.782Z"
     },
     {
       "subtasks": [],
@@ -2160,7 +2160,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "quiz",
       "id": "mwkstgkgvrqyc",
       "title": "Quiz #4 Review -Lessons4.1-4.3 - (Wayground)",
@@ -2174,8 +2174,8 @@
       "canvasDue": "2026-11-17",
       "canvasTitle": "Quiz #4 Review -Lessons4.1-4.3 - (Wayground)",
       "createdAt": "2026-11-17T14:39:32.128Z",
-      "updatedAt": "2026-11-17T14:39:32.128Z",
-      "statusAt": "2026-11-17T14:39:32.128Z"
+      "updatedAt": "2026-11-17T16:30:30.641Z",
+      "statusAt": "2026-11-17T16:30:30.641Z"
     },
     {
       "subtasks": [],
@@ -2194,23 +2194,23 @@
       "updatedAt": "2026-11-17T14:40:23.450Z"
     },
     {
+      "subtasks": [],
+      "status": "turned_in",
+      "type": "homework",
       "id": "mwkuf7va8z2c2",
       "title": "11/17 Warm Up (3A-APCSP)",
       "classId": "mvl45j1x6najw",
-      "type": "homework",
       "due": "2026-11-17",
       "dueTime": "",
-      "status": "todo",
       "notes": "Please choose the best answer.",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2597772",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-override-69293",
       "canvasDue": "2026-11-17",
       "canvasTitle": "11/17 Warm Up (3A-APCSP)",
       "createdAt": "2026-11-17T15:24:26.902Z",
-      "updatedAt": "2026-11-17T15:24:26.902Z",
-      "statusAt": "2026-11-17T15:24:26.902Z"
+      "updatedAt": "2026-11-17T16:30:54.811Z",
+      "statusAt": "2026-11-17T16:30:54.811Z"
     }
   ]
 }
