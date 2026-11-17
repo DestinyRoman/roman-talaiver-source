@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T00:30:03.102Z",
+  "updatedAt": "2026-11-17T13:56:26.726Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -2138,6 +2138,25 @@
       "createdAt": "2026-11-15T18:28:24.097Z",
       "updatedAt": "2026-11-15T18:28:29.305Z",
       "statusAt": "2026-11-15T18:28:29.305Z"
+    },
+    {
+      "id": "mwkra1nq1i720",
+      "title": "Planning Document (P2-Honors Biology-Avery)",
+      "classId": "mvl45j1xzms1h",
+      "type": "homework",
+      "due": "2026-11-17",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "",
+      "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=11&year=2026#assignment_2596407",
+      "subtasks": [],
+      "source": "canvas",
+      "canvasUid": "event-assignment-override-68885",
+      "canvasDue": "2026-11-17",
+      "canvasTitle": "Planning Document (P2-Honors Biology-Avery)",
+      "createdAt": "2026-11-17T13:56:26.726Z",
+      "updatedAt": "2026-11-17T13:56:26.726Z",
+      "statusAt": "2026-11-17T13:56:26.726Z"
     }
   ]
 }
