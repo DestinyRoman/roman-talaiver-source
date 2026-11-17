@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-17T13:56:49.426Z",
+  "fetchedAt": "2026-11-17T14:39:56.991Z",
   "items": [
     {
       "uid": "event-assignment-2476475",
@@ -450,6 +450,16 @@
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=11&year=2026#assignment_2596407",
       "description": "You will complete this assignment in class.  You will take your device with you to 3 stations of interest to help you choose a science fair research project idea.  This assignment will be submitted by the end of the day.  \n\n \n\nOnly use this [link] (https://docs.google.com/document/d/1xSWZeCrD-YAN43aYaiMAGlaaw_ei7RYKSIaBgQ7TDh0/copy) if you cannot open the assignment on Canvas.  "
+    },
+    {
+      "uid": "event-assignment-override-69293",
+      "title": "11/17 Warm Up (3A-APCSP)",
+      "course": "AP Computer Science Principles_SY26-27",
+      "due": "2026-11-17",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2597772",
+      "description": "Please choose the best answer."
     }
   ]
 }
