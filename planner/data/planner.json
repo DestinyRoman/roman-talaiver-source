@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T14:39:32.128Z",
+  "updatedAt": "2026-11-17T14:40:23.450Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -2176,6 +2176,22 @@
       "createdAt": "2026-11-17T14:39:32.128Z",
       "updatedAt": "2026-11-17T14:39:32.128Z",
       "statusAt": "2026-11-17T14:39:32.128Z"
+    },
+    {
+      "id": "mwkstwnwd01m5",
+      "title": "Biology Project: Final Draft",
+      "classId": "mvl45j1xzms1h",
+      "type": "project",
+      "due": "2026-11-30",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "",
+      "link": "",
+      "subtasks": [],
+      "source": "manual",
+      "createdAt": "2026-11-17T14:39:52.988Z",
+      "statusAt": "2026-11-17T14:40:23.450Z",
+      "updatedAt": "2026-11-17T14:40:23.450Z"
     }
   ]
 }
