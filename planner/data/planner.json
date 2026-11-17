@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T13:56:26.726Z",
+  "updatedAt": "2026-11-17T14:39:32.128Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -2140,16 +2140,16 @@
       "statusAt": "2026-11-15T18:28:29.305Z"
     },
     {
+      "subtasks": [],
+      "status": "todo",
+      "type": "homework",
       "id": "mwkra1nq1i720",
       "title": "Planning Document (P2-Honors Biology-Avery)",
       "classId": "mvl45j1xzms1h",
-      "type": "homework",
       "due": "2026-11-17",
       "dueTime": "",
-      "status": "todo",
       "notes": "",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=11&year=2026#assignment_2596407",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-override-68885",
       "canvasDue": "2026-11-17",
@@ -2157,6 +2157,25 @@
       "createdAt": "2026-11-17T13:56:26.726Z",
       "updatedAt": "2026-11-17T13:56:26.726Z",
       "statusAt": "2026-11-17T13:56:26.726Z"
+    },
+    {
+      "id": "mwkstgkgvrqyc",
+      "title": "Quiz #4 Review -Lessons4.1-4.3 - (Wayground)",
+      "classId": "mvl45j1x0d9rx",
+      "type": "quiz",
+      "due": "2026-11-17",
+      "dueTime": "09:00",
+      "status": "todo",
+      "notes": "",
+      "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=11&year=2026#assignment_2596890",
+      "subtasks": [],
+      "source": "canvas",
+      "canvasUid": "event-assignment-2596890",
+      "canvasDue": "2026-11-17",
+      "canvasTitle": "Quiz #4 Review -Lessons4.1-4.3 - (Wayground)",
+      "createdAt": "2026-11-17T14:39:32.128Z",
+      "updatedAt": "2026-11-17T14:39:32.128Z",
+      "statusAt": "2026-11-17T14:39:32.128Z"
     }
   ]
 }
