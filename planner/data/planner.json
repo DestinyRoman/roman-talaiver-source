@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T14:40:23.450Z",
+  "updatedAt": "2026-11-17T15:24:26.902Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -2159,16 +2159,16 @@
       "statusAt": "2026-11-17T13:56:26.726Z"
     },
     {
+      "subtasks": [],
+      "status": "todo",
+      "type": "quiz",
       "id": "mwkstgkgvrqyc",
       "title": "Quiz #4 Review -Lessons4.1-4.3 - (Wayground)",
       "classId": "mvl45j1x0d9rx",
-      "type": "quiz",
       "due": "2026-11-17",
       "dueTime": "09:00",
-      "status": "todo",
       "notes": "",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=11&year=2026#assignment_2596890",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-2596890",
       "canvasDue": "2026-11-17",
@@ -2178,20 +2178,39 @@
       "statusAt": "2026-11-17T14:39:32.128Z"
     },
     {
+      "subtasks": [],
+      "status": "todo",
+      "type": "project",
       "id": "mwkstwnwd01m5",
       "title": "Biology Project: Final Draft",
       "classId": "mvl45j1xzms1h",
-      "type": "project",
       "due": "2026-11-30",
       "dueTime": "",
-      "status": "todo",
       "notes": "",
       "link": "",
-      "subtasks": [],
       "source": "manual",
       "createdAt": "2026-11-17T14:39:52.988Z",
       "statusAt": "2026-11-17T14:40:23.450Z",
       "updatedAt": "2026-11-17T14:40:23.450Z"
+    },
+    {
+      "id": "mwkuf7va8z2c2",
+      "title": "11/17 Warm Up (3A-APCSP)",
+      "classId": "mvl45j1x6najw",
+      "type": "homework",
+      "due": "2026-11-17",
+      "dueTime": "",
+      "status": "todo",
+      "notes": "Please choose the best answer.",
+      "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2597772",
+      "subtasks": [],
+      "source": "canvas",
+      "canvasUid": "event-assignment-override-69293",
+      "canvasDue": "2026-11-17",
+      "canvasTitle": "11/17 Warm Up (3A-APCSP)",
+      "createdAt": "2026-11-17T15:24:26.902Z",
+      "updatedAt": "2026-11-17T15:24:26.902Z",
+      "statusAt": "2026-11-17T15:24:26.902Z"
     }
   ]
 }
