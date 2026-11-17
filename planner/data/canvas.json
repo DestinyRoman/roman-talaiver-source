@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-17T16:31:23.494Z",
+  "fetchedAt": "2026-11-17T19:11:26.506Z",
   "items": [
     {
       "uid": "event-assignment-2476475",
@@ -490,6 +490,16 @@
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2597917",
       "description": ""
+    },
+    {
+      "uid": "event-assignment-override-69458",
+      "title": "Science Fair Proposal Project (Final Submission) (P2-Honors Biology-Avery)",
+      "course": "0403_13102Y_Honors Biology-0012_2627",
+      "due": "2026-11-30",
+      "dueTime": "",
+      "type": "test",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=11&year=2026#assignment_2598117",
+      "description": "This template is where you will complete your science fair proposal project.  This is a research-based project that requires the use of multiple primary and secondary sources.  Both you and your partner (if you have one) must submit on Canvas.  AI can be used to help you generate a testable research question and a citation manager can be used to help you create your annotated bibliography.  Other uses of AI on this project are strictly prohibited.  "
     }
   ]
 }
