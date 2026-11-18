@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-17T19:11:26.506Z",
+  "fetchedAt": "2026-11-18T18:51:24.395Z",
   "items": [
     {
       "uid": "event-assignment-2476475",
@@ -30,16 +30,6 @@
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=10&year=2026#assignment_2476636",
       "description": "---------------------------------------------\nCode Cleanup Crew — Multiple-Choice Questions\n---------------------------------------------\n\nDirections: Compare the BEFORE and AFTER code. Choose the best answer.\n\n# BEFORE\nprice1 = 20\ntax1 = price1 * .06\nprice2 = 40\ntax2 = price2 * .06\nprice3 = 100\ntax3 = price3 * .06\n\n# AFTER\ndef calculate_tax(price):\n    return price * .06\n\nprint(calculate_tax(20))\nprint(calculate_tax(40))\nprint(calculate_tax(100))\n\n "
-    },
-    {
-      "uid": "event-assignment-override-61474",
-      "title": "MWH - SY 26-27 Semester 1 Pre-Assessment (1B HMWH)",
-      "course": "Hon. MWH",
-      "due": "2026-10-19",
-      "dueTime": "08:00",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45481&month=10&year=2026#assignment_2464731",
-      "description": "[92001_TestBooklet.pdf] (https://bcpss.instructure.com/courses/45481/files/14765623?wrap=1)\n\nUse the Test Booklet linked above to complete the MWH SY 26-27 Semester 1 Pre-Assessment that was distributed in class. Hand in work in class on Monday, Oct. 19."
     },
     {
       "uid": "event-assignment-2495095",
