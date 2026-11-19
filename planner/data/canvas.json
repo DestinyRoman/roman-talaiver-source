@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-19T08:50:06.687Z",
+  "fetchedAt": "2026-11-19T18:59:02.117Z",
   "items": [
     {
       "uid": "event-assignment-2495095",
@@ -452,6 +452,26 @@
       "description": ""
     },
     {
+      "uid": "event-assignment-2598847",
+      "title": "CW#22-AAS and HL Theorems - (Wayground)",
+      "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
+      "due": "2026-11-19",
+      "dueTime": "",
+      "type": "classwork",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=11&year=2026#assignment_2598847",
+      "description": ""
+    },
+    {
+      "uid": "event-assignment-2599656",
+      "title": "11/19 Activity Two Knowledge Check",
+      "course": "AP Computer Science Principles_SY26-27",
+      "due": "2026-11-19",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2599656",
+      "description": ""
+    },
+    {
       "uid": "event-assignment-2599254",
       "title": "HW 11/18: Read",
       "course": "0403_08105Y_Honors English I-0003_2627",
@@ -462,13 +482,53 @@
       "description": "Read chapters 17-19 (pages 126-end of book).  "
     },
     {
+      "uid": "event-assignment-2599563",
+      "title": "11/19 Warm Up",
+      "course": "AP Computer Science Principles_SY26-27",
+      "due": "2026-11-20",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2599563",
+      "description": "Please select the Best answer."
+    },
+    {
+      "uid": "event-assignment-2599581",
+      "title": "11/19 Activity One Knowledge Check",
+      "course": "AP Computer Science Principles_SY26-27",
+      "due": "2026-11-20",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2599581",
+      "description": ""
+    },
+    {
+      "uid": "event-assignment-2599675",
+      "title": "11/19 Closure",
+      "course": "AP Computer Science Principles_SY26-27",
+      "due": "2026-11-20",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2599675",
+      "description": ""
+    },
+    {
+      "uid": "event-assignment-2598862",
+      "title": "Quiz #4 Reassessment",
+      "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
+      "due": "2026-11-24",
+      "dueTime": "15:00",
+      "type": "quiz",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=11&year=2026#assignment_2598862",
+      "description": "The reassessment schedule for Quiz #4  is on Tuesday, November 24, 2026 during Parrot Time or after school.\n-----------------------------------------------------------------------------------------------------------\n\nTo be eligible, you have to satisfy the following conditions:\n\n1. You took the original assessment on time.\n\n2. You attended at least one Parrot Time before the reassessment date.\n\n3. You did the Reassessment Review and got at least 80%.\n\n4. You signed up for reassessment by filling out the Google Form (see link below).\n\n[Click here to access the Reassessment Sign-up Form] (https://docs.google.com/forms/d/e/1FAIpQLScEqysBcpzT2OMgT4Z90pcnU_NsUzzeKuqRn1Olr1Xn9EB6OA/viewform?usp=header)\n\nIf any condition is not satisfied, your reassessment grade will be invalidated.\n\nThis topic is closed for comments."
+    },
+    {
       "uid": "event-assignment-override-69458",
       "title": "Science Fair Proposal Project (Final Submission) (P2-Honors Biology-Avery)",
       "course": "0403_13102Y_Honors Biology-0012_2627",
-      "due": "2026-11-30",
+      "due": "2026-12-02",
       "dueTime": "",
       "type": "test",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=11&year=2026#assignment_2598117",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=12&year=2026#assignment_2598117",
       "description": "This template is where you will complete your science fair proposal project.  This is a research-based project that requires the use of multiple primary and secondary sources.  Both you and your partner (if you have one) must submit on Canvas.  AI can be used to help you generate a testable research question and a citation manager can be used to help you create your annotated bibliography.  Other uses of AI on this project are strictly prohibited.  "
     }
   ]
