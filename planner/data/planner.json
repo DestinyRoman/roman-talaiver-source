@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-19T04:56:53.660Z",
+  "updatedAt": "2026-11-19T11:55:14.422Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -2046,7 +2046,7 @@
     },
     {
       "subtasks": [],
-      "status": "complete",
+      "status": "turned_in",
       "type": "homework",
       "id": "mwdxguj9is2g4",
       "title": "Literature Circle Roles Ch. 13-16",
@@ -2060,8 +2060,8 @@
       "canvasDue": "2026-11-16",
       "canvasTitle": "Literature Circle Roles Ch. 13-16",
       "createdAt": "2026-11-12T19:15:18.549Z",
-      "updatedAt": "2026-11-16T00:29:55.597Z",
-      "statusAt": "2026-11-16T00:29:55.597Z"
+      "updatedAt": "2026-11-19T11:54:58.543Z",
+      "statusAt": "2026-11-19T11:54:58.543Z"
     },
     {
       "subtasks": [],
@@ -2084,7 +2084,7 @@
     },
     {
       "subtasks": [],
-      "status": "doing",
+      "status": "turned_in",
       "type": "homework",
       "id": "mwi642w1p9dfe",
       "title": "11/13 Warm Up - Strings and Research Reports (3A-APCSP)",
@@ -2098,8 +2098,8 @@
       "canvasDue": "2026-11-13",
       "canvasTitle": "11/13 Warm Up - Strings and Research Reports (3A-APCSP)",
       "createdAt": "2026-11-15T18:28:24.097Z",
-      "updatedAt": "2026-11-15T18:28:34.271Z",
-      "statusAt": "2026-11-15T18:28:34.271Z"
+      "updatedAt": "2026-11-19T11:55:01.990Z",
+      "statusAt": "2026-11-19T11:55:01.990Z"
     },
     {
       "subtasks": [],
@@ -2141,7 +2141,7 @@
     },
     {
       "subtasks": [],
-      "status": "todo",
+      "status": "turned_in",
       "type": "homework",
       "id": "mwkra1nq1i720",
       "title": "Planning Document (P2-Honors Biology-Avery)",
@@ -2155,8 +2155,8 @@
       "canvasDue": "2026-11-17",
       "canvasTitle": "Planning Document (P2-Honors Biology-Avery)",
       "createdAt": "2026-11-17T13:56:26.726Z",
-      "updatedAt": "2026-11-17T13:56:26.726Z",
-      "statusAt": "2026-11-17T13:56:26.726Z"
+      "updatedAt": "2026-11-19T11:55:11.323Z",
+      "statusAt": "2026-11-19T11:55:11.323Z"
     },
     {
       "subtasks": [],
@@ -2213,92 +2213,92 @@
       "statusAt": "2026-11-17T16:30:54.811Z"
     },
     {
+      "subtasks": [],
+      "status": "turned_in",
+      "type": "homework",
       "id": "mwn2vvrw3h685",
       "title": "11/17 Activity One Knowledge Check (3A-APCSP)",
       "classId": "mvl45j1x6najw",
-      "type": "homework",
       "due": "2026-11-17",
       "dueTime": "",
-      "status": "todo",
       "notes": "Please choose the best answer:",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2597876",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-override-69343",
       "canvasDue": "2026-11-17",
       "canvasTitle": "11/17 Activity One Knowledge Check (3A-APCSP)",
       "createdAt": "2026-11-19T04:56:53.660Z",
-      "updatedAt": "2026-11-19T04:56:53.660Z",
-      "statusAt": "2026-11-19T04:56:53.660Z"
+      "updatedAt": "2026-11-19T11:54:37.808Z",
+      "statusAt": "2026-11-19T11:54:37.807Z"
     },
     {
+      "subtasks": [],
+      "status": "turned_in",
+      "type": "homework",
       "id": "mwn2vvrw7f0ar",
       "title": "11/17 Activity Two Knowledge Check (3A-APCSP)",
       "classId": "mvl45j1x6najw",
-      "type": "homework",
       "due": "2026-11-17",
       "dueTime": "",
-      "status": "todo",
       "notes": "Please select the best answer:",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2597899",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-override-69361",
       "canvasDue": "2026-11-17",
       "canvasTitle": "11/17 Activity Two Knowledge Check (3A-APCSP)",
       "createdAt": "2026-11-19T04:56:53.660Z",
-      "updatedAt": "2026-11-19T04:56:53.660Z",
-      "statusAt": "2026-11-19T04:56:53.660Z"
+      "updatedAt": "2026-11-19T11:54:46.115Z",
+      "statusAt": "2026-11-19T11:54:46.115Z"
     },
     {
+      "subtasks": [],
+      "status": "turned_in",
+      "type": "homework",
       "id": "mwn2vvrwshvhs",
       "title": "11/17 Closure (3A-APCSP)",
       "classId": "mvl45j1x6najw",
-      "type": "homework",
       "due": "2026-11-17",
       "dueTime": "",
-      "status": "todo",
       "notes": "",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2597917",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-override-69369",
       "canvasDue": "2026-11-17",
       "canvasTitle": "11/17 Closure (3A-APCSP)",
       "createdAt": "2026-11-19T04:56:53.660Z",
-      "updatedAt": "2026-11-19T04:56:53.660Z",
-      "statusAt": "2026-11-19T04:56:53.660Z"
+      "updatedAt": "2026-11-19T11:55:04.941Z",
+      "statusAt": "2026-11-19T11:55:04.941Z"
     },
     {
+      "subtasks": [],
+      "status": "complete",
+      "type": "reading",
       "id": "mwn2vvrwurvr9",
       "title": "HW 11/18: Read",
       "classId": "mvl45j1x8faki",
-      "type": "reading",
       "due": "2026-11-20",
       "dueTime": "08:00",
-      "status": "todo",
       "notes": "Read chapters 17-19 (pages 126-end of book).  ",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_45304&month=11&year=2026#assignment_2599254",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-2599254",
       "canvasDue": "2026-11-20",
       "canvasTitle": "HW 11/18: Read",
       "createdAt": "2026-11-19T04:56:53.660Z",
-      "updatedAt": "2026-11-19T04:56:53.660Z",
-      "statusAt": "2026-11-19T04:56:53.660Z"
+      "updatedAt": "2026-11-19T11:55:14.422Z",
+      "statusAt": "2026-11-19T11:55:14.422Z"
     },
     {
+      "subtasks": [],
+      "status": "todo",
+      "type": "test",
       "id": "mwn2vvrw8jox4",
       "title": "Science Fair Proposal Project (Final Submission) (P2-Honors Biology-Avery)",
       "classId": "mvl45j1xzms1h",
-      "type": "test",
       "due": "2026-11-30",
       "dueTime": "",
-      "status": "todo",
       "notes": "This template is where you will complete your science fair proposal project.  This is a research-based project that requires the use of multiple primary and secondary sources.  Both you and your partner (if you have one) must submit on Canvas.  AI can be used to help you generate a testable research question and a citation manager can be used to help you create your annotated bibliography.  Other uses of AI on this project are strictly prohibited.  ",
       "link": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=11&year=2026#assignment_2598117",
-      "subtasks": [],
       "source": "canvas",
       "canvasUid": "event-assignment-override-69458",
       "canvasDue": "2026-11-30",
