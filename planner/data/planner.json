@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-19T11:55:34.262Z",
+  "updatedAt": "2026-11-19T11:55:53.135Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -2292,7 +2292,7 @@
     {
       "subtasks": [],
       "status": "todo",
-      "type": "test",
+      "type": "project",
       "id": "mwn2vvrw8jox4",
       "title": "Science Fair Proposal Project (Final Submission) (P2-Honors Biology-Avery)",
       "classId": "mvl45j1xzms1h",
@@ -2305,7 +2305,7 @@
       "canvasDue": "2026-11-30",
       "canvasTitle": "Science Fair Proposal Project (Final Submission) (P2-Honors Biology-Avery)",
       "createdAt": "2026-11-19T04:56:53.660Z",
-      "updatedAt": "2026-11-19T04:56:53.660Z",
+      "updatedAt": "2026-11-19T11:55:53.135Z",
       "statusAt": "2026-11-19T04:56:53.660Z"
     }
   ]
