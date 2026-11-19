@@ -1,36 +1,6 @@
 {
-  "fetchedAt": "2026-11-19T01:13:20.553Z",
+  "fetchedAt": "2026-11-19T08:50:06.687Z",
   "items": [
-    {
-      "uid": "event-assignment-2476475",
-      "title": "10/15 Warm Up",
-      "course": "AP Computer Science Principles_SY26-27",
-      "due": "2026-10-19",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=10&year=2026#assignment_2476475",
-      "description": "***********************\nWarm-Up — Work Smarter!\n***********************\n\nprice1 = 20\ntax1 = price1 * .06\n\nprice2 = 40\ntax2 = price2 * .06\n\nprice3 = 100\ntax3 = price3 * .06\n\n \n\n* What code keeps repeating?\n\n* What happens if the tax rate changes?\n\n* Is there a way to write the calculation once and reuse it?"
-    },
-    {
-      "uid": "event-assignment-2476547",
-      "title": "10/15 Closure — Why Use a Procedure?",
-      "course": "AP Computer Science Principles_SY26-27",
-      "due": "2026-10-19",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=10&year=2026#assignment_2476547",
-      "description": "Compare\n\nProgram A: the same calculation appears 10 times.\n\nProgram B: the calculation appears once inside a procedure/function, and the procedure is called 10 times.\n\n* Which is easier to understand?\n\n* Which is easier to modify?\n\n* How does the procedure manage complexity?"
-    },
-    {
-      "uid": "event-assignment-2476636",
-      "title": "10/15 Activity 1 — Code Cleanup Crew",
-      "course": "AP Computer Science Principles_SY26-27",
-      "due": "2026-10-19",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=10&year=2026#assignment_2476636",
-      "description": "---------------------------------------------\nCode Cleanup Crew — Multiple-Choice Questions\n---------------------------------------------\n\nDirections: Compare the BEFORE and AFTER code. Choose the best answer.\n\n# BEFORE\nprice1 = 20\ntax1 = price1 * .06\nprice2 = 40\ntax2 = price2 * .06\nprice3 = 100\ntax3 = price3 * .06\n\n# AFTER\ndef calculate_tax(price):\n    return price * .06\n\nprint(calculate_tax(20))\nprint(calculate_tax(40))\nprint(calculate_tax(100))\n\n "
-    },
     {
       "uid": "event-assignment-2495095",
       "title": "CW #15- Exterior Angle Theorem/Triangle Angle Sum Theorem - (Wayground)",
