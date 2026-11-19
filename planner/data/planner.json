@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-19T11:55:14.422Z",
+  "updatedAt": "2026-11-19T11:55:34.262Z",
   "settings": {
     "accent": "#3b82f6",
     "settingsAt": "2026-10-23T00:00:00.000Z"
@@ -2191,7 +2191,8 @@
       "source": "manual",
       "createdAt": "2026-11-17T14:39:52.988Z",
       "statusAt": "2026-11-17T14:40:23.450Z",
-      "updatedAt": "2026-11-17T14:40:23.450Z"
+      "updatedAt": "2026-11-19T11:55:34.262Z",
+      "deleted": true
     },
     {
       "subtasks": [],
