@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-18T18:51:24.395Z",
+  "fetchedAt": "2026-11-19T01:13:20.553Z",
   "items": [
     {
       "uid": "event-assignment-2476475",
@@ -480,6 +480,16 @@
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2597917",
       "description": ""
+    },
+    {
+      "uid": "event-assignment-2599254",
+      "title": "HW 11/18: Read",
+      "course": "0403_08105Y_Honors English I-0003_2627",
+      "due": "2026-11-20",
+      "dueTime": "08:00",
+      "type": "reading",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45304&month=11&year=2026#assignment_2599254",
+      "description": "Read chapters 17-19 (pages 126-end of book).  "
     },
     {
       "uid": "event-assignment-override-69458",
