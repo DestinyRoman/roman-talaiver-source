@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20T08:39:06.688Z",
+  "fetchedAt": "2026-11-20T18:36:43.143Z",
   "items": [
     {
       "uid": "event-assignment-2494877",
@@ -500,6 +500,16 @@
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2599675",
       "description": ""
+    },
+    {
+      "uid": "event-assignment-2602253",
+      "title": "ELE Presente Regular",
+      "course": "0403_06200Y_Honors Spanish I-0005_2627",
+      "due": "2026-11-20",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=11&year=2026#assignment_2602253",
+      "description": "Completa los Ejercicios 1, 2, 3 y 13\n\nToma las [] (https://bcpss.instructure.com/courses/24558/files/5034857/preview) capturas de pantalla de tus [] (https://bcpss.instructure.com/courses/24558/files/5090359/preview) puntajes.\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\nUsa los acentos: é, á, í, ó, ú, ñ\n\n[Presente Regular] (https://www.profedeele.es/actividad/presente-regular/)"
     },
     {
       "uid": "event-assignment-2598862",
