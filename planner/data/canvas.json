@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-20T18:36:43.143Z",
+  "fetchedAt": "2026-11-21T00:47:51.363Z",
   "items": [
     {
       "uid": "event-assignment-2494877",
@@ -520,6 +520,16 @@
       "type": "quiz",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=11&year=2026#assignment_2598862",
       "description": "The reassessment schedule for Quiz #4  is on Tuesday, November 24, 2026 during Parrot Time or after school.\n-----------------------------------------------------------------------------------------------------------\n\nTo be eligible, you have to satisfy the following conditions:\n\n1. You took the original assessment on time.\n\n2. You attended at least one Parrot Time before the reassessment date.\n\n3. You did the Reassessment Review and got at least 80%.\n\n4. You signed up for reassessment by filling out the Google Form (see link below).\n\n[Click here to access the Reassessment Sign-up Form] (https://docs.google.com/forms/d/e/1FAIpQLScEqysBcpzT2OMgT4Z90pcnU_NsUzzeKuqRn1Olr1Xn9EB6OA/viewform?usp=header)\n\nIf any condition is not satisfied, your reassessment grade will be invalidated.\n\nThis topic is closed for comments."
+    },
+    {
+      "uid": "event-assignment-2602518",
+      "title": "HW 11/20: Characterization Chart",
+      "course": "0403_08105Y_Honors English I-0003_2627",
+      "due": "2026-11-24",
+      "dueTime": "08:00",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45304&month=11&year=2026#assignment_2602518",
+      "description": "Complete your characterization chart for the remaining chapters."
     },
     {
       "uid": "event-assignment-override-69458",
