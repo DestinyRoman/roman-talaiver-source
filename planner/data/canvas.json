@@ -1,16 +1,6 @@
 {
-  "fetchedAt": "2026-11-21T00:47:51.363Z",
+  "fetchedAt": "2026-11-21T08:17:22.974Z",
   "items": [
-    {
-      "uid": "event-assignment-2494877",
-      "title": "10/19 Warm Up",
-      "course": "AP Computer Science Principles_SY26-27",
-      "due": "2026-10-21",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=10&year=2026#assignment_2494877",
-      "description": ""
-    },
     {
       "uid": "event-assignment-2543470",
       "title": "Quiz #3 Review (Lessons 3-1 to 3-3) - (Wayground)",
