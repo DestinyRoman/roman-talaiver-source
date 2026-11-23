@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-22T17:49:49.148Z",
+  "fetchedAt": "2026-11-23T22:03:16.166Z",
   "items": [
     {
       "uid": "event-assignment-2549071",
@@ -492,6 +492,16 @@
       "description": "Completa los Ejercicios 1, 2, 3 y 13\n\nToma las [] (https://bcpss.instructure.com/courses/24558/files/5034857/preview) capturas de pantalla de tus [] (https://bcpss.instructure.com/courses/24558/files/5090359/preview) puntajes.\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\nUsa los acentos: é, á, í, ó, ú, ñ\n\n[Presente Regular] (https://www.profedeele.es/actividad/presente-regular/)"
     },
     {
+      "uid": "event-assignment-2602389",
+      "title": "CW#23-Isosceles Triangle Theorem - (Wayground)",
+      "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
+      "due": "2026-11-23",
+      "dueTime": "",
+      "type": "classwork",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=11&year=2026#assignment_2602389",
+      "description": ""
+    },
+    {
       "uid": "event-assignment-2598862",
       "title": "Quiz #4 Reassessment",
       "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
@@ -510,6 +520,36 @@
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45304&month=11&year=2026#assignment_2602518",
       "description": "Complete your characterization chart for the remaining chapters."
+    },
+    {
+      "uid": "event-assignment-2603370",
+      "title": "11/23 Warm up",
+      "course": "AP Computer Science Principles_SY26-27",
+      "due": "2026-11-24",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2603370",
+      "description": "Work independently. Choose one answer for each question. Be ready to explain one choice.\n\n "
+    },
+    {
+      "uid": "event-assignment-2603448",
+      "title": "11/23 Knowledge Check",
+      "course": "AP Computer Science Principles_SY26-27",
+      "due": "2026-11-24",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2603448",
+      "description": ""
+    },
+    {
+      "uid": "event-assignment-2603509",
+      "title": "11/23 Closure",
+      "course": "AP Computer Science Principles_SY26-27",
+      "due": "2026-11-24",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2603509",
+      "description": ""
     },
     {
       "uid": "event-assignment-override-69458",
