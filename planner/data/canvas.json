@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-23T22:03:16.166Z",
+  "fetchedAt": "2026-11-24T20:39:45.966Z",
   "items": [
     {
       "uid": "event-assignment-2549071",
@@ -550,6 +550,16 @@
       "type": "homework",
       "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46019&month=11&year=2026#assignment_2603509",
       "description": ""
+    },
+    {
+      "uid": "event-assignment-2604767",
+      "title": "Accion de Gracias",
+      "course": "0403_06200Y_Honors Spanish I-0005_2627",
+      "due": "2026-11-24",
+      "dueTime": "",
+      "type": "homework",
+      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45092&month=11&year=2026#assignment_2604767",
+      "description": "Completa la actividad de [Accion de Gracias] (https://wordwall.net/resource/38070739/acci%C3%B3n-de-gracias)"
     },
     {
       "uid": "event-assignment-override-69458",
