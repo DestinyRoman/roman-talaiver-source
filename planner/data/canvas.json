@@ -1,26 +1,6 @@
 {
-  "fetchedAt": "2026-11-25T19:56:39.374Z",
+  "fetchedAt": "2026-11-26T19:37:29.243Z",
   "items": [
-    {
-      "uid": "event-assignment-2549071",
-      "title": "CW #16-Angles of Polygons - (Wayground)",
-      "course": "0403_11207Y_Hon Ingenuity Proj Geometry-0001_2627",
-      "due": "2026-10-26",
-      "dueTime": "",
-      "type": "classwork",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_45716&month=10&year=2026#assignment_2549071",
-      "description": ""
-    },
-    {
-      "uid": "event-assignment-override-61958",
-      "title": "Tusklessness Part 2 (P2-Honors Biology-Avery)",
-      "course": "0403_13102Y_Honors Biology-0012_2627",
-      "due": "2026-10-26",
-      "dueTime": "",
-      "type": "homework",
-      "url": "https://bcpss.instructure.com/calendar?include_contexts=course_46327&month=10&year=2026#assignment_2492677",
-      "description": "Use this [link] (https://docs.google.com/document/d/1s5Ty_Fh3AhDSel8-Uw7mBiYo5PxbY-U4QY1n9_wwsDY/copy) to make a copy of the assignment.  When the assignment is completed, go to File and select Download, select PDF.  Upload the PDF to Canvas.\n\nOriginal Due Date--10/20, 10/21\n\nDue date changed to add to Infinite Campus for 2nd quarter grade.  Assignments that were not submitted by the original due date are still counted as late.  "
-    },
     {
       "uid": "event-assignment-2535224",
       "title": "Examen Unidad 1",
